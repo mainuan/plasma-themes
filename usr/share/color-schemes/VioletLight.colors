@@ -1,0 +1,151 @@
+[ColorEffects:Disabled]
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=189,195,199
+BackgroundNormal=239,240,241
+DecorationFocus=136,88,224
+; Violeta Principal
+DecorationHover=171,88,216
+; Violeta Secundário/Hover
+ForegroundActive=136,88,224
+; Violeta Principal
+ForegroundInactive=67,73,74
+ForegroundLink=171,88,216
+; Violeta para Link
+ForegroundNegative=255,85,127
+ForegroundNeutral=0,128,128
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Complementary]
+BackgroundAlternate=252,252,252
+BackgroundNormal=252,252,252
+DecorationFocus=191,88,212
+; Violeta de Destaque Complementar
+DecorationHover=171,88,216
+; Violeta Secundário/Hover
+ForegroundActive=171,88,216
+; Violeta Secundário
+ForegroundInactive=127,128,130
+ForegroundLink=136,88,224
+; Violeta Principal
+ForegroundNegative=231,76,60
+ForegroundNeutral=253,188,75
+ForegroundNormal=0,0,0
+ForegroundPositive=46,204,113
+ForegroundVisited=136,88,224
+; Violeta Principal
+
+[Colors:Selection]
+BackgroundAlternate=171,88,216
+; Violeta Secundário
+BackgroundNormal=136,88,224
+; Violeta Principal
+DecorationFocus=136,88,224
+; Violeta Principal
+DecorationHover=171,88,216
+; Violeta Secundário
+ForegroundActive=255,255,255
+; Texto Branco sobre Seleção
+ForegroundInactive=104,104,104
+ForegroundLink=253,188,75
+ForegroundNegative=255,85,127
+ForegroundNeutral=0,128,128
+ForegroundNormal=0,0,0
+; Texto Preto
+ForegroundPositive=39,174,96
+ForegroundVisited=115,119,121
+
+[Colors:Tooltip]
+BackgroundAlternate=171,88,216
+; Fundo Tooltip
+BackgroundNormal=136,88,224
+; Fundo Tooltip Principal
+DecorationFocus=136,88,224
+; Violeta Principal
+DecorationHover=171,88,216
+; Violeta Secundário
+ForegroundActive=136,88,224
+; Violeta Principal
+ForegroundInactive=67,73,74
+ForegroundLink=171,88,216
+; Violeta para Link
+ForegroundNegative=255,85,127
+ForegroundNeutral=0,128,128
+ForegroundNormal=0,0,0
+; Texto Preto
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:View]
+BackgroundAlternate=239,240,241
+BackgroundNormal=252,252,252
+DecorationFocus=136,88,224
+; Violeta Principal
+DecorationHover=171,88,216
+; Violeta Secundário
+ForegroundActive=136,88,224
+; Violeta Principal
+ForegroundInactive=21,23,24
+ForegroundLink=171,88,216
+; Violeta para Link
+ForegroundNegative=255,85,127
+ForegroundNeutral=0,128,128
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Window]
+BackgroundAlternate=189,195,199
+BackgroundNormal=252,252,252
+DecorationFocus=136,88,224
+; Violeta Principal
+DecorationHover=171,88,216
+; Violeta Secundário
+ForegroundActive=136,88,224
+; Violeta Principal
+ForegroundInactive=67,73,74
+ForegroundLink=171,88,216
+; Violeta para Link
+ForegroundNegative=255,85,127
+ForegroundNeutral=0,128,128
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[General]
+ColorScheme=VioletLight
+Name=Violet Light
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+; AccentColor removido (não usado no Plasma 6)
+; SelectionBackgroundNormal removido (não usado no Plasma 6)
+
+[WM]
+activeBackground=252,252,252
+activeBlend=252,252,252
+activeForeground=0,0,0
+inactiveBackground=239,240,241
+inactiveBlend=252,252,252
+inactiveForeground=53,53,53
