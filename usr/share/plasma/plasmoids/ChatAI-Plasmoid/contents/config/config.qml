@@ -21,4 +21,5 @@ ConfigModel {
         icon: "preferences-desktop-color"
         source: "ConfigAppearance.qml"
     }
+
 }

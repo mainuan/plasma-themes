@@ -11,7 +11,7 @@ LayoutName=org.kde.breeze.desktop
 ColorScheme=DreamVioletDarkColor
 
 [kdeglobals][Icons]
-Theme=Slot-Symbolic-Dark-Icons
+Theme=kora-purple
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
