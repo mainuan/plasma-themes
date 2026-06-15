@@ -12,7 +12,7 @@ saturation=10
 enabled=true
 
 [Wallpaper]
-defaultWallpaperTheme=Dream Wallpaper
-defaultFileSuffix=.png
+defaultWallpaperTheme=01
+defaultFileSuffix=.jxl
 defaultWidth=1920
 defaultHeight=1080

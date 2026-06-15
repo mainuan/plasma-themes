@@ -1,0 +1,122 @@
+[ColorEffects:Disabled]
+Color=49,50,68
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.45
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=108,112,134
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=30,30,46
+BackgroundNormal=30,30,46
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,153,163        ; #0099A3
+ForegroundActive=0,167,181       ; #00A7B5
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=0,130,140      ; #00828C
+
+[Colors:Complementary]
+BackgroundAlternate=30,30,46
+BackgroundNormal=30,30,46
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,165,199        ; #00A5C7
+ForegroundActive=51,208,220      ; #33D0DC
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=95,233,242     ; #5FE9F2
+
+[Colors:Header]
+ForegroundVisited=0,122,135      ; #007A87
+
+[Colors:Selection]
+BackgroundAlternate=30,30,46
+BackgroundNormal=0,130,140       ; #00828C
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,153,163        ; #0099A3
+ForegroundActive=0,167,181       ; #00A7B5
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=0,130,140      ; #00828C
+
+[Colors:Tooltip]
+BackgroundAlternate=30,30,46
+BackgroundNormal=30,30,46
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,153,163        ; #0099A3
+ForegroundActive=0,167,181       ; #00A7B5
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=0,130,140      ; #00828C
+
+[Colors:View]
+BackgroundAlternate=30,30,46
+BackgroundNormal=30,30,46
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,153,163        ; #0099A3
+ForegroundActive=0,167,181       ; #00A7B5
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=0,130,140      ; #00828C
+
+[Colors:Window]
+BackgroundAlternate=30,30,46
+BackgroundNormal=30,30,46
+DecorationFocus=0,130,140        ; #00828C
+DecorationHover=0,153,163        ; #0099A3
+ForegroundActive=0,167,181       ; #00A7B5
+ForegroundInactive=186,194,222
+ForegroundLink=0,167,181         ; #00A7B5
+ForegroundNegative=243,139,168
+ForegroundNeutral=255,170,127
+ForegroundNormal=205,214,244
+ForegroundPositive=166,227,161
+ForegroundVisited=0,130,140      ; #00828C
+
+[General]
+ColorScheme=DreamCyanDarkColor
+Name=Dream-Cyan-Dark-Color
+shadeSortColumn=true
+
+[KDE]
+contrast=5
+
+[WM]
+activeBackground=30,30,46
+activeBlend=30,30,46
+activeForeground=205,214,244
+inactiveBackground=30,30,46
+inactiveBlend=30,30,46
+inactiveForeground=186,194,222

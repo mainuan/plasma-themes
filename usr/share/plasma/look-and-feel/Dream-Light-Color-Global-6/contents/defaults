@@ -8,10 +8,10 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [kdeglobals][General]
-ColorScheme=DreamVioletLightColor
+ColorScheme=DreamCyanLightColor
 
 [kdeglobals][Icons]
-Theme=kora-purple
+Theme=kora-cyan
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
@@ -21,7 +21,7 @@ name=Dream-Color-Plasma
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Dream-Color-Light-Aurorae-6
+theme=Cyan-light
 
 [KSplash]
 Theme=Magna-Splash-6
