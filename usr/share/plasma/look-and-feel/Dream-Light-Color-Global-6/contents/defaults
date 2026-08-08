@@ -21,7 +21,7 @@ name=Dream-Color-Plasma
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=Cyan-light
+theme=Cyan-Light
 
 [KSplash]
 Theme=Magna-Splash-6
