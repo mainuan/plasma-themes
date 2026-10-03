@@ -21,93 +21,93 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=30,30,46
 BackgroundNormal=30,30,46
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,167,181       ; #00A7B5
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=57,213,232
 ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
+ForegroundLink=57,213,232
 ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
+ForegroundNeutral=255,208,131
 ForegroundNormal=205,214,244
 ForegroundPositive=166,227,161
-ForegroundVisited=0,130,140      ; #00828C
+ForegroundVisited=84,165,178
 
 [Colors:Complementary]
 BackgroundAlternate=30,30,46
 BackgroundNormal=30,30,46
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,165,199        ; #00A5C7
-ForegroundActive=51,208,220      ; #33D0DC
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=143,246,252
 ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
+ForegroundLink=57,213,232
 ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
+ForegroundNeutral=255,208,131
 ForegroundNormal=205,214,244
 ForegroundPositive=166,227,161
-ForegroundVisited=95,233,242     ; #5FE9F2
+ForegroundVisited=84,165,178
 
 [Colors:Header]
-ForegroundVisited=0,122,135      ; #007A87
+ForegroundVisited=72,144,156
 
 [Colors:Selection]
-BackgroundAlternate=30,30,46
-BackgroundNormal=0,130,140       ; #00828C
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,167,181       ; #00A7B5
-ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
-ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
-ForegroundNormal=205,214,244
-ForegroundPositive=166,227,161
-ForegroundVisited=0,130,140      ; #00828C
+BackgroundAlternate=105,216,229
+BackgroundNormal=81,199,213
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=0,24,28
+ForegroundInactive=47,83,89
+ForegroundLink=0,24,28
+ForegroundNegative=150,31,53
+ForegroundNeutral=122,61,0
+ForegroundNormal=0,24,28
+ForegroundPositive=25,100,54
+ForegroundVisited=47,83,89
 
 [Colors:Tooltip]
 BackgroundAlternate=30,30,46
 BackgroundNormal=30,30,46
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,167,181       ; #00A7B5
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=57,213,232
 ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
+ForegroundLink=57,213,232
 ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
+ForegroundNeutral=255,208,131
 ForegroundNormal=205,214,244
 ForegroundPositive=166,227,161
-ForegroundVisited=0,130,140      ; #00828C
+ForegroundVisited=84,165,178
 
 [Colors:View]
 BackgroundAlternate=30,30,46
 BackgroundNormal=30,30,46
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,167,181       ; #00A7B5
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=57,213,232
 ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
+ForegroundLink=57,213,232
 ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
+ForegroundNeutral=255,208,131
 ForegroundNormal=205,214,244
 ForegroundPositive=166,227,161
-ForegroundVisited=0,130,140      ; #00828C
+ForegroundVisited=84,165,178
 
 [Colors:Window]
 BackgroundAlternate=30,30,46
 BackgroundNormal=30,30,46
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,167,181       ; #00A7B5
+DecorationFocus=0,169,184
+DecorationHover=95,233,242
+ForegroundActive=57,213,232
 ForegroundInactive=186,194,222
-ForegroundLink=0,167,181         ; #00A7B5
+ForegroundLink=57,213,232
 ForegroundNegative=243,139,168
-ForegroundNeutral=255,170,127
+ForegroundNeutral=255,208,131
 ForegroundNormal=205,214,244
 ForegroundPositive=166,227,161
-ForegroundVisited=0,130,140      ; #00828C
+ForegroundVisited=84,165,178
 
 [General]
 ColorScheme=DreamCyanDarkColor
-Name=Ciano-Escuro
+Name=Ciano Escuro
 shadeSortColumn=true
 
 [KDE]

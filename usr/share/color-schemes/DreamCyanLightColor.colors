@@ -21,93 +21,93 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=189,195,199
 BackgroundNormal=239,240,241
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,130,140       ; #00828C
-ForegroundInactive=127,140,141
-ForegroundLink=0,130,140         ; #00828C
-ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
+DecorationFocus=0,127,141
+DecorationHover=0,143,160
+ForegroundActive=0,107,120
+ForegroundInactive=103,111,114
+ForegroundLink=0,107,120
+ForegroundNegative=179,38,62
+ForegroundNeutral=154,79,0
 ForegroundNormal=10,11,12
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundPositive=31,122,66
+ForegroundVisited=78,126,134
 
 [Colors:Complementary]
 BackgroundAlternate=239,240,241
 BackgroundNormal=239,240,241
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,165,199        ; #00A5C7
-ForegroundActive=51,208,220      ; #33D0DC
-ForegroundInactive=127,128,130
-ForegroundLink=0,165,199         ; #00A5C7
-ForegroundNegative=231,76,60
-ForegroundNeutral=255,170,127
+DecorationFocus=0,127,141
+DecorationHover=0,143,160
+ForegroundActive=0,92,103
+ForegroundInactive=103,111,114
+ForegroundLink=0,107,120
+ForegroundNegative=179,38,62
+ForegroundNeutral=154,79,0
 ForegroundNormal=10,11,12
-ForegroundPositive=46,204,113
-ForegroundVisited=95,233,242     ; #5FE9F2
+ForegroundPositive=31,122,66
+ForegroundVisited=0,165,184
 
 [Colors:Header]
-ForegroundInactive=94,103,104
+ForegroundInactive=83,99,102
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=51,208,220      ; #33D0DC
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,130,140       ; #00828C
-ForegroundInactive=110,110,111
-ForegroundLink=0,130,140         ; #00828C
-ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=10,11,12
-ForegroundPositive=39,174,96
-ForegroundVisited=189,195,199
+BackgroundAlternate=0,108,120
+BackgroundNormal=0,124,137
+DecorationFocus=0,127,141
+DecorationHover=0,143,160
+ForegroundActive=231,252,255
+ForegroundInactive=190,226,232
+ForegroundLink=231,252,255
+ForegroundNegative=255,210,220
+ForegroundNeutral=255,229,184
+ForegroundNormal=231,252,255
+ForegroundPositive=215,250,210
+ForegroundVisited=190,226,232
 
 [Colors:Tooltip]
 BackgroundAlternate=239,240,241
 BackgroundNormal=239,240,241
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,130,140       ; #00828C
-ForegroundInactive=122,126,129
-ForegroundLink=0,130,140         ; #00828C
-ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
+DecorationFocus=0,127,141
+DecorationHover=0,143,160
+ForegroundActive=0,107,120
+ForegroundInactive=103,111,114
+ForegroundLink=0,107,120
+ForegroundNegative=179,38,62
+ForegroundNeutral=154,79,0
 ForegroundNormal=10,11,12
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundPositive=31,122,66
+ForegroundVisited=78,126,134
 
 [Colors:View]
 BackgroundAlternate=239,240,241
 BackgroundNormal=252,252,252
-DecorationFocus=0,144,160        ; #0090A0
-DecorationHover=0,122,135        ; #007A87
-ForegroundActive=0,130,140       ; #00828C
-ForegroundInactive=127,140,141
-ForegroundLink=0,130,140         ; #00828C
-ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
+DecorationFocus=0,127,141
+DecorationHover=0,115,128
+ForegroundActive=0,107,120
+ForegroundInactive=103,111,114
+ForegroundLink=0,107,120
+ForegroundNegative=179,38,62
+ForegroundNeutral=154,79,0
 ForegroundNormal=10,11,12
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundPositive=31,122,66
+ForegroundVisited=78,126,134
 
 [Colors:Window]
 BackgroundAlternate=189,195,199
 BackgroundNormal=239,240,241
-DecorationFocus=0,130,140        ; #00828C
-DecorationHover=0,153,163        ; #0099A3
-ForegroundActive=0,130,140       ; #00828C
-ForegroundInactive=127,140,141
-ForegroundLink=0,130,140         ; #00828C
-ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
+DecorationFocus=0,127,141
+DecorationHover=0,143,160
+ForegroundActive=0,107,120
+ForegroundInactive=103,111,114
+ForegroundLink=0,107,120
+ForegroundNegative=179,38,62
+ForegroundNeutral=154,79,0
 ForegroundNormal=10,11,12
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundPositive=31,122,66
+ForegroundVisited=78,126,134
 
 [General]
 ColorScheme=DreamCyanLightColor
-Name=Ciano-Claro
+Name=Ciano Claro
 shadeSortColumn=true
 
 [KDE]
