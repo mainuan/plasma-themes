@@ -21,7 +21,7 @@ name=Dream-Color-Plasma
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=Lavanda-Dark
+theme=__aurorae__svg__Lavanda-Dark
 
 [KSplash]
 Theme=Magna-Splash-6
