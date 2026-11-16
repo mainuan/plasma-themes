@@ -107,7 +107,21 @@ ForegroundVisited=78,126,134
 
 [General]
 ColorScheme=DreamCyanLightColor
-Name=Ciano Claro
+Name[ar]=سماوي فاتح
+Name[bn]=হালকা সায়ান
+Name[de]=Cyan hell
+Name[es]=Cian claro
+Name[fr]=Cyan clair
+Name[hi]=सियान हल्का
+Name[it]=Ciano chiaro
+Name[ja]=シアン (ライト)
+Name[ko]=청록색 밝음
+Name[pt]=Ciano Claro
+Name[pt_BR]=Ciano Claro
+Name[ru]=Голубой, светлый вариант
+Name[zh_CN]=青色（浅色）
+Name[zh_TW]=青色（淺色）
+Name=Cyan Light
 shadeSortColumn=true
 
 [KDE]

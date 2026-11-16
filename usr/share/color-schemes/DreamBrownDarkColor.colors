@@ -107,7 +107,21 @@ ForegroundVisited=174,121,84
 
 [General]
 ColorScheme=DreamBrownDarkColor
-Name=Marrom Escuro
+Name[ar]=بنّي داكن
+Name[bn]=গাঢ় বাদামি
+Name[de]=Braun dunkel
+Name[es]=Marrón oscuro
+Name[fr]=Marron sombre
+Name[hi]=भूरा गहरा
+Name[it]=Marrone scuro
+Name[ja]=ブラウン (ダーク)
+Name[ko]=갈색 어두움
+Name[pt]=Castanho Escuro
+Name[pt_BR]=Marrom Escuro
+Name[ru]=Коричневый, тёмный вариант
+Name[zh_CN]=棕色（深色）
+Name[zh_TW]=棕色（深色）
+Name=Brown Dark
 shadeSortColumn=true
 
 [KDE]

@@ -1,0 +1,90 @@
+# Chinese translations for Mainuan Plasma package
+# Mainuan Plasma 套件的正體中文翻譯.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-16 12:00-0300\n"
+"PO-Revision-Date: 2026-11-16 11:30-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: zh_TW <https://github.com/mainuan>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:124
+msgid "Brown Dark"
+msgstr "棕色（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamBrownLightColor.colors:124
+msgid "Brown Light"
+msgstr "棕色（淺色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:124
+msgid "Cyan Dark"
+msgstr "青色（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamCyanLightColor.colors:124
+msgid "Cyan Light"
+msgstr "青色（淺色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:124
+msgid "Gray Dark"
+msgstr "灰色（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamGrayLightColor.colors:124
+msgid "Gray Light"
+msgstr "灰色（淺色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:124
+msgid "Lime Dark"
+msgstr "萊姆綠（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamLimeLightColor.colors:124
+msgid "Lime Light"
+msgstr "萊姆綠（淺色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:124
+msgid "Magenta Dark"
+msgstr "洋紅（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:124
+msgid "Magenta Light"
+msgstr "洋紅（淺色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:124
+msgid "Violet Dark"
+msgstr "紫羅蘭（深色）"
+
+# reviewed: esquema de cores: '棕色深色' repete 色 e lê-se como 'cor marrom
+# escura'; padrão '<cor>（深色/淺色）' deixa claro que é a variante escura/clara
+#: usr/share/color-schemes/DreamVioletLightColor.colors:124
+msgid "Violet Light"
+msgstr "紫羅蘭（淺色）"

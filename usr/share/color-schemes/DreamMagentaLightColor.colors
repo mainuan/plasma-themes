@@ -107,7 +107,21 @@ ForegroundVisited=130,78,108
 
 [General]
 ColorScheme=DreamMagentaLightColor
-Name=Magenta Claro
+Name[ar]=أرجواني فاتح
+Name[bn]=হালকা ম্যাজেন্টা
+Name[de]=Magenta hell
+Name[es]=Magenta claro
+Name[fr]=Magenta clair
+Name[hi]=मैजेंटा हल्का
+Name[it]=Magenta chiaro
+Name[ja]=マゼンタ (ライト)
+Name[ko]=자홍색 밝음
+Name[pt]=Magenta Claro
+Name[pt_BR]=Magenta Claro
+Name[ru]=Пурпурный, светлый вариант
+Name[zh_CN]=洋红色（浅色）
+Name[zh_TW]=洋紅（淺色）
+Name=Magenta Light
 shadeSortColumn=true
 
 [KDE]

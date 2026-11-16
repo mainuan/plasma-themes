@@ -16,7 +16,22 @@ SCHEME_DIR = ROOT / "usr" / "share" / "color-schemes"
 FAMILIES = ("Brown", "Gray", "Cyan", "Lime", "Magenta")
 MODES = ("Dark", "Light")
 TARGETS = [f"Dream{family}{mode}Color.colors" for family in FAMILIES for mode in MODES]
+# Base display names are English (KDE convention, e.g. "Breeze Dark");
+# translations are Name[<lang>] keys written from po/ by
+# po/apply-color-scheme-names.sh. The Brazilian names must stay as before.
 DISPLAY_NAMES = {
+    "DreamBrownDarkColor": "Brown Dark",
+    "DreamBrownLightColor": "Brown Light",
+    "DreamGrayDarkColor": "Gray Dark",
+    "DreamGrayLightColor": "Gray Light",
+    "DreamCyanDarkColor": "Cyan Dark",
+    "DreamCyanLightColor": "Cyan Light",
+    "DreamLimeDarkColor": "Lime Dark",
+    "DreamLimeLightColor": "Lime Light",
+    "DreamMagentaDarkColor": "Magenta Dark",
+    "DreamMagentaLightColor": "Magenta Light",
+}
+PT_BR_NAMES = {
     "DreamBrownDarkColor": "Marrom Escuro",
     "DreamBrownLightColor": "Marrom Claro",
     "DreamGrayDarkColor": "Cinza Escuro",
@@ -28,6 +43,7 @@ DISPLAY_NAMES = {
     "DreamMagentaDarkColor": "Magenta Escuro",
     "DreamMagentaLightColor": "Magenta Claro",
 }
+LOCALIZED_NAME = re.compile(r"^Name\[[A-Za-z]{2,3}(_[A-Z]{2})?(@[a-z]+)?\]$")
 
 BASE_SECTIONS = (
     "ColorEffects:Disabled",
@@ -290,7 +306,8 @@ def validate_file(path: Path, colorschemes: dict[str, Path]) -> list[str]:
             problems.append(f"{path}: [{section}]: ERROR: missing required section")
             continue
         missing = set(expected[section]) - set(data[section])
-        extra = set(data[section]) - set(expected[section])
+        extra = {k for k in set(data[section]) - set(expected[section])
+                 if not (section == "General" and LOCALIZED_NAME.match(k))}
         for key in sorted(missing):
             problems.append(f"{path}: [{section}] {key}: ERROR: missing required key")
         for key in sorted(extra):
@@ -310,6 +327,8 @@ def validate_file(path: Path, colorschemes: dict[str, Path]) -> list[str]:
     expected_name = DISPLAY_NAMES[path.stem]
     if data["General"]["Name"] != expected_name:
         problems.append(f"{path}: [General] Name: ERROR: expected {expected_name}, got {data['General']['Name']}")
+    if data["General"].get("Name[pt_BR]") != PT_BR_NAMES[path.stem]:
+        problems.append(f"{path}: [General] Name[pt_BR]: ERROR: expected {PT_BR_NAMES[path.stem]}, got {data['General'].get('Name[pt_BR]')}")
     if data["General"]["shadeSortColumn"] != "true":
         problems.append(f"{path}: [General] shadeSortColumn: ERROR: expected true")
 

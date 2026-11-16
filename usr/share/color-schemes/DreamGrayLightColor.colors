@@ -107,7 +107,21 @@ ForegroundVisited=112,119,121
 
 [General]
 ColorScheme=DreamGrayLightColor
-Name=Cinza Claro
+Name[ar]=رمادي فاتح
+Name[bn]=হালকা ধূসর
+Name[de]=Grau hell
+Name[es]=Gris claro
+Name[fr]=Gris clair
+Name[hi]=धूसर हल्का
+Name[it]=Grigio chiaro
+Name[ja]=グレー (ライト)
+Name[ko]=회색 밝음
+Name[pt]=Cinzento Claro
+Name[pt_BR]=Cinza Claro
+Name[ru]=Серый, светлый вариант
+Name[zh_CN]=灰色（浅色）
+Name[zh_TW]=灰色（淺色）
+Name=Gray Light
 shadeSortColumn=true
 
 [KDE]

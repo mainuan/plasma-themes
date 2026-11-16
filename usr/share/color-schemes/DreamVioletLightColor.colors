@@ -107,7 +107,21 @@ ForegroundVisited=127,140,141
 
 [General]
 ColorScheme=DreamVioletLightColor
-Name=Violeta-Claro
+Name[ar]=بنفسجي فاتح
+Name[bn]=হালকা বেগুনি
+Name[de]=Violett hell
+Name[es]=Violeta claro
+Name[fr]=Violet clair
+Name[hi]=बैंगनी हल्का
+Name[it]=Viola chiaro
+Name[ja]=バイオレット (ライト)
+Name[ko]=보라색 밝음
+Name[pt]=Violeta Claro
+Name[pt_BR]=Violeta-Claro
+Name[ru]=Фиолетовый, светлый вариант
+Name[zh_CN]=紫色（浅色）
+Name[zh_TW]=紫羅蘭（淺色）
+Name=Violet Light
 shadeSortColumn=true
 
 [KDE]

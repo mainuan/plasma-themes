@@ -107,7 +107,21 @@ ForegroundVisited=91,108,43
 
 [General]
 ColorScheme=DreamLimeLightColor
-Name=Lima Claro
+Name[ar]=ليموني فاتح
+Name[bn]=হালকা লাইম
+Name[de]=Limettengrün hell
+Name[es]=Lima claro
+Name[fr]=Vert citron clair
+Name[hi]=लाइम हल्का
+Name[it]=Verde lime chiaro
+Name[ja]=ライム (ライト)
+Name[ko]=라임색 밝음
+Name[pt]=Lima Claro
+Name[pt_BR]=Lima Claro
+Name[ru]=Лаймовый, светлый вариант
+Name[zh_CN]=青柠色（浅色）
+Name[zh_TW]=萊姆綠（淺色）
+Name=Lime Light
 shadeSortColumn=true
 
 [KDE]

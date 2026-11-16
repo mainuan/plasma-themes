@@ -14,9 +14,12 @@ The local set provides five complete Dark/Light families:
 - `DreamLimeDarkColor.colors` / `DreamLimeLightColor.colors`
 - `DreamMagentaDarkColor.colors` / `DreamMagentaLightColor.colors`
 
-Display names are Portuguese: Marrom Escuro/Claro, Cinza Escuro/Claro,
-Ciano Escuro/Claro, Lima Escuro/Claro and Magenta Escuro/Claro. Technical
-ColorScheme identifiers and filenames remain unchanged.
+Display names follow the KDE convention: the base `Name=` is English
+("Brown Dark", "Gray Light"…) and each language has a `Name[<lang>]=` key
+generated from `po/` by `po/apply-color-scheme-names.sh`. Brazilian users keep
+the original names (Marrom Escuro/Claro, Cinza Escuro/Claro, Ciano
+Escuro/Claro, Lima Escuro/Claro, Magenta Escuro/Claro) through `Name[pt_BR]`.
+Technical ColorScheme identifiers and filenames remain unchanged.
 
 ## Palette rules
 
