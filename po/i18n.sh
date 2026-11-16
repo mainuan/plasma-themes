@@ -76,10 +76,19 @@ xgettext_group() {  # $1 language, $2 output, rest: files
   esac
   local langarg=()
   case "$lang" in auto) ;; ITS) ;; *) langarg=(--language="$lang") ;; esac
-  (cd "$ROOT" && xgettext --from-code=UTF-8 --add-comments=Translators: --add-comments=i18n: \
-      --sort-by-file --package-name="$PACKAGE_NAME" ${PACKAGE_VERSION:+--package-version="$PACKAGE_VERSION"} \
-      --msgid-bugs-address="$BUGS_ADDRESS" --copyright-holder="$COPYRIGHT_HOLDER" \
-      "${langarg[@]}" "${kw[@]}" -o "$out" "$@")
+  # xgettext honours only the last --add-comments tag, so extract once per tag
+  # (GNU "Translators:" and KDE "i18n:"); --join-existing unions the notes.
+  local tag join=()
+  rm -f "$out"
+  for tag in ${COMMENT_TAGS:-Translators: i18n:}; do
+    (cd "$ROOT" && xgettext --from-code=UTF-8 --add-comments="$tag" "${join[@]}" \
+        --sort-by-file --package-name="$PACKAGE_NAME" ${PACKAGE_VERSION:+--package-version="$PACKAGE_VERSION"} \
+        --msgid-bugs-address="$BUGS_ADDRESS" --copyright-holder="$COPYRIGHT_HOLDER" \
+        "${langarg[@]}" "${kw[@]}" -o "$out" "$@")
+    [ -f "$out" ] && join=(--join-existing)
+  done
+  [ -f "$out" ] && sed -i 's/charset=CHARSET/charset=UTF-8/' "$out"
+  return 0
 }
 
 cmd_extract() {
@@ -106,22 +115,30 @@ cmd_extract() {
     n=$((n+1)); local out="$tmp/part$n.pot"
     mapfile -t files < <(printf '%s' "${groups[$lang]}")
     if [ "$lang" = Glade ]; then
-      # Qt Designer .ui: <string> elements; notr="true" ones are skipped.
+      # Qt Designer .ui: <string> elements; notr="true" ones are skipped,
+      # including items of a <stringlist notr="true">. comment= becomes msgctxt
+      # (uic -tr tr2i18n passes it to i18nc), extracomment= a "#." note.
       python3 - "$out" "$ROOT" "${files[@]}" <<'PY'
 import sys, xml.etree.ElementTree as ET
 out, root, files = sys.argv[1], sys.argv[2], sys.argv[3:]
-seen = {}
+seen, notes = {}, {}
 def esc(s): return s.replace('\\','\\\\').replace('"','\\"').replace('\n','\\n')
 for f in files:
     tree = ET.parse(f"{root}/{f}")
+    skip = set()
+    for lst in tree.iter('stringlist'):
+        if lst.get('notr') == 'true': skip.update(id(c) for c in lst.iter('string'))
     for el in tree.iter('string'):
-        if el.get('notr') == 'true' or not (el.text or '').strip(): continue
-        key = (el.get('extracomment') or '', el.text)
-        seen.setdefault((None, el.text), []).append(f)
+        if id(el) in skip or el.get('notr') == 'true' or not (el.text or '').strip(): continue
+        key = (el.get('comment') or None, el.text)
+        seen.setdefault(key, []).append(f)
+        if el.get('extracomment'): notes.setdefault(key, set()).add(el.get('extracomment'))
 with open(out, 'w', encoding='utf-8') as fh:
     fh.write('msgid ""\nmsgstr ""\n"Content-Type: text/plain; charset=UTF-8\\n"\n\n')
     for (ctx, s), where in seen.items():
+        fh.write(''.join(f"#. {n}\n" for n in sorted(notes.get((ctx, s), ()))))
         fh.write(''.join(f"#: {w}\n" for w in sorted(set(where))))
+        if ctx: fh.write(f'msgctxt "{esc(ctx)}"\n')
         fh.write(f'msgid "{esc(s)}"\nmsgstr ""\n\n')
 PY
     else
