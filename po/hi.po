@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 11:30-0300\n"
+"POT-Creation-Date: 2026-11-16 12:00-0300\n"
 "PO-Revision-Date: 2026-11-16 11:30-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: hi <https://github.com/mainuan>\n"
@@ -16,50 +16,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:111
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:124
 msgid "Brown Dark"
 msgstr "भूरा गहरा"
 
-#: usr/share/color-schemes/DreamBrownLightColor.colors:111
+#: usr/share/color-schemes/DreamBrownLightColor.colors:124
 msgid "Brown Light"
 msgstr "भूरा हल्का"
 
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:111
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:124
 msgid "Cyan Dark"
 msgstr "सियान गहरा"
 
-#: usr/share/color-schemes/DreamCyanLightColor.colors:111
+#: usr/share/color-schemes/DreamCyanLightColor.colors:124
 msgid "Cyan Light"
 msgstr "सियान हल्का"
 
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:111
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:124
 msgid "Gray Dark"
 msgstr "धूसर गहरा"
 
-#: usr/share/color-schemes/DreamGrayLightColor.colors:111
+#: usr/share/color-schemes/DreamGrayLightColor.colors:124
 msgid "Gray Light"
 msgstr "धूसर हल्का"
 
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:111
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:124
 msgid "Lime Dark"
 msgstr "लाइम गहरा"
 
-#: usr/share/color-schemes/DreamLimeLightColor.colors:111
+#: usr/share/color-schemes/DreamLimeLightColor.colors:124
 msgid "Lime Light"
 msgstr "लाइम हल्का"
 
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:111
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:124
 msgid "Magenta Dark"
 msgstr "मैजेंटा गहरा"
 
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:111
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:124
 msgid "Magenta Light"
 msgstr "मैजेंटा हल्का"
 
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:111
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:124
 msgid "Violet Dark"
 msgstr "बैंगनी गहरा"
 
-#: usr/share/color-schemes/DreamVioletLightColor.colors:111
+#: usr/share/color-schemes/DreamVioletLightColor.colors:124
 msgid "Violet Light"
 msgstr "बैंगनी हल्का"
