@@ -107,7 +107,20 @@ ForegroundVisited=112,89,74
 
 [General]
 ColorScheme=DreamBrownLightColor
+Name[ar]=بنّي فاتح
+Name[bn]=হালকা বাদামি
+Name[de]=Braun hell
+Name[es]=Marrón claro
+Name[fr]=Marron clair
+Name[hi]=भूरा हल्का
+Name[it]=Marrone chiaro
+Name[ja]=ブラウン (ライト)
+Name[ko]=갈색 밝음
+Name[pt]=Castanho Claro
 Name[pt_BR]=Marrom Claro
+Name[ru]=Коричневый, светлый вариант
+Name[zh_CN]=棕色（浅色）
+Name[zh_TW]=棕色（淺色）
 Name=Brown Light
 shadeSortColumn=true
 

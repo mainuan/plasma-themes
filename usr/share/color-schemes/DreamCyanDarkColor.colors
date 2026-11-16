@@ -107,7 +107,20 @@ ForegroundVisited=84,165,178
 
 [General]
 ColorScheme=DreamCyanDarkColor
+Name[ar]=سماوي داكن
+Name[bn]=গাঢ় সায়ান
+Name[de]=Cyan dunkel
+Name[es]=Cian oscuro
+Name[fr]=Cyan sombre
+Name[hi]=सियान गहरा
+Name[it]=Ciano scuro
+Name[ja]=シアン (ダーク)
+Name[ko]=청록색 어두움
+Name[pt]=Ciano Escuro
 Name[pt_BR]=Ciano Escuro
+Name[ru]=Голубой, тёмный вариант
+Name[zh_CN]=青色（深色）
+Name[zh_TW]=青色（深色）
 Name=Cyan Dark
 shadeSortColumn=true
 

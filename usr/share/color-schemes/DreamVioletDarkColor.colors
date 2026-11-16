@@ -107,7 +107,20 @@ ForegroundVisited=143,119,177
 
 [General]
 ColorScheme=DreamVioletDarkColor
+Name[ar]=بنفسجي داكن
+Name[bn]=গাঢ় বেগুনি
+Name[de]=Violett dunkel
+Name[es]=Violeta oscuro
+Name[fr]=Violet sombre
+Name[hi]=बैंगनी गहरा
+Name[it]=Viola scuro
+Name[ja]=バイオレット (ダーク)
+Name[ko]=보라색 어두움
+Name[pt]=Violeta Escuro
 Name[pt_BR]=Violeta-Escuro
+Name[ru]=Фиолетовый, тёмный вариант
+Name[zh_CN]=紫色（深色）
+Name[zh_TW]=紫羅蘭（深色）
 Name=Violet Dark
 shadeSortColumn=true
 

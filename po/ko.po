@@ -1,0 +1,66 @@
+# Korean translations for Mainuan Plasma package.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-16 11:30-0300\n"
+"PO-Revision-Date: 2026-11-16 11:30-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: ko <https://github.com/mainuan>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:111
+msgid "Brown Dark"
+msgstr "갈색 어두움"
+
+#: usr/share/color-schemes/DreamBrownLightColor.colors:111
+msgid "Brown Light"
+msgstr "갈색 밝음"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:111
+msgid "Cyan Dark"
+msgstr "청록색 어두움"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:111
+msgid "Cyan Light"
+msgstr "청록색 밝음"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:111
+msgid "Gray Dark"
+msgstr "회색 어두움"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:111
+msgid "Gray Light"
+msgstr "회색 밝음"
+
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:111
+msgid "Lime Dark"
+msgstr "라임색 어두움"
+
+#: usr/share/color-schemes/DreamLimeLightColor.colors:111
+msgid "Lime Light"
+msgstr "라임색 밝음"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:111
+msgid "Magenta Dark"
+msgstr "자홍색 어두움"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:111
+msgid "Magenta Light"
+msgstr "자홍색 밝음"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:111
+msgid "Violet Dark"
+msgstr "보라색 어두움"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:111
+msgid "Violet Light"
+msgstr "보라색 밝음"

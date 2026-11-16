@@ -107,7 +107,20 @@ ForegroundVisited=153,184,82
 
 [General]
 ColorScheme=DreamLimeDarkColor
+Name[ar]=ليموني داكن
+Name[bn]=গাঢ় লাইম
+Name[de]=Limettengrün dunkel
+Name[es]=Lima oscuro
+Name[fr]=Vert citron sombre
+Name[hi]=लाइम गहरा
+Name[it]=Verde lime scuro
+Name[ja]=ライム (ダーク)
+Name[ko]=라임색 어두움
+Name[pt]=Lima Escuro
 Name[pt_BR]=Lima Escuro
+Name[ru]=Лаймовый, тёмный вариант
+Name[zh_CN]=青柠色（深色）
+Name[zh_TW]=萊姆綠（深色）
 Name=Lime Dark
 shadeSortColumn=true
 
