@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 12:00-0300\n"
+"POT-Creation-Date: 2026-11-16 13:33-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,50 +17,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:124
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
 msgid "Brown Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamBrownLightColor.colors:124
+#: usr/share/color-schemes/DreamBrownLightColor.colors:129
 msgid "Brown Light"
 msgstr ""
 
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:124
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
 msgid "Cyan Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamCyanLightColor.colors:124
+#: usr/share/color-schemes/DreamCyanLightColor.colors:129
 msgid "Cyan Light"
 msgstr ""
 
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:124
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
 msgid "Gray Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamGrayLightColor.colors:124
+#: usr/share/color-schemes/DreamGrayLightColor.colors:129
 msgid "Gray Light"
 msgstr ""
 
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:124
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
 msgid "Lime Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamLimeLightColor.colors:124
+#: usr/share/color-schemes/DreamLimeLightColor.colors:129
 msgid "Lime Light"
 msgstr ""
 
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:124
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
 msgid "Magenta Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:124
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
 msgid "Magenta Light"
 msgstr ""
 
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:124
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
 msgid "Violet Dark"
 msgstr ""
 
-#: usr/share/color-schemes/DreamVioletLightColor.colors:124
+#: usr/share/color-schemes/DreamVioletLightColor.colors:129
 msgid "Violet Light"
 msgstr ""

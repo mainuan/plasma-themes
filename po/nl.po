@@ -1,0 +1,68 @@
+# Dutch translations for Mainuan Plasma package.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-16 13:33-0300\n"
+"PO-Revision-Date: 2026-11-16 12:00-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: nl <https://github.com/mainuan>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
+msgid "Brown Dark"
+msgstr "Bruin donker"
+
+#: usr/share/color-schemes/DreamBrownLightColor.colors:129
+msgid "Brown Light"
+msgstr "Bruin licht"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
+msgid "Cyan Dark"
+msgstr "Cyaan donker"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:129
+msgid "Cyan Light"
+msgstr "Cyaan licht"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
+msgid "Gray Dark"
+msgstr "Grijs donker"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:129
+msgid "Gray Light"
+msgstr "Grijs licht"
+
+# reviewed: colour name in Dutch is 'limoengroen' ('limoen' = the fruit)
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
+msgid "Lime Dark"
+msgstr "Limoengroen donker"
+
+# reviewed: colour name in Dutch is 'limoengroen'
+#: usr/share/color-schemes/DreamLimeLightColor.colors:129
+msgid "Lime Light"
+msgstr "Limoengroen licht"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
+msgid "Magenta Dark"
+msgstr "Magenta donker"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
+msgid "Magenta Light"
+msgstr "Magenta licht"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
+msgid "Violet Dark"
+msgstr "Violet donker"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:129
+msgid "Violet Light"
+msgstr "Violet licht"
