@@ -107,7 +107,8 @@ ForegroundVisited=174,121,84
 
 [General]
 ColorScheme=DreamBrownDarkColor
-Name=Marrom Escuro
+Name[pt_BR]=Marrom Escuro
+Name=Brown Dark
 shadeSortColumn=true
 
 [KDE]

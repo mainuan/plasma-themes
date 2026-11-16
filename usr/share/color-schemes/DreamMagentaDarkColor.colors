@@ -107,7 +107,8 @@ ForegroundVisited=197,86,144
 
 [General]
 ColorScheme=DreamMagentaDarkColor
-Name=Magenta Escuro
+Name[pt_BR]=Magenta Escuro
+Name=Magenta Dark
 shadeSortColumn=true
 
 [KDE]

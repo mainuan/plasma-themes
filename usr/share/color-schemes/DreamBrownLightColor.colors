@@ -107,7 +107,8 @@ ForegroundVisited=112,89,74
 
 [General]
 ColorScheme=DreamBrownLightColor
-Name=Marrom Claro
+Name[pt_BR]=Marrom Claro
+Name=Brown Light
 shadeSortColumn=true
 
 [KDE]

@@ -1,0 +1,67 @@
+# Portuguese translations for Mainuan Plasma package
+# Traduções em português brasileiro para o pacote Mainuan Plasma.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-16 11:20-0300\n"
+"PO-Revision-Date: 2026-11-16 11:20-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:110
+msgid "Brown Dark"
+msgstr "Marrom Escuro"
+
+#: usr/share/color-schemes/DreamBrownLightColor.colors:110
+msgid "Brown Light"
+msgstr "Marrom Claro"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:110
+msgid "Cyan Dark"
+msgstr "Ciano Escuro"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:110
+msgid "Cyan Light"
+msgstr "Ciano Claro"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:110
+msgid "Gray Dark"
+msgstr "Cinza Escuro"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:110
+msgid "Gray Light"
+msgstr "Cinza Claro"
+
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:110
+msgid "Lime Dark"
+msgstr "Lima Escuro"
+
+#: usr/share/color-schemes/DreamLimeLightColor.colors:110
+msgid "Lime Light"
+msgstr "Lima Claro"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:110
+msgid "Magenta Dark"
+msgstr "Magenta Escuro"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:110
+msgid "Magenta Light"
+msgstr "Magenta Claro"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:110
+msgid "Violet Dark"
+msgstr "Violeta-Escuro"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:110
+msgid "Violet Light"
+msgstr "Violeta-Claro"

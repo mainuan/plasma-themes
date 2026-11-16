@@ -107,7 +107,8 @@ ForegroundVisited=84,165,178
 
 [General]
 ColorScheme=DreamCyanDarkColor
-Name=Ciano Escuro
+Name[pt_BR]=Ciano Escuro
+Name=Cyan Dark
 shadeSortColumn=true
 
 [KDE]

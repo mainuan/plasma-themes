@@ -107,7 +107,8 @@ ForegroundVisited=78,126,134
 
 [General]
 ColorScheme=DreamCyanLightColor
-Name=Ciano Claro
+Name[pt_BR]=Ciano Claro
+Name=Cyan Light
 shadeSortColumn=true
 
 [KDE]

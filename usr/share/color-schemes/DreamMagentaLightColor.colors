@@ -107,7 +107,8 @@ ForegroundVisited=130,78,108
 
 [General]
 ColorScheme=DreamMagentaLightColor
-Name=Magenta Claro
+Name[pt_BR]=Magenta Claro
+Name=Magenta Light
 shadeSortColumn=true
 
 [KDE]

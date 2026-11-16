@@ -107,7 +107,8 @@ ForegroundVisited=143,119,177
 
 [General]
 ColorScheme=DreamVioletDarkColor
-Name=Violeta-Escuro
+Name[pt_BR]=Violeta-Escuro
+Name=Violet Dark
 shadeSortColumn=true
 
 [KDE]

@@ -107,7 +107,8 @@ ForegroundVisited=153,184,82
 
 [General]
 ColorScheme=DreamLimeDarkColor
-Name=Lima Escuro
+Name[pt_BR]=Lima Escuro
+Name=Lime Dark
 shadeSortColumn=true
 
 [KDE]

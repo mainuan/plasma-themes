@@ -107,7 +107,8 @@ ForegroundVisited=112,119,121
 
 [General]
 ColorScheme=DreamGrayLightColor
-Name=Cinza Claro
+Name[pt_BR]=Cinza Claro
+Name=Gray Light
 shadeSortColumn=true
 
 [KDE]

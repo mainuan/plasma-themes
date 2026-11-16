@@ -107,7 +107,8 @@ ForegroundVisited=91,108,43
 
 [General]
 ColorScheme=DreamLimeLightColor
-Name=Lima Claro
+Name[pt_BR]=Lima Claro
+Name=Lime Light
 shadeSortColumn=true
 
 [KDE]

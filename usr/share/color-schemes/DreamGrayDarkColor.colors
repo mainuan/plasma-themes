@@ -107,7 +107,8 @@ ForegroundVisited=139,148,151
 
 [General]
 ColorScheme=DreamGrayDarkColor
-Name=Cinza Escuro
+Name[pt_BR]=Cinza Escuro
+Name=Gray Dark
 shadeSortColumn=true
 
 [KDE]
