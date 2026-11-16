@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 12:00-0300\n"
+"POT-Creation-Date: 2026-11-16 13:33-0300\n"
 "PO-Revision-Date: 2026-11-16 11:30-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: ru <https://github.com/mainuan>\n"
@@ -20,72 +20,72 @@ msgstr ""
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:124
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
 msgid "Brown Dark"
 msgstr "Коричневый, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamBrownLightColor.colors:124
+#: usr/share/color-schemes/DreamBrownLightColor.colors:129
 msgid "Brown Light"
 msgstr "Коричневый, светлый вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:124
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
 msgid "Cyan Dark"
 msgstr "Голубой, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamCyanLightColor.colors:124
+#: usr/share/color-schemes/DreamCyanLightColor.colors:129
 msgid "Cyan Light"
 msgstr "Голубой, светлый вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:124
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
 msgid "Gray Dark"
 msgstr "Серый, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamGrayLightColor.colors:124
+#: usr/share/color-schemes/DreamGrayLightColor.colors:129
 msgid "Gray Light"
 msgstr "Серый, светлый вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:124
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
 msgid "Lime Dark"
 msgstr "Лаймовый, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamLimeLightColor.colors:124
+#: usr/share/color-schemes/DreamLimeLightColor.colors:129
 msgid "Lime Light"
 msgstr "Лаймовый, светлый вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:124
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
 msgid "Magenta Dark"
 msgstr "Пурпурный, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:124
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
 msgid "Magenta Light"
 msgstr "Пурпурный, светлый вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:124
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
 msgid "Violet Dark"
 msgstr "Фиолетовый, тёмный вариант"
 
 # reviewed: Схема KDE ru для вариантов цветовых схем: «Breeze, тёмный/светлый
 # вариант»; «Коричневая тёмная» без существительного звучит неестественно
-#: usr/share/color-schemes/DreamVioletLightColor.colors:124
+#: usr/share/color-schemes/DreamVioletLightColor.colors:129
 msgid "Violet Light"
 msgstr "Фиолетовый, светлый вариант"
