@@ -1,3 +1,12 @@
+mainuan-plasma-themes (2026.11.17.1) resolute; urgency=medium
+
+  * Licença: o trabalho original do Mainuan (po/, tools/, documentação e
+    empacotamento) passa a ser GNU GPL versão 2 (arquivo LICENSE); as
+    adaptações de temas GPL-3 e os componentes de terceiros mantêm as
+    licenças de origem.
+
+ -- ruscher <rruscher@gmail.com>  Tue, 17 Nov 2026 18:13:06 -0300
+
 mainuan-plasma-themes (2026.11.17) resolute; urgency=medium
 
   * Primeiro pacote Debian: temas globais, temas do Plasma, esquemas de

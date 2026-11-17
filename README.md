@@ -172,9 +172,11 @@ e envie mudanças por pull request. O CI roda em cada pull request, em
 
 ## Licença
 
-Este repositório **não tem um arquivo `LICENSE` próprio**. Cada componente de
-terceiros mantém a licença do seu autor (tabela acima, declarada no
-`metadata.json`, nos cabeçalhos dos arquivos ou no `LICENSE` da pasta do
-componente). Segundo o `debian/copyright`, o trabalho do próprio Mainuan
-(`po/`, `tools/`, `docs/` e as adaptações dos temas) segue a GNU GPL versão 3
-dos temas de que deriva.
+O trabalho original do Mainuan neste repositório (traduções em `po/`,
+`tools/`, documentação e empacotamento) é distribuído sob a **GNU General
+Public License versão 2** (GPL-2.0), texto em [`LICENSE`](LICENSE).
+
+Os temas, cursores e widgets de terceiros mantêm a licença dos seus autores
+(tabela de créditos acima e [`debian/copyright`](debian/copyright)). As
+adaptações do Mainuan feitas sobre temas GPL-3 continuam sob a GPL-3, porque
+uma obra derivada de GPL-3 não pode ser relicenciada como GPL-2.
