@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['v[0-9]*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
+
+jobs:
+  package:
+    permissions:
+      contents: write # only the release job uses it, and only for v* tags
+    uses: mainuan/.github/.github/workflows/debian-package.yml@2409a50535befe90ac3bbfc4db6eed7d65eac4e5
+    with:
+      package: mainuan-plasma-themes
+      release-title: Mainuan Plasma Themes
+      test-command: |
+        po/i18n.sh check-pot
+        po/i18n.sh validate
+        python3 tools/validate-color-schemes.py
+        # The translated color scheme names written into the .colors files
+        # must match po/.
+        out="$(po/apply-color-scheme-names.sh)"
+        if [ -n "$out" ]; then
+          echo "$out"; echo "::error::run po/apply-color-scheme-names.sh"; exit 1
+        fi
+        # The source package must not carry .git or build leftovers.
+        dpkg-source -Zgzip -z1 --build .
+        tar -tzf ../mainuan-plasma-themes_*.tar.gz > ../source-files.txt
+        if grep -E '(^|/)\.git(/|$)|/debian/(\.debhelper|debhelper-build-stamp|files$|.*\.substvars$|mainuan-plasma-themes/)' ../source-files.txt; then
+          echo "::error::source package carries VCS or build files"; exit 1
+        fi
+        du -h ../mainuan-plasma-themes_*.tar.gz
+        rm -f ../mainuan-plasma-themes_*.dsc ../mainuan-plasma-themes_*.tar.gz ../source-files.txt
+      # plasma-workspace first: no file conflict with Plasma, and its
+      # KPackage structures let kpackagetool6 load every package.
+      extra-install-packages: plasma-workspace kpackagetool6 python3
+      smoke-command: |
+        cd "$HOME"
+        dpkg -L mainuan-plasma-themes > files.txt
+        python3 -I - > kpackages.txt <<'PY'
+        import configparser, glob, json, os
+
+        # Only this package's files: plasma-workspace ships its own.
+        with open("files.txt", encoding="utf-8") as f:
+            ours = set(f.read().splitlines())
+
+        def mine(paths, marker=""):
+            return sorted(p for p in paths if p.rstrip("/") + marker in ours)
+
+        def ini(path):
+            c = configparser.ConfigParser(interpolation=None, strict=False)
+            c.optionxform = str
+            with open(path, encoding="utf-8") as f:
+                c.read_file(f)
+            return c
+
+        kinds = {"plasmoids": "Plasma/Applet", "look-and-feel": "Plasma/LookAndFeel",
+                 "desktoptheme": "Plasma/Theme"}
+        for kind, kptype in kinds.items():
+            dirs = mine(glob.glob(f"/usr/share/plasma/{kind}/*/"), "/metadata.json")
+            assert dirs, kind
+            for d in dirs:
+                name = os.path.basename(d.rstrip("/"))
+                with open(d + "metadata.json", encoding="utf-8") as f:
+                    plugin = json.load(f)["KPlugin"]
+                assert plugin["Name"], d
+                if kind == "plasmoids":
+                    assert plugin["Id"] == name, d
+                    assert os.path.isfile(d + "contents/ui/main.qml"), d
+                elif kind == "look-and-feel":
+                    assert plugin["Id"] == name, d
+                    ini(d + "contents/defaults")
+                else:
+                    assert os.path.isdir(d + "widgets"), d
+                print(kptype, plugin.get("Id", name))
+        schemes = mine(glob.glob("/usr/share/color-schemes/*.colors"))
+        assert len(schemes) == 16, schemes
+        for path in schemes:
+            c = ini(path)
+            assert c["General"]["ColorScheme"] and c["General"]["Name"], path
+            for group in ("Colors:Window", "Colors:View", "Colors:Button", "Colors:Selection"):
+                assert c[group]["BackgroundNormal"] and c[group]["ForegroundNormal"], (path, group)
+        for t in ("brown-cursor", "cyan-cursor", "lavanda-cursor"):
+            assert ini(f"/usr/share/icons/{t}/index.theme")["Icon Theme"]["Name"], t
+            assert os.path.isfile(f"/usr/share/icons/{t}/cursors/left_ptr"), t
+        themes = mine(glob.glob("/usr/share/aurorae/themes/*/"))
+        assert len(themes) == 4, themes
+        for d in themes:
+            name = os.path.basename(d.rstrip("/"))
+            ini(d + "metadata.desktop")["Desktop Entry"]["Name"]
+            ini(d + f"{name}rc")
+            assert os.path.isfile(d + "decoration.svg"), d
+        PY
+        cat kpackages.txt
+        test "$(wc -l < kpackages.txt)" -eq 20
+        for type in Plasma/Applet Plasma/LookAndFeel Plasma/Theme; do
+          kpackagetool6 --global --type "$type" --list > listed.txt
+          awk -v t="$type" '$1 == t { print $2 }' kpackages.txt | while read -r id; do
+            grep -qwF -- "$id" listed.txt || { echo "::error::kpackagetool6 does not list $type $id"; cat listed.txt; exit 1; }
+          done
+        done
+        if dpkg -L mainuan-plasma-themes | grep -E '/(translate|LICENSE[^/]*|README[^/]*)$'; then exit 1; fi

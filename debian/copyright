@@ -1,0 +1,230 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mainuan-plasma-themes
+Upstream-Contact: Mainuan Packaging <openwebosbr@gmail.com>
+Source: https://github.com/mainuan/plasma-themes
+Comment: Coleção de temas e widgets do Plasma reunida pelo Mainuan. Cada
+ componente de terceiros mantém o autor e a licença declarados no seu
+ metadata.json/metadata.desktop, nos cabeçalhos dos arquivos ou no seu
+ arquivo LICENSE; os arquivos LICENSE e README dos componentes não são
+ instalados porque o conteúdo está reproduzido aqui.
+
+Files: *
+Copyright: 2025-2026 daigo <openwebosbr@gmail.com>
+           2026 natanael-art <natanaelpix@gmail.com>
+           2026 ruscher <rruscher@gmail.com>
+           2025-2026 Mainuan contributors
+License: GPL-3
+Comment: Trabalho do próprio Mainuan (po/, tools/, docs/ e as adaptações
+ dos temas). O repositório não tem um arquivo LICENSE próprio; as
+ adaptações seguem a GPL versão 3 dos temas de que derivam.
+
+Files: usr/share/plasma/desktoptheme/Blur-Glassy-*
+       usr/share/plasma/look-and-feel/Blur-Glassy-*
+       usr/share/color-schemes/BlurGlassy*.colors
+Copyright: L4ki (l4k1) <l4k1987@gmail.com>
+License: GPL-3
+Comment: Blur-Glassy, https://github.com/L4ki/Blur-Glassy (metadata: GPLv3).
+
+Files: usr/share/plasma/desktoptheme/Dream-Color-Plasma/*
+Copyright: L4ki (l4k1) <l4k1987@gmail.com>
+           2025-2026 Mainuan contributors
+License: GPL-3+
+Comment: Dream Plasma Themes, https://github.com/L4ki/Dream-Plasma-Themes
+ (metadata: GPL-3.0+), renomeado "Mainuan Desfoque".
+
+Files: usr/share/plasma/look-and-feel/Dream-*
+       usr/share/color-schemes/Dream*.colors
+Copyright: L4ki (l4k1) <l4k1987@gmail.com>
+           2025-2026 Mainuan contributors
+License: GPL-3
+Comment: Dream Plasma Themes, https://github.com/L4ki/Dream-Plasma-Themes
+ (metadata: GPLv3). As famílias de cores Brown, Gray, Cyan, Lime, Magenta e
+ Violet são variações do Mainuan (veja docs/DREAM-COLOR-SCHEMES.md).
+
+Files: usr/share/plasma/desktoptheme/MacTahoe-*
+       usr/share/plasma/look-and-feel/com.github.vinceliuice.MacTahoe-*
+       usr/share/aurorae/themes/MacTahoe-*
+       usr/share/color-schemes/MacTahoe*.colors
+Copyright: Vince Liuice <vinceliuice@hotmail.com>
+License: GPL-3
+Comment: MacTahoe KDE, https://github.com/vinceliuice/MacTahoe-kde
+ (metadata: GPL-3.0/GPLv3/GPL_V3).
+
+Files: usr/share/aurorae/themes/Lavanda-*
+Copyright: Vince Liuice <vinceliuice@hotmail.com>
+           2025-2026 Mainuan contributors
+License: GPL-3
+Comment: Lavanda KDE, de Vince Liuice (metadata: GPL_V3), renomeado
+ "Mainuan-Claro" e "Mainuan-Escuro".
+
+Files: usr/share/icons/brown-cursor/*
+       usr/share/icons/cyan-cursor/*
+       usr/share/icons/lavanda-cursor/*
+Copyright: 2023 Abdulkaiz Khatri <kaizmandhu@gmail.com>
+           2025-2026 Mainuan contributors
+License: Expat
+Comment: Bibata Cursor (Bibata-Modern), https://github.com/ful1e5/Bibata_Cursor,
+ em cores do Mainuan.
+
+Files: usr/share/plasma/plasmoids/Chaac.Complete.Weather/*
+Copyright: zayronxio (Adolfo) <adolfo@librepixels.com>
+License: GPL-3+
+Comment: https://store.kde.org/p/2174265/ (metadata: GPL-3.0+).
+
+Files: usr/share/plasma/plasmoids/com.github.tilorenz.compact_pager/*
+Copyright: Tino Lorenz <tilrnz@gmx.net>
+           Diego Miguel <hello@diegomiguel.me>
+License: GPL-3+
+Comment: https://github.com/tilorenz/compact_pager (metadata: GPL-3.0+).
+
+Files: usr/share/plasma/plasmoids/com.himdek.kde.plasma.overview/*
+Copyright: 2023 Himprakash Deka <himprakashd@gmail.com>
+           2021 Mikel Johnson <mikel5764@gmail.com>
+           2020 Ivan Čukić <ivan.cukic@kde.org>
+           2013 Marco Martin <mart@kde.org>
+           2013 David Edmundson <davidedmundson@kde.org>
+           2012 Gregor Taetzner <gregor@freenet.de>
+License: GPL-3+
+Comment: https://himdek.com/Overview-Widget-for-Plasma/ (metadata:
+ GPL-3.0-or-later; LICENSE.md: GPL versão 3). Arquivos derivados do Plasma
+ trazem nos cabeçalhos GPL-2.0-or-later ou LGPL-2.0-or-later, compatíveis.
+
+Files: usr/share/plasma/plasmoids/DeepinMenu.Classic/*
+       usr/share/plasma/plasmoids/Orbit.Start.Menu/*
+Copyright: zayronxio (Adolfo) <adolfo@librepixels.com>
+           2013-2015 Eike Hein <hein@kde.org>
+           2013 Aurélien Gâteau <agateau@kde.org>
+           2017 Ivan Čukić <ivan.cukic@kde.org>
+License: GPL-2+
+Comment: https://github.com/zayronxio/DeepinMenu.Classic e
+ https://store.kde.org/p/2228598/ (metadata: GPL-2.0+). Os arquivos próprios
+ de zayronxio trazem GPL-3.0-or-later nos cabeçalhos.
+
+Files: usr/share/plasma/plasmoids/KdeControlStation/*
+Copyright: Eliver Lara <eliverlara@gmail.com>
+           2013-2017 Jan Grulich <jgrulich@redhat.com>
+           2014-2015 Harald Sitter <sitter@kde.org>
+           2012-2013 Daniel Nicoletti <dantti12@gmail.com>
+           2022-2024 ivan tkachenko <me@ratijas.tk>
+           2020 Nate Graham <nate@kde.org>
+           2019 Sefa Eyeoglu <contact@scrumplex.net>
+           2016 Marco Martin <mart@kde.org>
+License: GPL-3
+Comment: https://github.com/EliverLara/kde-control-station (metadata: GPLv3).
+ Arquivos derivados do Plasma trazem nos cabeçalhos LGPL-2.0-or-later,
+ GPL-2.0-or-later, "LGPL-2.1-only OR LGPL-3.0-only OR
+ LicenseRef-KDE-Accepted-LGPL" ou "GPL-2.0-only OR GPL-3.0-only OR
+ LicenseRef-KDE-Accepted-GPL", todas compatíveis com a GPL versão 3.
+
+Files: usr/share/plasma/plasmoids/org.kde.plasma.kdeaichat/*
+Copyright: Rachit Asthana <asthanarachit@gmail.com>
+License: GPL-2+
+Comment: https://github.com/racstan/KDE-AI-Chat (metadata: GPL-2.0+).
+
+Files: usr/share/plasma/plasmoids/p-connor.plasma-drawer/*
+Copyright: Connor Popp <cmpopp2@gmail.com>
+           2013-2017 Eike Hein <hein@kde.org>
+           2013 Aurélien Gâteau <agateau@kde.org>
+           2014 Weng Xuetian <wengxt@gmail.com>
+License: GPL-2+
+Comment: https://github.com/p-connor/plasma-drawer (cabeçalhos: GPL versão 2
+ ou posterior).
+
+Files: usr/share/plasma/plasmoids/TahoeLauncher/*
+Copyright: Eliver Lara <eliverlara@gmail.com>
+           2022 Friedrich Schriewer <friedrich.schriewer@gmx.net>
+           2021 Prateek SU <pankajsunal123@gmail.com>
+           2013-2017 Eike Hein <hein@kde.org>
+           2013 Aurélien Gâteau <agateau@kde.org>
+           2017 Ivan Čukić <ivan.cukic@kde.org>
+           2014 Weng Xuetian <wengxt@gmail.com>
+License: GPL-2+
+Comment: https://github.com/EliverLara/TahoeLauncher (cabeçalhos: GPL versão 2
+ ou posterior).
+
+Files: usr/share/plasma/plasmoids/TahoeLauncher/contents/ui/icons/feather/*
+Copyright: 2013-2017 Cole Bemis
+License: Expat
+Comment: Feather icons, https://feathericons.com/
+
+Files: usr/share/plasma/plasmoids/TahoeLauncher/contents/ui/icons/lucide/*
+Copyright: 2020 Lucide Contributors
+License: ISC
+Comment: Lucide icons, https://lucide.dev/
+
+Files: debian/*
+Copyright: 2026 ruscher <rruscher@gmail.com>
+License: GPL-3
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
