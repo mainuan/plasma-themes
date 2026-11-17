@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 13:33-0300\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
 "PO-Revision-Date: 2026-11-16 12:00-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: da <https://github.com/mainuan>\n"
@@ -17,50 +17,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
 msgid "Brown Dark"
 msgstr "Brun mørk"
 
-#: usr/share/color-schemes/DreamBrownLightColor.colors:129
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
 msgid "Brown Light"
 msgstr "Brun lys"
 
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
 msgid "Cyan Dark"
 msgstr "Cyan mørk"
 
-#: usr/share/color-schemes/DreamCyanLightColor.colors:129
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
 msgid "Cyan Light"
 msgstr "Cyan lys"
 
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
 msgid "Gray Dark"
 msgstr "Grå mørk"
 
-#: usr/share/color-schemes/DreamGrayLightColor.colors:129
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
 msgid "Gray Light"
 msgstr "Grå lys"
 
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
 msgid "Lime Dark"
 msgstr "Lime mørk"
 
-#: usr/share/color-schemes/DreamLimeLightColor.colors:129
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
 msgid "Lime Light"
 msgstr "Lime lys"
 
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
 msgid "Magenta Dark"
 msgstr "Magenta mørk"
 
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
 msgid "Magenta Light"
 msgstr "Magenta lys"
 
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
 msgid "Violet Dark"
 msgstr "Violet mørk"
 
-#: usr/share/color-schemes/DreamVioletLightColor.colors:129
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
 msgid "Violet Light"
 msgstr "Violet lys"

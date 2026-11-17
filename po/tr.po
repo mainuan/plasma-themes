@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 13:33-0300\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
 "PO-Revision-Date: 2026-11-16 12:00-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: tr <https://github.com/mainuan>\n"
@@ -17,50 +17,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
 msgid "Brown Dark"
 msgstr "Kahverengi Koyu"
 
-#: usr/share/color-schemes/DreamBrownLightColor.colors:129
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
 msgid "Brown Light"
 msgstr "Kahverengi Açık"
 
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
 msgid "Cyan Dark"
 msgstr "Camgöbeği Koyu"
 
-#: usr/share/color-schemes/DreamCyanLightColor.colors:129
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
 msgid "Cyan Light"
 msgstr "Camgöbeği Açık"
 
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
 msgid "Gray Dark"
 msgstr "Gri Koyu"
 
-#: usr/share/color-schemes/DreamGrayLightColor.colors:129
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
 msgid "Gray Light"
 msgstr "Gri Açık"
 
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
 msgid "Lime Dark"
 msgstr "Limon Yeşili Koyu"
 
-#: usr/share/color-schemes/DreamLimeLightColor.colors:129
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
 msgid "Lime Light"
 msgstr "Limon Yeşili Açık"
 
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
 msgid "Magenta Dark"
 msgstr "Macenta Koyu"
 
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
 msgid "Magenta Light"
 msgstr "Macenta Açık"
 
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
 msgid "Violet Dark"
 msgstr "Menekşe Koyu"
 
-#: usr/share/color-schemes/DreamVioletLightColor.colors:129
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
 msgid "Violet Light"
 msgstr "Menekşe Açık"

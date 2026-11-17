@@ -1,0 +1,67 @@
+# Ukrainian translations for Mainuan Plasma package.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
+"PO-Revision-Date: 2026-11-16 13:33-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: uk <https://github.com/mainuan>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
+msgid "Brown Dark"
+msgstr "Коричнева темна"
+
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
+msgid "Brown Light"
+msgstr "Коричнева світла"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
+msgid "Cyan Dark"
+msgstr "Блакитна темна"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
+msgid "Cyan Light"
+msgstr "Блакитна світла"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
+msgid "Gray Dark"
+msgstr "Сіра темна"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
+msgid "Gray Light"
+msgstr "Сіра світла"
+
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
+msgid "Lime Dark"
+msgstr "Лаймова темна"
+
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
+msgid "Lime Light"
+msgstr "Лаймова світла"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
+msgid "Magenta Dark"
+msgstr "Пурпурова темна"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
+msgid "Magenta Light"
+msgstr "Пурпурова світла"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
+msgid "Violet Dark"
+msgstr "Фіолетова темна"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
+msgid "Violet Light"
+msgstr "Фіолетова світла"

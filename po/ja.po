@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mainuan Plasma themes\n"
 "Report-Msgid-Bugs-To: https://github.com/mainuan\n"
-"POT-Creation-Date: 2026-11-16 13:33-0300\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
 "PO-Revision-Date: 2026-11-16 11:30-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: ja <https://github.com/mainuan>\n"
@@ -17,50 +17,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: usr/share/color-schemes/DreamBrownDarkColor.colors:129
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
 msgid "Brown Dark"
 msgstr "ブラウン (ダーク)"
 
-#: usr/share/color-schemes/DreamBrownLightColor.colors:129
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
 msgid "Brown Light"
 msgstr "ブラウン (ライト)"
 
-#: usr/share/color-schemes/DreamCyanDarkColor.colors:129
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
 msgid "Cyan Dark"
 msgstr "シアン (ダーク)"
 
-#: usr/share/color-schemes/DreamCyanLightColor.colors:129
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
 msgid "Cyan Light"
 msgstr "シアン (ライト)"
 
-#: usr/share/color-schemes/DreamGrayDarkColor.colors:129
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
 msgid "Gray Dark"
 msgstr "グレー (ダーク)"
 
-#: usr/share/color-schemes/DreamGrayLightColor.colors:129
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
 msgid "Gray Light"
 msgstr "グレー (ライト)"
 
-#: usr/share/color-schemes/DreamLimeDarkColor.colors:129
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
 msgid "Lime Dark"
 msgstr "ライム (ダーク)"
 
-#: usr/share/color-schemes/DreamLimeLightColor.colors:129
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
 msgid "Lime Light"
 msgstr "ライム (ライト)"
 
-#: usr/share/color-schemes/DreamMagentaDarkColor.colors:129
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
 msgid "Magenta Dark"
 msgstr "マゼンタ (ダーク)"
 
-#: usr/share/color-schemes/DreamMagentaLightColor.colors:129
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
 msgid "Magenta Light"
 msgstr "マゼンタ (ライト)"
 
-#: usr/share/color-schemes/DreamVioletDarkColor.colors:129
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
 msgid "Violet Dark"
 msgstr "バイオレット (ダーク)"
 
-#: usr/share/color-schemes/DreamVioletLightColor.colors:129
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
 msgid "Violet Light"
 msgstr "バイオレット (ライト)"
