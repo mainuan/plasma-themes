@@ -14,9 +14,21 @@ Copyright: 2025-2026 daigo <openwebosbr@gmail.com>
            2026 ruscher <rruscher@gmail.com>
            2025-2026 Mainuan contributors
 License: GPL-3
-Comment: Trabalho do próprio Mainuan (po/, tools/, docs/ e as adaptações
- dos temas). O repositório não tem um arquivo LICENSE próprio; as
- adaptações seguem a GPL versão 3 dos temas de que derivam.
+Comment: Adaptações de temas feitas pelo Mainuan: seguem a GPL versão 3 dos
+ temas de que derivam (uma obra derivada de GPL-3 não pode passar a GPL-2).
+
+Files: po/*
+       tools/*
+       docs/*
+       LICENSE
+       README.md
+       README.en.md
+Copyright: 2025-2026 daigo <openwebosbr@gmail.com>
+           2026 ruscher <rruscher@gmail.com>
+           2025-2026 Mainuan contributors
+License: GPL-2
+Comment: Trabalho original do Mainuan (traduções, ferramentas e
+ documentação), sob a GNU GPL versão 2 (arquivo LICENSE).
 
 Files: usr/share/plasma/desktoptheme/Blur-Glassy-*
        usr/share/plasma/look-and-feel/Blur-Glassy-*
@@ -154,7 +166,7 @@ Comment: Lucide icons, https://lucide.dev/
 
 Files: debian/*
 Copyright: 2026 ruscher <rruscher@gmail.com>
-License: GPL-3
+License: GPL-2
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
@@ -228,3 +240,16 @@ License: ISC
  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".

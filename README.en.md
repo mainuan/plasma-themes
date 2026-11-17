@@ -74,7 +74,9 @@ Schriewer and Prateek SU, with code from KDE Plasma authors; Feather icons by
 Cole Bemis and Lucide icons by the Lucide contributors. The Portuguese README
 lists each component with its source and license.
 
-This repository has **no top-level `LICENSE` file**. Each third-party
+Mainuan's original work in this repository (translations in `po/`, `tools/`,
+documentation and packaging) is distributed under the **GNU General Public
+License version 2** (GPL-2.0), see [`LICENSE`](LICENSE). Each third-party
 component keeps its author's license (GPL-2+, GPL-3, GPL-3+, MIT or ISC).
-According to `debian/copyright`, Mainuan's own work follows the GNU GPL
-version 3 of the themes it derives from.
+Mainuan's adaptations of GPL-3 themes remain under the GPL-3, since a work
+derived from GPL-3 code cannot be relicensed as GPL-2.
