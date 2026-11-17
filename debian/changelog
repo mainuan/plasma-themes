@@ -9,6 +9,10 @@ mainuan-plasma-themes (2026.11.17) resolute; urgency=medium
     debian/copyright.
   * Remove o bit de execução de 353 arquivos de dados (SVG, metadata e
     configurações).
+  * Declara KPackageStructure no metadata.json do widget
+    Chaac.Complete.Weather (Plasma/Applet) e dos temas do Plasma
+    Blur-Glassy e MacTahoe (Plasma/Theme): sem a chave, o KPackage do KDE
+    Frameworks 6 não os lista (o widget não aparecia em "Adicionar widgets").
   * CI: validação dos esquemas de cores e das traduções, compilação, lintian
     e teste de instalação, reinstalação, remoção e expurgo num Ubuntu 26.04
     com o plasma-workspace instalado.
