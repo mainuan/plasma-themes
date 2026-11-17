@@ -1,0 +1,66 @@
+# Czech translations for Mainuan Plasma package.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
+"PO-Revision-Date: 2026-11-16 13:33-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: cs <https://github.com/mainuan>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
+msgid "Brown Dark"
+msgstr "Hnědá tmavá"
+
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
+msgid "Brown Light"
+msgstr "Hnědá světlá"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
+msgid "Cyan Dark"
+msgstr "Azurová tmavá"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
+msgid "Cyan Light"
+msgstr "Azurová světlá"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
+msgid "Gray Dark"
+msgstr "Šedá tmavá"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
+msgid "Gray Light"
+msgstr "Šedá světlá"
+
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
+msgid "Lime Dark"
+msgstr "Limetková tmavá"
+
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
+msgid "Lime Light"
+msgstr "Limetková světlá"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
+msgid "Magenta Dark"
+msgstr "Purpurová tmavá"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
+msgid "Magenta Light"
+msgstr "Purpurová světlá"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
+msgid "Violet Dark"
+msgstr "Fialová tmavá"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
+msgid "Violet Light"
+msgstr "Fialová světlá"

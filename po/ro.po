@@ -1,0 +1,70 @@
+# Romanian translations for Mainuan Plasma package.
+# Copyright (C) 2026 Mainuan
+# This file is distributed under the same license as the Mainuan Plasma themes package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mainuan Plasma themes\n"
+"Report-Msgid-Bugs-To: https://github.com/mainuan\n"
+"POT-Creation-Date: 2026-11-17 00:38-0300\n"
+"PO-Revision-Date: 2026-11-16 13:33-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: ro <https://github.com/mainuan>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+# reviewed: alinhado à cor de destaque 'Cafeniu' (termo KDE ro) — mesmo nome
+# em esquema e destaque
+#: usr/share/color-schemes/DreamBrownDarkColor.colors:143
+msgid "Brown Dark"
+msgstr "Cafeniu întunecat"
+
+# reviewed: alinhado à cor de destaque 'Cafeniu' (termo KDE ro)
+#: usr/share/color-schemes/DreamBrownLightColor.colors:143
+msgid "Brown Light"
+msgstr "Cafeniu luminos"
+
+#: usr/share/color-schemes/DreamCyanDarkColor.colors:143
+msgid "Cyan Dark"
+msgstr "Turcoaz întunecat"
+
+#: usr/share/color-schemes/DreamCyanLightColor.colors:143
+msgid "Cyan Light"
+msgstr "Turcoaz luminos"
+
+#: usr/share/color-schemes/DreamGrayDarkColor.colors:143
+msgid "Gray Dark"
+msgstr "Gri întunecat"
+
+#: usr/share/color-schemes/DreamGrayLightColor.colors:143
+msgid "Gray Light"
+msgstr "Gri luminos"
+
+#: usr/share/color-schemes/DreamLimeDarkColor.colors:143
+msgid "Lime Dark"
+msgstr "Verde lime întunecat"
+
+#: usr/share/color-schemes/DreamLimeLightColor.colors:143
+msgid "Lime Light"
+msgstr "Verde lime luminos"
+
+#: usr/share/color-schemes/DreamMagentaDarkColor.colors:143
+msgid "Magenta Dark"
+msgstr "Magenta întunecat"
+
+#: usr/share/color-schemes/DreamMagentaLightColor.colors:143
+msgid "Magenta Light"
+msgstr "Magenta luminos"
+
+#: usr/share/color-schemes/DreamVioletDarkColor.colors:143
+msgid "Violet Dark"
+msgstr "Violet întunecat"
+
+#: usr/share/color-schemes/DreamVioletLightColor.colors:143
+msgid "Violet Light"
+msgstr "Violet luminos"
