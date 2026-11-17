@@ -45,8 +45,16 @@ jobs:
       extra-install-packages: plasma-workspace kpackagetool6 python3
       smoke-command: |
         cd "$HOME"
+        dpkg -L mainuan-plasma-themes > files.txt
         python3 -I - > kpackages.txt <<'PY'
         import configparser, glob, json, os
+
+        # Only this package's files: plasma-workspace ships its own.
+        with open("files.txt", encoding="utf-8") as f:
+            ours = set(f.read().splitlines())
+
+        def mine(paths, marker=""):
+            return sorted(p for p in paths if p.rstrip("/") + marker in ours)
 
         def ini(path):
             c = configparser.ConfigParser(interpolation=None, strict=False)
@@ -58,7 +66,7 @@ jobs:
         kinds = {"plasmoids": "Plasma/Applet", "look-and-feel": "Plasma/LookAndFeel",
                  "desktoptheme": "Plasma/Theme"}
         for kind, kptype in kinds.items():
-            dirs = sorted(glob.glob(f"/usr/share/plasma/{kind}/*/"))
+            dirs = mine(glob.glob(f"/usr/share/plasma/{kind}/*/"), "/metadata.json")
             assert dirs, kind
             for d in dirs:
                 name = os.path.basename(d.rstrip("/"))
@@ -74,7 +82,7 @@ jobs:
                 else:
                     assert os.path.isdir(d + "widgets"), d
                 print(kptype, plugin.get("Id", name))
-        schemes = sorted(glob.glob("/usr/share/color-schemes/*.colors"))
+        schemes = mine(glob.glob("/usr/share/color-schemes/*.colors"))
         assert len(schemes) == 16, schemes
         for path in schemes:
             c = ini(path)
@@ -84,7 +92,9 @@ jobs:
         for t in ("brown-cursor", "cyan-cursor", "lavanda-cursor"):
             assert ini(f"/usr/share/icons/{t}/index.theme")["Icon Theme"]["Name"], t
             assert os.path.isfile(f"/usr/share/icons/{t}/cursors/left_ptr"), t
-        for d in sorted(glob.glob("/usr/share/aurorae/themes/*/")):
+        themes = mine(glob.glob("/usr/share/aurorae/themes/*/"))
+        assert len(themes) == 4, themes
+        for d in themes:
             name = os.path.basename(d.rstrip("/"))
             ini(d + "metadata.desktop")["Desktop Entry"]["Name"]
             ini(d + f"{name}rc")
