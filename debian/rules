@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+PKG := debian/mainuan-plasma-themes
+
+%:
+	dh $@
+
+execute_after_dh_install:
+	# Fontes de tradução (translate/), leia-mes e licenças dos widgets e
+	# cursores ficam no pacote-fonte; as licenças estão em debian/copyright.
+	find $(PKG)/usr/share/plasma/plasmoids -mindepth 2 -maxdepth 2 \
+	    \( -name translate -o -name 'README*' \) -exec rm -rf {} +
+	find $(PKG)/usr/share \( -name 'LICENSE*' -o -name 'README*' -o -name '*~' \) \
+	    -type f -delete
+
+execute_after_dh_fixperms:
+	# Temas e widgets são dados: nenhum arquivo precisa ser executável.
+	find $(PKG) -path $(PKG)/DEBIAN -prune -o -type f -perm /111 \
+	    -exec chmod a-x {} +

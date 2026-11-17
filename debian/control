@@ -1,0 +1,34 @@
+Source: mainuan-plasma-themes
+Section: kde
+Priority: optional
+Maintainer: Mainuan Packaging <openwebosbr@gmail.com>
+Uploaders: ruscher <rruscher@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               gettext <!nocheck>,
+               python3 <!nocheck>,
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Homepage: https://github.com/mainuan/plasma-themes
+Vcs-Browser: https://github.com/mainuan/plasma-themes
+Vcs-Git: https://github.com/mainuan/plasma-themes.git
+
+Package: mainuan-plasma-themes
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Recommends: plasma-workspace
+Description: temas, esquemas de cores, cursores e widgets do Plasma no Mainuan
+ Componentes visuais do KDE Plasma 6 usados pelo Mainuan Linux:
+  - temas globais (Dream, Blur-Glassy e MacTahoe, claro e escuro);
+  - temas do Plasma Dream-Color-Plasma ("Mainuan Desfoque"), Blur-Glassy e
+    MacTahoe;
+  - esquemas de cores Dream nas cores do Mainuan, Blur-Glassy e MacTahoe;
+  - decorações de janela Aurorae Lavanda ("Mainuan Claro/Escuro") e
+    MacTahoe;
+  - cursores Bibata nas cores ciano, marrom e lavanda;
+  - widgets TahoeLauncher, KdeControlStation, Chaac Complete Weather,
+    Deepin Menu Classic, Orbit Menu, Plasma Drawer, Overview, Compact Pager e
+    KDE AI Chat.
+ .
+ Tudo é instalado em caminhos próprios; nenhum arquivo do Plasma ou do
+ Kubuntu é substituído.
