@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "pcmciakai"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Quick settings, sliders and media controls in one popup, made to match Laetum Launcher",
+        "Icon": "preferences-system-symbolic",
+        "Id": "local.laetum.controlcenter",
+        "License": "GPL-3.0-or-later",
+        "Name": "Laetum Control Center",
+        "Version": "0.5.0",
+        "Website": "https://github.com/PcmciaKai/Laetum-Control-Center",
+        "BugReportUrl": "https://github.com/PcmciaKai/Laetum-Control-Center/issues"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

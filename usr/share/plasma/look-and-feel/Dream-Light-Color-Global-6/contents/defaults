@@ -24,4 +24,4 @@ library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Lavanda-Light
 
 [KSplash]
-Theme=org.mainuan.splash
+Theme=org.mainuan.desktop

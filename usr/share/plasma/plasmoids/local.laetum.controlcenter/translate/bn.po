@@ -1,0 +1,1203 @@
+# Bengali translation of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:30-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Bengali\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "সাধারণ"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "কাস্টম টাইল"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "প্লাগ ইন করা, চার্জ হচ্ছে"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "প্লাগ ইন করা, সম্পূর্ণ চার্জড"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "প্লাগ ইন করা, চার্জ হচ্ছে না"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "ব্যাটারিতে চলছে"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "পূর্ণ হতে %1 বাকি"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "%1 বাকি"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "একটি আইকন বেছে নিন"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"প্রতিটি কাস্টম টাইল আপনার নিজের কমান্ড চালায়। টগল বানাতে একটি ON ও একটি OFF "
+"কমান্ড দিন, আর বোতাম বানাতে শুধু একটি ON কমান্ড দিন। টাইলগুলি পপআপে যোগ করতে "
+"সাধারণ পাতায় যান।"
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "কাস্টম টাইল ১"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "নাম ও আইকন:"
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "কাস্টম ১"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "ON কমান্ড:"
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "যেমন systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "OFF কমান্ড:"
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "যেমন systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "অবস্থা কমান্ড:"
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "ঐচ্ছিক, যেমন systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "কাস্টম টাইল ২"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "কাস্টম ২"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "ঐচ্ছিক"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"কমান্ডগুলি sh দিয়ে চলে, তাই পাইপ ও && কাজ করে। অবস্থা কমান্ড টাইলকে জানায় সেটি "
+"চালু আছে কি না: exit code 0 মানে চালু। অবস্থা কমান্ড না থাকলে টাইলটি আপনার "
+"শেষবার সেট করা অবস্থা মনে রাখে। যেসব কমান্ড চলতেই থাকে (যেমন কোনো সার্ভার বা "
+"প্রোগ্রাম), সেগুলি এমন কিছু দিয়ে শুরু করুন যা সঙ্গে সঙ্গে ফিরে আসে, যেমন systemctl --"
+"user start বা setsid -f।"
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr ""
+"কমান্ডগুলি আপনার নামে, আপনার অনুমতি নিয়ে চলে। শুধু সেসব কমান্ডই ব্যবহার করুন যেগুলি "
+"আপনি বোঝেন ও বিশ্বাস করেন।"
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "রাতের আলো"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "বিরক্ত করবেন না"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "বিমান মোড"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "পাওয়ার মোড"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "মাইক্রোফোন"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "জাগিয়ে রাখুন"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "ডার্ক মোড"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "ক্লিপবোর্ড"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "রং বাছাই"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "স্ক্রিনশট"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "হটস্পট"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "প্যানেল আইকন:"
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr "প্যানেলের সব নির্দেশক লুকানো বা অনুপলব্ধ থাকলে দেখানো হয়"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "প্যানেল নির্দেশক:"
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "নেটওয়ার্ক"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "ভলিউম (স্ক্রল করে পরিবর্তন করুন)"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "ব্যাটারি"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr "বিজ্ঞপ্তি, অপঠিত থাকলে বা বিরক্ত করবেন না চালু থাকলে"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "টাইল:"
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "উপরে সরান"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "নিচে সরান"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"এই কম্পিউটারে যে হার্ডওয়্যার নেই তার টাইল (যেমন ডেস্কটপে Wi-Fi) নিজে থেকেই লুকিয়ে "
+"যায়। কাস্টম টাইলের কমান্ড কাস্টম টাইল পাতায় সেট করা হয়।"
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "দেখান:"
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "ভলিউম ও উজ্জ্বলতার স্লাইডার"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "মিডিয়া প্লেয়ার"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "অপসারণযোগ্য ডিভাইস, প্লাগ ইন থাকাকালীন"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "প্রিন্ট সারি, প্রিন্ট চলাকালীন"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "ট্যাব:"
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "বিজ্ঞপ্তি"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "হেডারে দেখাবে:"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "ব্যাটারি (ল্যাপটপে)"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "CPU ও RAM ব্যবহার"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "GPU ও VRAM ব্যবহার"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "কিছুই না"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "হেডারের উচ্চতা:"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "সরু"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "হেডারের বোতাম:"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "বড়"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "অ্যানিমেশন:"
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "ক্লিক করলে টাইল সংকুচিত হবে"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "দ্রুত সেটিংস, ভলিউম, উজ্জ্বলতা ও মিডিয়া"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "শব্দ"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "কোনো আউটপুট ডিভাইস নেই"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "অজানা ডিভাইস"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "আউটপুট"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "অ্যাপ"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr ""
+"কোনো অ্যাপ শব্দ বাজাচ্ছে না। অ্যাপগুলি শব্দ বাজানোর সময় নিজস্ব ভলিউমসহ এখানে দেখা "
+"যায়।"
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "ইনপুট"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "নিঃশব্দ"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "শব্দ সেটিংস"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "বন্ধ"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "কোনো ডিভাইস সংযুক্ত নেই"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "%1-এর সাথে সংযুক্ত"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "%1টি ডিভাইস সংযুক্ত"
+msgstr[1] "%1টি ডিভাইস সংযুক্ত"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "কোনো পেয়ার করা ডিভাইস নেই"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "Bluetooth বন্ধ আছে"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "সংযোগ করা হচ্ছে…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "সংযোগ বিচ্ছিন্ন করা হচ্ছে…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "সংযুক্ত · %1% ব্যাটারি"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "সংযুক্ত"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "সংযুক্ত নয়"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "সংযোগ বিচ্ছিন্ন করুন"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "ডিভাইস পেয়ার করুন…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "Bluetooth সেটিংস"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1টি আইটেম"
+msgstr[1] "%1টি আইটেম"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "খালি"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "ছবি, %1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "ইতিহাস থেকে সরান"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "এখনও কিছু কপি করা হয়নি"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "ইতিহাস মুছুন"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "%1 কপি করা হয়েছে"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "কপি করতে কোনো রঙে ক্লিক করুন"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "%1 কপি করুন"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "এখনও কোনো রং বাছাই করা হয়নি"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "একটি রং বাছুন"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "মুছুন"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "চালু · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "বিমান মোড চালু আছে"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "শুরু হচ্ছে…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "নেটওয়ার্কের নাম"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "পাসওয়ার্ড লুকান"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "পাসওয়ার্ড দেখান"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "পাসওয়ার্ড কপি করুন"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "নাম বা পাসওয়ার্ড বদলাতে হটস্পট বন্ধ করুন।"
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"বেশিরভাগ Wi-Fi কার্ড একই সময়ে কোনো নেটওয়ার্কে সংযুক্ত থাকতে ও হটস্পট হিসেবে কাজ "
+"করতে পারে না, তাই হটস্পট চালু করলে এই কম্পিউটারের Wi-Fi সংযোগ বিচ্ছিন্ন হতে পারে।"
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "পাসওয়ার্ডে অন্তত ৮টি অক্ষর থাকতে হবে।"
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "কোনো সংযুক্ত ডিভাইস নেই"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "আপনার ফোনে KDE Connect খুলুন, এই কম্পিউটারের সাথে একই নেটওয়ার্কে থেকে"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "KDE Connect খুলুন"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "%1-এ ফাইল পাঠান"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "%1% চার্জ হচ্ছে"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "আমার ফোনে রিং দিন"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "এই ডিভাইস ব্রাউজ করুন"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "ফাইল পাঠান (বা এখানে ছেড়ে দিন)"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "ক্লিপবোর্ড পাঠান"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "রিমোট কিবোর্ড"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "%1-এ টাইপ করতে এখানে টাইপ করুন"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "সব খারিজ করুন"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "উত্তর দিন"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "খারিজ করুন"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "%1-কে উত্তর দিন…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "পাঠান"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "একটি অ্যাপ দ্বারা বিরতিতে"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "%1 পর্যন্ত বিরতিতে"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "বিরতিতে"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "%1-এ শুরু হবে"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "চালু · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "আগামীকাল %1"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "বিরতি দিন"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "এখনই আবার চালু করুন"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "নইলে %1-এ আবার চালু হবে"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "এক ঘণ্টার জন্য বিরতি দিন"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "%1 পর্যন্ত"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "আগামীকাল সকাল পর্যন্ত বিরতি দিন"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "রাতের রঙের তাপমাত্রা"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "উষ্ণতর"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "শীতলতর"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "রাতের আলো সেটিংস"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1টি সংযুক্ত"
+msgstr[1] "%1টি সংযুক্ত"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "কোনো VPN সেট আপ করা নেই"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 VPN-এর মধ্য দিয়ে যাচ্ছে না"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"এই VPN শুধু IPv4 বহন করে, তাই IPv6 ব্যবহারকারী ওয়েবসাইটগুলি এখনও আপনার আসল "
+"ঠিকানা (%1-এর মাধ্যমে) দেখতে পারে। নেটওয়ার্ক সেটিংসে আপনার সাধারণ সংযোগের জন্য "
+"IPv6 বন্ধ করুন, অথবা এমন কোনো VPN কনফিগারেশন ব্যবহার করুন যাতে IPv6 অন্তর্ভুক্ত, "
+"যেমন WireGuard।"
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "সংযোগ করুন"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr ""
+"VPN সংযোগ নেটওয়ার্ক সেটিংসে যোগ করা হয়, যেমন আপনার VPN প্রদানকারীর কাছ থেকে "
+"পাওয়া কোনো কনফিগারেশন ফাইল ইম্পোর্ট করে।"
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "একটি VPN যোগ করুন…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "নেটওয়ার্ক খোঁজা হচ্ছে…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "উন্মুক্ত"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "সংযুক্ত · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "সংরক্ষিত · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "নেটওয়ার্ক সেটিংস"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "নিয়ন্ত্রণ"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "সিস্টেম সেটিংস"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "পাওয়ার"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "পিছনে"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "লক করুন"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "স্লিপ"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "হাইবারনেট"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "পুনরায় চালু করুন"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "বন্ধ করুন"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "ব্যবহারকারী বদলান"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "লগ আউট করুন"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "%1-এর শব্দ চালু করুন"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "%1 নিঃশব্দ করুন"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "%1-এর ভলিউম"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1: ডিসপ্লে সেটিংস"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "ডিসপ্লে সেটিংস"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "%1-এর উজ্জ্বলতা"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "স্ক্রিনের উজ্জ্বলতা"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "এখনও ব্যবহৃত হচ্ছে, আগে খোলা ফাইলগুলি বন্ধ করুন"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "অপসারণযোগ্য ডিভাইস"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "অপসারণযোগ্য ডিভাইস"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "সরানো হচ্ছে…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "মাউন্ট করা নেই"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "%2-এর মধ্যে %1 খালি"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "নিরাপদে সরান"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "আগের ট্র্যাক"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "চালান"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "পরের ট্র্যাক"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "প্রিন্ট হচ্ছে"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "শিরোনামহীন নথি"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "প্রিন্ট কাজ বাতিল করুন"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "শব্দ চালু করুন"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "নিঃশব্দ করুন"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "ভলিউম"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "শব্দ ডিভাইস ও অ্যাপ"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "এইমাত্র"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 মিনিট আগে"
+msgstr[1] "%1 মিনিট আগে"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "বিরতিতে · %1%"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "বিজ্ঞপ্তি সেটিংস"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "%1 খুলুন"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "আবার চালু করুন"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "বিরতি দিন"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "খুলুন"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "সব মুছুন"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "কোনো বিজ্ঞপ্তি নেই"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · %1টি বিজ্ঞপ্তি"
+msgstr[1] "%2 · %1টি বিজ্ঞপ্তি"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "কম দেখান"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "আরও %1টি দেখান"
+msgstr[1] "আরও %1টি দেখান"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "%1-এর সব বন্ধ করুন"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "আরও বিকল্প"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "চালু"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1টি সংযুক্ত"
+msgstr[1] "%1টি সংযুক্ত"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "Bluetooth ডিভাইস"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "বাছাই করা রং"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "কাস্টম %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "সেট আপ করা নেই"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "চলছে…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "চালান"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "এই টাইল সম্পাদনা করুন"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "বিরক্ত নয়"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "নেটওয়ার্কের নাম ও পাসওয়ার্ড"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %2%"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "স্লিপ আটকানো"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr "Laetum Control Center কম্পিউটারকে জাগিয়ে রাখছে"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "অডিও ডিভাইস"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "%1 পর্যন্ত বিরতিতে"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "%1 থেকে"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "বিরতি, তাপমাত্রা ও আরও"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "পাওয়ার সাশ্রয়"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "ভারসাম্যপূর্ণ"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "পারফরম্যান্স"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "পাওয়ার ব্যবস্থাপনা সেটিংস"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "একটি অঞ্চল নির্বাচন করুন"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "আরও ক্যাপচার মোড"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "অঞ্চল"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "পূর্ণ স্ক্রিন"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "সক্রিয় উইন্ডো"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "একটি অঞ্চল রেকর্ড করুন"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "স্ক্রিন রেকর্ড করুন"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "Spectacle খুলুন"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "VPN সংযোগ"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "বিমান মোড"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "হার্ডওয়্যার সুইচ বন্ধ"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "Wi-Fi নেটওয়ার্ক"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "GPU ব্যবহার"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "CPU ব্যবহার"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %2-এর মধ্যে %1"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %2-এর মধ্যে %1"

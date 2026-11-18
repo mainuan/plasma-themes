@@ -164,6 +164,16 @@ Copyright: 2020 Lucide Contributors
 License: ISC
 Comment: Lucide icons, https://lucide.dev/
 
+Files: usr/share/plasma/plasmoids/local.laetum.controlcenter/*
+Copyright: 2026 PcmciaKai
+           2026 Mainuan translators (translate/*.po, contents/locale/*)
+License: GPL-3+
+Comment: Laetum Control Center 0.5.0, https://github.com/PcmciaKai/Laetum-Control-Center
+ (tag v0.5.0, commit f94956956bdef70311c79e0689aaff2aa210d436; KDE Store
+ 2381920). metadata.json declara GPL-3.0-or-later e o arquivo LICENSE do
+ widget traz a GPL versão 3. As traduções foram feitas pelo Mainuan e seguem
+ a mesma licença.
+
 Files: debian/*
 Copyright: 2026 ruscher <rruscher@gmail.com>
 License: GPL-2

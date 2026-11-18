@@ -1,0 +1,1189 @@
+# Thai translation of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:31-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "ทั่วไป"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "ไทล์กำหนดเอง"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "เสียบปลั๊กอยู่ กำลังชาร์จ"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "เสียบปลั๊กอยู่ ชาร์จเต็มแล้ว"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "เสียบปลั๊กอยู่ ไม่ได้ชาร์จ"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "ใช้แบตเตอรี่"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "อีก %1 จะเต็ม"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "เหลืออีก %1"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "เลือกไอคอน"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"ไทล์กำหนดเองแต่ละอันจะรันคำสั่งของคุณเอง กำหนดทั้งคำสั่งเปิดและคำสั่งปิดเพื่อให้เป็นสวิตช์เปิด/ปิด "
+"หรือกำหนดเฉพาะคำสั่งเปิดเพื่อให้เป็นปุ่มกด เพิ่มไทล์ลงในป๊อปอัปได้ที่หน้าทั่วไป"
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "ไทล์กำหนดเอง 1"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "ชื่อและไอคอน:"
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "กำหนดเอง 1"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "คำสั่งเปิด:"
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "เช่น systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "คำสั่งปิด:"
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "เช่น systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "คำสั่งตรวจสถานะ:"
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "ไม่บังคับ เช่น systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "ไทล์กำหนดเอง 2"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "กำหนดเอง 2"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "ไม่บังคับ"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"คำสั่งจะรันด้วย sh จึงใช้ไพป์และ && ได้ คำสั่งตรวจสถานะจะบอกไทล์ว่าเปิดอยู่หรือไม่ โดย exit "
+"code 0 หมายถึงเปิด หากไม่มีคำสั่งนี้ ไทล์จะจำสถานะที่คุณตั้งไว้ล่าสุด คำสั่งที่ทำงานต่อเนื่อง (เช่น "
+"เซิร์ฟเวอร์หรือโปรแกรม) ควรเริ่มผ่านคำสั่งที่จบการทำงานกลับมา เช่น systemctl --user start "
+"หรือ setsid -f"
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr "คำสั่งจะรันในนามของคุณด้วยสิทธิ์ของคุณ โปรดใช้เฉพาะคำสั่งที่คุณเข้าใจและเชื่อถือได้เท่านั้น"
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "แสงกลางคืน"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "ห้ามรบกวน"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "โหมดเครื่องบิน"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "โหมดพลังงาน"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "ไมโครโฟน"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "ไม่พักเครื่อง"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "โหมดมืด"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "คลิปบอร์ด"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "ตัวเลือกสี"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "ภาพหน้าจอ"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "ฮอตสปอต"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "ไอคอนบนพาเนล:"
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr "แสดงเมื่อตัวบ่งชี้บนพาเนลทั้งหมดถูกซ่อนหรือใช้งานไม่ได้"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "ตัวบ่งชี้บนพาเนล:"
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "เครือข่าย"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "ระดับเสียง (เลื่อนล้อเมาส์เพื่อปรับ)"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "แบตเตอรี่"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr "การแจ้งเตือน เมื่อมีรายการที่ยังไม่อ่านหรือเปิดห้ามรบกวนอยู่"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "ไทล์:"
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "เลื่อนขึ้น"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "เลื่อนลง"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"ไทล์ของฮาร์ดแวร์ที่คอมพิวเตอร์เครื่องนี้ไม่มี (เช่น Wi-Fi บนเครื่องเดสก์ท็อป) "
+"จะซ่อนตัวเองโดยอัตโนมัติ ส่วนคำสั่งของไทล์กำหนดเองตั้งค่าได้ที่หน้าไทล์กำหนดเอง"
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "แสดง:"
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "แถบเลื่อนระดับเสียงและความสว่าง"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "เครื่องเล่นสื่อ"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "อุปกรณ์ที่ถอดออกได้ เมื่อเสียบอยู่"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "คิวการพิมพ์ ขณะกำลังพิมพ์"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "แท็บ:"
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "การแจ้งเตือน"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "ส่วนหัวแสดง:"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "แบตเตอรี่ (บนแล็ปท็อป)"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "การใช้ CPU และ RAM"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "การใช้ GPU และ VRAM"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "ไม่แสดง"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "ความสูงของส่วนหัว:"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "ค่าปริยาย"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "แบบบาง"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "ปุ่มบนส่วนหัว:"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "ค่าปริยาย"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "ขนาดใหญ่"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "ภาพเคลื่อนไหว:"
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "ย่อไทล์เมื่อคลิก"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "ตั้งค่าด่วน ระดับเสียง ความสว่าง และสื่อ"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "เสียง"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "ไม่มีอุปกรณ์ส่งออกเสียง"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "อุปกรณ์ที่ไม่รู้จัก"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "เสียงออก"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "แอป"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr "ไม่มีแอปที่กำลังเล่นเสียง แอปจะปรากฏที่นี่พร้อมระดับเสียงของตัวเองขณะเล่น"
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "เสียงเข้า"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "ปิดเสียงอยู่"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "ตั้งค่าเสียง"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "ปิด"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "ไม่มีอุปกรณ์ที่เชื่อมต่อ"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "เชื่อมต่อกับ %1 แล้ว"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "เชื่อมต่อ %1 อุปกรณ์"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "ไม่มีอุปกรณ์ที่จับคู่ไว้"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "Bluetooth ปิดอยู่"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "กำลังเชื่อมต่อ…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "กำลังตัดการเชื่อมต่อ…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "เชื่อมต่อแล้ว · แบตเตอรี่ %1%"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "ไม่ได้เชื่อมต่อ"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "ตัดการเชื่อมต่อ"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "จับคู่อุปกรณ์…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "ตั้งค่า Bluetooth"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 รายการ"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "ว่างเปล่า"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "รูปภาพ %1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "ลบออกจากประวัติ"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "ยังไม่มีสิ่งที่คัดลอก"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "ล้างประวัติ"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "คัดลอก %1 แล้ว"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "คลิกที่สีเพื่อคัดลอก"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "คัดลอก %1"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "ยังไม่ได้เลือกสีใด"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "เลือกสี"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "ล้าง"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "เปิด · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "โหมดเครื่องบินเปิดอยู่"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "กำลังเริ่ม…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "ชื่อเครือข่าย"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "ซ่อนรหัสผ่าน"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "แสดงรหัสผ่าน"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "คัดลอกรหัสผ่าน"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "ปิดฮอตสปอตก่อนเพื่อเปลี่ยนชื่อหรือรหัสผ่าน"
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"การ์ด Wi-Fi ส่วนใหญ่ไม่สามารถเชื่อมต่อเครือข่ายและเป็นฮอตสปอตไปพร้อมกันได้ "
+"การเริ่มฮอตสปอตจึงอาจทำให้คอมพิวเตอร์เครื่องนี้ตัดการเชื่อมต่อ Wi-Fi"
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร"
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "ไม่มีอุปกรณ์ที่เชื่อมต่อ"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "เปิด KDE Connect บนโทรศัพท์ของคุณ โดยใช้เครือข่ายเดียวกับคอมพิวเตอร์เครื่องนี้"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "เปิด KDE Connect"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "ส่งแฟ้มไปยัง %1"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "%1% กำลังชาร์จ"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "ให้โทรศัพท์ส่งเสียง"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "เรียกดูอุปกรณ์นี้"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "ส่งแฟ้ม (หรือลากมาวางที่นี่)"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "ส่งคลิปบอร์ด"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "แป้นพิมพ์ระยะไกล"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "พิมพ์ที่นี่เพื่อพิมพ์บน %1"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "ปิดทั้งหมด"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "ตอบกลับ"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "ปิด"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "ตอบกลับ %1…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "ส่ง"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "หยุดชั่วคราวโดยแอป"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "หยุดชั่วคราวจนถึง %1"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "หยุดชั่วคราว"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "เริ่มเวลา %1"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "เปิด · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "พรุ่งนี้ %1"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "หยุดชั่วคราว"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "ทำงานต่อทันที"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "มิฉะนั้นจะทำงานต่อเวลา %1"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "หยุดชั่วคราวหนึ่งชั่วโมง"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "จนถึง %1"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "หยุดชั่วคราวจนถึงพรุ่งนี้เช้า"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "อุณหภูมิสีตอนกลางคืน"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "อุ่นขึ้น"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "เย็นลง"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "ตั้งค่าแสงกลางคืน"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "เชื่อมต่อ %1 รายการ"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "ยังไม่ได้ตั้งค่า VPN"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 ไม่ได้ผ่าน VPN"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"VPN นี้รองรับเฉพาะ IPv4 เว็บไซต์ที่ใช้ IPv6 จึงยังเห็นที่อยู่จริงของคุณได้ (ผ่าน %1) โปรดปิด "
+"IPv6 ของการเชื่อมต่อปกติในการตั้งค่าเครือข่าย หรือใช้การกำหนดค่า VPN ที่รองรับ IPv6 เช่น "
+"WireGuard"
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "เชื่อมต่อ"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr ""
+"การเชื่อมต่อ VPN เพิ่มได้ในการตั้งค่าเครือข่าย เช่น โดยการนำเข้าแฟ้มการกำหนดค่าจากผู้ให้บริการ "
+"VPN ของคุณ"
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "เพิ่ม VPN…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "กำลังค้นหาเครือข่าย…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "แบบเปิด"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "เชื่อมต่อแล้ว · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "บันทึกไว้ · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "ตั้งค่าเครือข่าย"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "ตัวควบคุม"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "ตั้งค่าระบบ"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "พลังงาน"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "ย้อนกลับ"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "ล็อก"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "พักเครื่อง"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "ไฮเบอร์เนต"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "เริ่มระบบใหม่"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "ปิดเครื่อง"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "สลับผู้ใช้"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "ออกจากระบบ"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "เปิดเสียง %1"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "ปิดเสียง %1"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "ระดับเสียงของ %1"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1: ตั้งค่าการแสดงผล"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "ตั้งค่าการแสดงผล"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "ความสว่างของ %1"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "ความสว่างหน้าจอ"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "ยังใช้งานอยู่ โปรดปิดแฟ้มที่เปิดอยู่ก่อน"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "อุปกรณ์ที่ถอดออกได้"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "อุปกรณ์ที่ถอดออกได้"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "กำลังถอด…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "ไม่ได้เมานท์"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "ว่าง %1 จาก %2"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "ถอดออกอย่างปลอดภัย"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "เพลงก่อนหน้า"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "เล่น"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "เพลงถัดไป"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "กำลังพิมพ์"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "เอกสารไม่มีชื่อ"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "ยกเลิกงานพิมพ์"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "เปิดเสียง"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "ปิดเสียง"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "ระดับเสียง"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "อุปกรณ์เสียงและแอป"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "เมื่อสักครู่"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 นาทีที่แล้ว"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "หยุดชั่วคราว · %1%"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "ตั้งค่าการแจ้งเตือน"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "ปิด"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "เปิด %1"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "ทำต่อ"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "หยุดชั่วคราว"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "เปิด"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "ล้างทั้งหมด"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "ไม่มีการแจ้งเตือน"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · การแจ้งเตือน %1 รายการ"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "แสดงน้อยลง"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "แสดงเพิ่มอีก %1 รายการ"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "ปิดทั้งหมดจาก %1"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "ตัวเลือกเพิ่มเติม"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "เปิด"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "เชื่อมต่อ %1 เครื่อง"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "อุปกรณ์ Bluetooth"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "สีที่เลือกไว้"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "กำหนดเอง %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "ยังไม่ได้ตั้งค่า"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "กำลังทำงาน…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "รัน"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "แก้ไขไทล์นี้"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "ห้ามรบกวน"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "ชื่อเครือข่ายและรหัสผ่าน"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %2%"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "ป้องกันการพักเครื่อง"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr "Laetum Control Center กำลังป้องกันไม่ให้คอมพิวเตอร์พักเครื่อง"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "อุปกรณ์เสียง"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "หยุดชั่วคราวถึง %1"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "ตั้งแต่ %1"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "หยุดชั่วคราว อุณหภูมิสี และอื่นๆ"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "ประหยัดพลังงาน"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "สมดุล"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "ประสิทธิภาพสูง"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "ตั้งค่าการจัดการพลังงาน"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "เลือกพื้นที่"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "โหมดจับภาพเพิ่มเติม"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "พื้นที่"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "เต็มหน้าจอ"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "หน้าต่างที่ใช้งานอยู่"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "บันทึกวิดีโอพื้นที่"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "บันทึกวิดีโอหน้าจอ"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "เปิด Spectacle"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "การเชื่อมต่อ VPN"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "โหมดเครื่องบิน"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "สวิตช์ฮาร์ดแวร์ปิดอยู่"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "เครือข่าย Wi-Fi"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "การใช้ GPU"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "การใช้ CPU"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %1 จาก %2"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %1 จาก %2"
