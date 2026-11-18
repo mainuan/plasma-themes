@@ -1,3 +1,12 @@
+mainuan-plasma-themes (2026.11.18) resolute; urgency=medium
+
+  * Dream (claro e escuro): a tela de apresentação do tema global apontava
+    para "Magna-Splash-6", que não é distribuída, e o Plasma caía na do
+    Breeze. Agora usa a tela do Mainuan (org.mainuan.splash, pacote
+    mainuan-plasma-splash, recomendado).
+
+ -- ruscher <rruscher@gmail.com>  Wed, 18 Nov 2026 06:21:47 -0300
+
 mainuan-plasma-themes (2026.11.17.1) resolute; urgency=medium
 
   * Licença: o trabalho original do Mainuan (po/, tools/, documentação e
