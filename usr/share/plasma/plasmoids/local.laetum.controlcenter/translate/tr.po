@@ -1,0 +1,1204 @@
+# Turkish translation of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:38-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "Genel"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "Özel Döşemeler"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "Prize takılı, şarj oluyor"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "Prize takılı, tamamen dolu"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "Prize takılı, şarj olmuyor"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "Pilde"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "Dolmasına %1"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "%1 kaldı"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "Bir simge seçin"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"Her özel döşeme sizin komutlarınızı çalıştırır. Bir aç/kapat düğmesi yapmak "
+"için AÇ ve KAPAT komutu, bir düğme yapmak için yalnızca AÇ komutu verin. "
+"Döşemeleri açılır pencereye Genel sayfasından ekleyin."
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "Özel döşeme 1"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "Ad ve simge:"
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "Özel 1"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "AÇ komutu:"
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "örn. systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "KAPAT komutu:"
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "örn. systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "Durum komutu:"
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "İsteğe bağlı, örn. systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "Özel döşeme 2"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "Özel 2"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"Komutlar sh ile çalışır, bu nedenle borular ve && çalışır. Durum komutu, "
+"döşemeye açık olup olmadığını bildirir: 0 çıkış kodu açık demektir. Durum "
+"komutu yoksa döşeme en son ayarladığınız durumu anımsar. Çalışmayı sürdüren "
+"komutlar (bir sunucu, bir program), systemctl --user start veya setsid -f "
+"gibi hemen dönen bir şeyle başlatılmalıdır."
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr ""
+"Komutlar sizin adınıza, sizin izinlerinizle çalışır. Yalnızca anladığınız ve "
+"güvendiğiniz komutları kullanın."
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "Gece Işığı"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "Rahatsız Etme"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "Uçak Kipi"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "Güç Kipi"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "Mikrofon"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "Uyanık Tut"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "Karanlık Kip"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "Pano"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "Renk Seçicisi"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "Ekran Görüntüsü"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "Etkin Nokta"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "Panel simgesi:"
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr "Tüm panel göstergeleri gizli veya kullanılamaz olduğunda gösterilir"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "Panel göstergeleri:"
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "Ağ"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "Ses düzeyi (değiştirmek için kaydırın)"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "Pil"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr "Bildirimler, okunmamış varken veya Rahatsız Etme açıkken"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "Döşemeler:"
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"Bu bilgisayarda bulunmayan donanımların döşemeleri (örneğin masaüstünde Wi-"
+"Fi) kendiliğinden gizlenir. Özel döşemelerin komutları Özel Döşemeler "
+"sayfasında ayarlanır."
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "Göster:"
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "Ses düzeyi ve parlaklık sürgüleri"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "Ortam oynatıcısı"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "Çıkarılabilir aygıtlar, takılıyken"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "Yazdırma kuyruğu, yazdırırken"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "Sekmeler:"
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "Üst bilgide gösterilen:"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "Pil (dizüstülerde)"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "İşlemci ve RAM kullanımı"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "GPU ve VRAM kullanımı"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "Hiçbir şey"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "Üst bilgi yüksekliği:"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "İnce"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "Üst bilgi düğmeleri:"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "Büyük"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "Canlandırmalar:"
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "Tıklandığında döşemeleri sıkıştır"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%%1"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "Hızlı ayarlar, ses düzeyi, parlaklık ve ortam"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "Ses"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "Çıkış aygıtı yok"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "Bilinmeyen aygıt"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "Çıkış"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "Uygulamalar"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr ""
+"Ses çalan uygulama yok. Uygulamalar ses çalarken kendi ses düzeyleriyle "
+"burada görünür."
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "Giriş"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "Sessiz"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "Ses Ayarları"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "Kapalı"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "Bağlı aygıt yok"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "Bağlı: %1"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "%1 aygıt bağlı"
+msgstr[1] "%1 aygıt bağlı"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "Eşleştirilmiş aygıt yok"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "Bluetooth kapalı"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "Bağlanıyor…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "Bağlantı kesiliyor…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "Bağlı · pil %%1"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "Bağlı"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "Bağlı değil"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "Bağlantıyı Kes"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "Aygıt Eşleştir…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "Bluetooth Ayarları"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 öge"
+msgstr[1] "%1 öge"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "Boş"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "Görsel, %1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "Geçmişten kaldır"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "Henüz bir şey kopyalanmadı"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "Geçmişi Temizle"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "%1 kopyalandı"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "Kopyalamak için bir renge tıklayın"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "%1 değerini kopyala"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "Henüz renk seçilmedi"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "Renk Seç"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "Temizle"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "Açık · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "Uçak kipi açık"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "Başlatılıyor…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "Ağ adı"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "Parola"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "Parolayı gizle"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "Parolayı göster"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "Parolayı kopyala"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "Adı veya parolayı değiştirmek için etkin noktayı kapatın."
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"Çoğu Wi-Fi kartı aynı anda hem bir ağa bağlı olup hem de etkin nokta olamaz; "
+"bu nedenle başlatmak, bu bilgisayarın Wi-Fi bağlantısını kesebilir."
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "Parola en az 8 karakter olmalıdır."
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "Bağlı aygıt yok"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "Telefonunuzda, bu bilgisayarla aynı ağda KDE Connect'i açın"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "KDE Connect'i Aç"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "%1 aygıtına dosya gönder"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "%%1 şarj oluyor"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%%1"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "Telefonumu çaldır"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "Bu aygıta göz at"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "Dosya gönder (veya buraya bırakın)"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "Panoyu Gönder"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "Uzak klavye"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "%1 üzerinde yazmak için buraya yazın"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "Tümünü kapat"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "Yanıtla"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "%1 için yanıt…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "Gönder"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "Bir uygulama tarafından duraklatıldı"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "%1 saatine dek duraklatıldı"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "Duraklatıldı"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "%1 saatinde başlar"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "Açık · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "yarın %1"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "Duraklat"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "Şimdi sürdür"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "Aksi durumda %1 saatinde sürdürülür"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "Bir saatliğine duraklat"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "%1 saatine dek"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "Yarın sabaha dek duraklat"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "Gece renk sıcaklığı"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "Daha sıcak"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "Daha soğuk"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "Gece Işığı Ayarları"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 bağlı"
+msgstr[1] "%1 bağlı"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "VPN ayarlanmadı"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 VPN üzerinden geçmiyor"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"Bu VPN yalnızca IPv4 taşıyor, bu nedenle IPv6 kullanan web siteleri gerçek "
+"adresinizi (%1 üzerinden) hâlâ görebilir. Ağ ayarlarında olağan bağlantınız "
+"için IPv6'yı kapatın veya WireGuard gibi IPv6 içeren bir VPN yapılandırması "
+"kullanın."
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "Bağlan"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr ""
+"VPN bağlantıları ağ ayarlarında eklenir; örneğin VPN sağlayıcınızdan bir "
+"yapılandırma dosyasını içe aktararak."
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "VPN Ekle…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "Ağlar aranıyor…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "Açık"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "Bağlı · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "Kayıtlı · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "İptal"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "Ağ Ayarları"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "Denetimler"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "Sistem Ayarları"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "Güç"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "Geri"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "Kilitle"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "Uyku"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "Hazırda Beklet"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "Yeniden Başlat"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "Kapat"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "Kullanıcı Değiştir"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "Oturumu Kapat"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "%1 sesini aç"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "%1 sesini kapat"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "%1 ses düzeyi"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1: ekran ayarları"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "Ekran Ayarları"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "%1 parlaklığı"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "Ekran parlaklığı"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "Hâlâ kullanımda, önce açık dosyaları kapatın"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "Çıkarılabilir aygıtlar"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "Çıkarılabilir aygıt"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "Kaldırılıyor…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "Bağlanmamış"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "%2 içinde %1 boş"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "Güvenli Kaldır"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "Önceki parça"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "Oynat"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "Sonraki parça"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "Yazdırılıyor"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "Adsız belge"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "Yazdırma işini iptal et"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "Sesi aç"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "Sesi kapat"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "Ses düzeyi"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "Ses aygıtları ve uygulamalar"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Az önce"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 dk önce"
+msgstr[1] "%1 dk önce"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "Duraklatıldı · %%1"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/sn"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%%1"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "Bildirim Ayarları"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "Kapat"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "Aç: %1"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "Sürdür"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "İptal"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "Aç"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "Tümünü temizle"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "Bildirim yok"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · %1 bildirim"
+msgstr[1] "%2 · %1 bildirim"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "Daha az göster"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "%1 tane daha göster"
+msgstr[1] "%1 tane daha göster"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "%1 bildirimlerinin tümünü kapat"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "Daha fazla seçenek"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "Açık"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 bağlı"
+msgstr[1] "%1 bağlı"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "Bluetooth aygıtları"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "Seçilen renkler"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "Özel %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "Ayarlanmadı"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "Çalışıyor…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "Çalıştır"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "Bu döşemeyi düzenle"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "Rahatsız Etme"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "Ağ adı ve parola"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %%2"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "Uyku engellendi"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr "Laetum Control Center bilgisayarı uyanık tutuyor"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "Ses aygıtları"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "%1 saatine dek duraklatıldı"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "%1 saatinden itibaren"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "Duraklatma, sıcaklık ve daha fazlası"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "Güç Tasarrufu"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "Dengeli"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "Başarım"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "Güç Yönetimi Ayarları"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "Bir bölge seçin"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "Daha fazla yakalama kipi"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "Bölge"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "Tam Ekran"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "Etkin Pencere"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "Bir bölgeyi kaydet"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "Ekranı kaydet"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "Spectacle'ı Aç"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "VPN bağlantıları"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "Uçak kipi"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "Donanım anahtarı kapalı"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "Wi-Fi ağları"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "GPU kullanımı"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "İşlemci kullanımı"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %1 / %2"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %1 / %2"

@@ -1,0 +1,1214 @@
+# Translation template of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:34-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "Ogólne"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "Własne kafelki"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "Podłączono, ładowanie"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "Podłączono, w pełni naładowana"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "Podłączono, bez ładowania"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "Na baterii"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "%1 do pełna"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "Pozostało %1"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "Wybierz ikonę"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"Każdy własny kafelek wykonuje twoje polecenia. Podaj polecenie WŁĄCZ i "
+"WYŁĄCZ, aby był przełącznikiem, albo tylko polecenie WŁĄCZ, aby był "
+"przyciskiem. Dodaj kafelki do okienka na stronie Ogólne."
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "Własny kafelek 1"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "Nazwa i ikona:"
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "Własny 1"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "Polecenie WŁĄCZ:"
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "np. systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "Polecenie WYŁĄCZ:"
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "np. systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "Polecenie stanu:"
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "Opcjonalne, np. systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "Własny kafelek 2"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "Własny 2"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "Opcjonalne"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"Polecenia są wykonywane przez sh, więc potoki i && działają. Polecenie stanu "
+"informuje kafelek, czy jest włączony: kod wyjścia 0 oznacza włączony. Bez "
+"niego kafelek pamięta stan, który ustawiono ostatnio. Polecenia, które "
+"działają dalej (serwer, program), należy uruchamiać czymś, co od razu kończy "
+"działanie, np. systemctl --user start lub setsid -f."
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr ""
+"Polecenia są wykonywane jako ty, z twoimi uprawnieniami. Używaj tylko "
+"poleceń, które rozumiesz i którym ufasz."
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "Nocne barwy"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "Nie przeszkadzać"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "Tryb samolotowy"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "Tryb zasilania"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "Mikrofon"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "Nie usypiaj"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "Tryb ciemny"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "Schowek"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "Próbnik barw"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "Zrzut ekranu"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "Hotspot"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "Ikona na panelu:"
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr ""
+"Wyświetlana, gdy wszystkie wskaźniki na panelu są ukryte lub niedostępne"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "Wskaźniki na panelu:"
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "Sieć"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "Głośność (przewiń, aby zmienić)"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "Bateria"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr ""
+"Powiadomienia, gdy są nieprzeczytane lub włączono tryb Nie przeszkadzać"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "Kafelki:"
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "Przesuń w górę"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "Przesuń w dół"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"Kafelki sprzętu, którego ten komputer nie ma (np. Wi-Fi w komputerze "
+"stacjonarnym), same się ukrywają. Polecenia własnych kafelków ustawia się na "
+"stronie Własne kafelki."
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "Pokaż:"
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "Suwaki głośności i jasności"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "Odtwarzacz multimediów"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "Urządzenia wymienne, gdy są podłączone"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "Kolejka wydruku, podczas drukowania"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "Karty:"
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "Nagłówek pokazuje:"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "Baterię (w laptopach)"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "Użycie CPU i RAM"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "Użycie GPU i VRAM"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "Nic"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "Wysokość nagłówka:"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "Domyślna"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "Niska"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "Przyciski nagłówka:"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "Domyślne"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "Duże"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "Animacje:"
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "Ściskaj kafelki po kliknięciu"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "Szybkie ustawienia, głośność, jasność i multimedia"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "Dźwięk"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "Brak urządzenia wyjściowego"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "Nieznane urządzenie"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "Wyjście"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "Aplikacje"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr ""
+"Żadna aplikacja nie odtwarza dźwięku. Aplikacje pojawiają się tutaj z własną "
+"głośnością podczas odtwarzania."
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "Wejście"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "Wyciszono"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "Ustawienia dźwięku"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "Wyłączone"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "Brak podłączonych urządzeń"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "Połączono z %1"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "Podłączono %1 urządzenie"
+msgstr[1] "Podłączono %1 urządzenia"
+msgstr[2] "Podłączono %1 urządzeń"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "Brak sparowanych urządzeń"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "Bluetooth jest wyłączony"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "Łączenie…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "Rozłączanie…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "Połączono · bateria %1%"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "Połączono"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "Nie połączono"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "Rozłącz"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "Sparuj urządzenie…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "Ustawienia Bluetooth"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elementy"
+msgstr[2] "%1 elementów"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "Pusty"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "Obraz, %1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "Usuń z historii"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "Jeszcze nic nie skopiowano"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "Wyczyść historię"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "Skopiowano %1"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "Kliknij barwę, aby ją skopiować"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "Skopiuj %1"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "Jeszcze nie wybrano barw"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "Wybierz barwę"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "Włączony · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "Tryb samolotowy jest włączony"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "Uruchamianie…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "Nazwa sieci"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "Hasło"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "Ukryj hasło"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "Pokaż hasło"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "Skopiuj hasło"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "Wyłącz hotspot, aby zmienić nazwę lub hasło."
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"Większość kart Wi-Fi nie może jednocześnie być połączona z siecią i działać "
+"jako hotspot, więc jego uruchomienie może rozłączyć ten komputer z Wi-Fi."
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "Hasło musi mieć co najmniej 8 znaków."
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "Brak podłączonych urządzeń"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "Otwórz KDE Connect na telefonie, w tej samej sieci co ten komputer"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "Otwórz KDE Connect"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "Wyślij pliki do %1"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "Ładowanie %1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "Zadzwoń na mój telefon"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "Przeglądaj to urządzenie"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "Wyślij pliki (lub upuść je tutaj)"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "Wyślij schowek"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "Zdalna klawiatura"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "Pisz tutaj, aby pisać na %1"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "Odrzuć wszystkie"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "Odpowiedz"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "Odrzuć"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "Odpowiedz na %1…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "Wyślij"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "Wstrzymane przez aplikację"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "Wstrzymane do %1"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "Wstrzymane"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "Rozpocznie się o %1"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "Włączone · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "%1 jutro"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "Wznów teraz"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "W przeciwnym razie wznowi się o %1"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "Wstrzymaj na godzinę"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "Do %1"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "Wstrzymaj do jutra rana"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "Nocna temperatura barwowa"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "Cieplej"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "Chłodniej"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "Ustawienia nocnych barw"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 połączona"
+msgstr[1] "%1 połączone"
+msgstr[2] "%1 połączonych"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "Nie skonfigurowano VPN"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 nie przechodzi przez VPN"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"Ta sieć VPN przenosi tylko IPv4, więc strony używające IPv6 nadal mogą "
+"widzieć twój prawdziwy adres (przez %1). Wyłącz IPv6 dla zwykłego połączenia "
+"w ustawieniach sieci albo użyj konfiguracji VPN obejmującej IPv6, np. "
+"WireGuard."
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "Połącz"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr ""
+"Połączenia VPN dodaje się w ustawieniach sieci, np. importując plik "
+"konfiguracji od dostawcy VPN."
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "Dodaj VPN…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "Wyszukiwanie sieci…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "Otwarta"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "Połączono · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "Zapisana · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "Ustawienia sieci"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "Sterowanie"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "Ustawienia systemowe"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "Zasilanie"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "Wstecz"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "Zablokuj"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "Uśpij"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "Hibernuj"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "Uruchom ponownie"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "Wyłącz"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "Przełącz użytkownika"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "Wyloguj"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "Usuń wyciszenie %1"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "Wycisz %1"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "Głośność %1"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1: ustawienia ekranu"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "Ustawienia ekranu"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "Jasność %1"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "Jasność ekranu"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "Nadal w użyciu, najpierw zamknij wszystkie otwarte pliki"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "Urządzenia wymienne"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "Urządzenie wymienne"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "Odpinanie…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "Niezamontowane"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "%1 wolnych z %2"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "Wysuń bezpiecznie"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "Poprzedni utwór"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "Odtwórz"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "Następny utwór"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "Drukowanie"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "Dokument bez tytułu"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "Anuluj zadanie drukowania"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "Wyłącz wyciszenie"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "Wycisz"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "Głośność"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "Urządzenia dźwiękowe i aplikacje"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Teraz"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 min temu"
+msgstr[1] "%1 min temu"
+msgstr[2] "%1 min temu"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "Wstrzymane · %1%"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "Ustawienia powiadomień"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "Zamknij"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "Otwórz %1"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "Wznów"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "Otwórz"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "Wyczyść wszystkie"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "Brak powiadomień"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · %1 powiadomienie"
+msgstr[1] "%2 · %1 powiadomienia"
+msgstr[2] "%2 · %1 powiadomień"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "Pokaż mniej"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "Pokaż %1 więcej"
+msgstr[1] "Pokaż %1 więcej"
+msgstr[2] "Pokaż %1 więcej"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "Zamknij wszystkie z %1"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "Więcej opcji"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "Włączone"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 połączone"
+msgstr[1] "%1 połączone"
+msgstr[2] "%1 połączonych"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "Urządzenia Bluetooth"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "Wybrane barwy"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "Własny %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "Nieskonfigurowane"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "Wykonywanie…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "Uruchom"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "Edytuj ten kafelek"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "Nie przeszkadzać"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "Nazwa sieci i hasło"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %2%"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "Usypianie zablokowane"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr "Laetum Control Center nie pozwala komputerowi zasnąć"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "Urządzenia dźwiękowe"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "Wstrzymane do %1"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "Od %1"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "Wstrzymanie, temperatura i więcej"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "Oszczędzanie energii"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "Zrównoważony"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "Wydajność"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "Ustawienia zarządzania energią"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "Zaznacz obszar"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "Więcej trybów przechwytywania"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "Obszar"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "Cały ekran"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "Bieżące okno"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "Nagraj obszar"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "Nagraj ekran"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "Otwórz Spectacle"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "Połączenia VPN"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "Tryb samolotowy"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "Wyłączone przełącznikiem sprzętowym"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "Sieci Wi-Fi"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "Użycie GPU"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "Użycie CPU"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %1 z %2"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %1 z %2"

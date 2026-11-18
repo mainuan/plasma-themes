@@ -25,7 +25,8 @@ The `usr/share/` tree of this repository is installed as-is by the
 - 16 colour schemes, including 12 Dream schemes in the Mainuan accent colours;
 - Aurorae decorations: Lavanda ("Mainuan-Claro/Escuro") and MacTahoe;
 - Bibata Modern cursors in cyan, brown and lavender;
-- widgets: Tahoe Launcher, KDE Control Station, Chaac Complete Weather,
+- widgets: Tahoe Launcher, KDE Control Station, Laetum Control Center (translated
+  into 33 languages by Mainuan), Chaac Complete Weather,
   Deepin Menu Classic, Orbit Menu, Plasma Drawer, Overview, Compact Pager and
   KDE AI Chat.
 
@@ -69,7 +70,7 @@ Santos ([natanael-art](https://github.com/natanael-art)).
 Third-party work, as recorded in [`debian/copyright`](debian/copyright):
 Blur-Glassy and Dream by L4ki; MacTahoe and Lavanda by Vince Liuice; Bibata
 cursors by Abdulkaiz Khatri; widgets by zayronxio, Tino Lorenz and Diego
-Miguel, Himprakash Deka, Eliver Lara, Rachit Asthana, Connor Popp, Friedrich
+Miguel, PcmciaKai (Laetum Control Center), Himprakash Deka, Eliver Lara, Rachit Asthana, Connor Popp, Friedrich
 Schriewer and Prateek SU, with code from KDE Plasma authors; Feather icons by
 Cole Bemis and Lucide icons by the Lucide contributors. The Portuguese README
 lists each component with its source and license.

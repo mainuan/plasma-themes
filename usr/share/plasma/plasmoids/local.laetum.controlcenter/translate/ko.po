@@ -1,0 +1,1196 @@
+# Korean translation of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:30-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "일반"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "사용자 정의 타일"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "전원 연결됨, 충전 중"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "전원 연결됨, 완전히 충전됨"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "전원 연결됨, 충전하지 않음"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "배터리 사용 중"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "완충까지 %1"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "%1 남음"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "아이콘 선택"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"사용자 정의 타일은 직접 지정한 명령을 실행합니다. 켜기 명령과 끄기 명령을 모"
+"두 지정하면 토글이 되고, 켜기 명령만 지정하면 버튼이 됩니다. 타일을 팝업에 추"
+"가하려면 일반 페이지를 사용하십시오."
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "사용자 정의 타일 1"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "이름과 아이콘:"
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "사용자 정의 1"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "켜기 명령:"
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "예: systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "끄기 명령:"
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "예: systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "상태 명령:"
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "선택 사항, 예: systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "사용자 정의 타일 2"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "사용자 정의 2"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "선택 사항"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"명령은 sh로 실행되므로 파이프와 &&를 사용할 수 있습니다. 상태 명령은 타일이 "
+"켜져 있는지 알려 주며, exit code 0이면 켜진 것으로 간주합니다. 상태 명령이 없"
+"으면 타일은 마지막으로 설정한 상태를 기억합니다. 서버나 프로그램처럼 계속 실"
+"행되는 명령은 systemctl --user start 또는 setsid -f처럼 바로 반환되는 방법으"
+"로 시작해야 합니다."
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr ""
+"명령은 현재 사용자의 권한으로 실행됩니다. 이해하고 신뢰할 수 있는 명령만 사용"
+"하십시오."
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "블루투스"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "야간 조명"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "방해 금지 모드"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "비행기 모드"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "전원 모드"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "마이크"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "대기 모드 차단"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "어두운 모드"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "클립보드"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "색 선택기"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "스크린샷"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "핫스팟"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "패널 아이콘:"
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr "모든 패널 표시기가 숨겨져 있거나 사용할 수 없을 때 표시됨"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "패널 표시기:"
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "네트워크"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "음량(스크롤하여 조정)"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "배터리"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr "알림(읽지 않은 알림이 있거나 방해 금지 모드가 켜져 있을 때)"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "타일:"
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "위로 이동"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "아래로 이동"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"이 컴퓨터에 없는 하드웨어의 타일(예: 데스크톱의 Wi-Fi)은 자동으로 숨겨집니"
+"다. 사용자 정의 타일의 명령은 사용자 정의 타일 페이지에서 설정합니다."
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "표시:"
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "음량 및 밝기 슬라이더"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "미디어 플레이어"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "이동식 장치(연결되어 있을 때)"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "인쇄 대기열(인쇄 중일 때)"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "탭:"
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "알림"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "머리글 표시:"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "배터리(노트북)"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "CPU 및 RAM 사용량"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "GPU 및 VRAM 사용량"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "없음"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "머리글 높이:"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "기본값"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "얇게"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "머리글 단추:"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "기본값"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "크게"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "애니메이션:"
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "클릭할 때 타일 눌림 효과"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "빠른 설정, 음량, 밝기, 미디어"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "소리"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "출력 장치 없음"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "알 수 없는 장치"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "출력"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "앱"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr ""
+"소리를 재생하는 앱이 없습니다. 앱이 소리를 재생하는 동안 여기에 앱별 음량과 "
+"함께 표시됩니다."
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "입력"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "음소거됨"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "소리 설정"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "꺼짐"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "연결된 장치 없음"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "%1에 연결됨"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "장치 %1개 연결됨"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "페어링된 장치 없음"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "블루투스가 꺼져 있음"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "연결 중…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "연결 끊는 중…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "연결됨 · 배터리 %1%"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "연결됨"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "연결 안 됨"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "연결 끊기"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "장치 페어링…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "블루투스 설정"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "항목 %1개"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "비어 있음"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "이미지, %1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "기록에서 삭제"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "아직 복사한 항목 없음"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "기록 지우기"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "%1 복사됨"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "색을 클릭하여 복사"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "%1 복사"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "아직 선택한 색 없음"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "색 선택"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "지우기"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "켜짐 · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "비행기 모드가 켜져 있음"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "시작 중…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "네트워크 이름"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "암호"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "암호 숨기기"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "암호 표시"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "암호 복사"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "이름이나 암호를 변경하려면 핫스팟을 끄십시오."
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"대부분의 Wi-Fi 카드는 네트워크 연결과 핫스팟을 동시에 사용할 수 없으므로, 핫"
+"스팟을 시작하면 이 컴퓨터의 Wi-Fi 연결이 끊어질 수 있습니다."
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "암호는 8자 이상이어야 합니다."
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "연결된 장치 없음"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "이 컴퓨터와 같은 네트워크에 연결된 휴대폰에서 KDE Connect를 여십시오"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "KDE Connect 열기"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "%1(으)로 파일 보내기"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "%1% 충전 중"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "내 휴대폰 벨 울리기"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "이 장치 탐색"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "파일 보내기(또는 여기에 끌어다 놓기)"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "클립보드 보내기"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "원격 키보드"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "여기에 입력하면 %1에 입력됩니다"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "모두 닫기"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "답장"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "닫기"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "%1에게 답장…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "보내기"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "앱에 의해 일시 정지됨"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "%1까지 일시 정지됨"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "일시 정지됨"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "%1에 시작"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "켜짐 · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "내일 %1"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "일시 정지"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "지금 재개"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "그렇지 않으면 %1에 재개됩니다"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "1시간 동안 일시 정지"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "%1까지"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "내일 아침까지 일시 정지"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "야간 색 온도"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "따뜻하게"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "차갑게"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "야간 조명 설정"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1개 연결됨"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "설정된 VPN 없음"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 트래픽이 VPN을 거치지 않음"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"이 VPN은 IPv4만 전달하므로, IPv6를 사용하는 웹사이트에서는 여전히 실제 주소"
+"(%1 경유)를 볼 수 있습니다. 네트워크 설정에서 일반 연결의 IPv6를 끄거나, "
+"WireGuard처럼 IPv6를 포함하는 VPN 설정을 사용하십시오."
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "연결"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr ""
+"VPN 연결은 네트워크 설정에서 추가합니다. 예를 들어 VPN 제공자의 설정 파일을 "
+"가져올 수 있습니다."
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "VPN 추가…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "네트워크 찾는 중…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "보안 없음"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "연결됨 · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "저장됨 · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "취소"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "네트워크 설정"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "제어"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "시스템 설정"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "전원"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "뒤로"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "잠금"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "대기 모드"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "최대 절전 모드"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "다시 시작"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "시스템 끄기"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "사용자 전환"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "%1 음소거 해제"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "%1 음소거"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "%1 음량"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1: 디스플레이 설정"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "디스플레이 설정"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "%1 밝기"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "화면 밝기"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "아직 사용 중입니다. 먼저 열린 파일을 닫으십시오"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "이동식 장치"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "이동식 장치"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "제거 중…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "마운트되지 않음"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "%2 중 %1 남음"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "안전하게 제거"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "이전 트랙"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "재생"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "다음 트랙"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "인쇄 중"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "제목 없는 문서"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "인쇄 작업 취소"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "음소거 해제"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "음소거"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "음량"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "소리 장치 및 앱"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "방금"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1분 전"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "일시 정지됨 · %1%"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "알림 설정"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "닫기"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "%1 열기"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "재개"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "일시 정지"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "취소"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "열기"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "모두 지우기"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "알림 없음"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · 알림 %1개"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "간단히 보기"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "%1개 더 보기"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "%1의 알림 모두 닫기"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "추가 옵션"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "켜짐"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1개 연결됨"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "블루투스 장치"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "선택한 색"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "사용자 정의 %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "설정 안 됨"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "실행 중…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "실행"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "이 타일 편집"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "방해 금지"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "네트워크 이름 및 암호"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %2%"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "대기 모드 차단됨"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr ""
+"Laetum Control Center에서 컴퓨터가 대기 모드로 전환되지 않도록 하고 있습니다"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "오디오 장치"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "%1까지 일시 정지됨"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "%1부터"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "일시 정지, 색 온도 등"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "절전"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "균형"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "성능"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "전원 관리 설정"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "영역 선택"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "더 많은 캡처 모드"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "영역"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "전체 화면"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "활성 창"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "영역 녹화"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "화면 녹화"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "Spectacle 열기"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "VPN 연결"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "비행기 모드"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "하드웨어 스위치 꺼짐"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "Wi-Fi 네트워크"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "GPU 사용량"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "CPU 사용량"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %2 중 %1"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %2 중 %1"

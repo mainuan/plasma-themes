@@ -1,3 +1,18 @@
+mainuan-plasma-themes (2026.11.18) resolute; urgency=medium
+
+  * Dream (claro e escuro): a tela de apresentação do tema global apontava
+    para "Magna-Splash-6", que não é distribuída, e o Plasma caía na do
+    Breeze. Agora usa a tela do Mainuan (org.mainuan.desktop, pacote
+    mainuan-plasma-splash, recomendado).
+  * Novo widget Laetum Control Center 0.5.0 (PcmciaKai, GPL-3+, KDE Store
+    2381920): configurações rápidas, volume, brilho, mídia e notificações
+    num só popup. Fica disponível em "Adicionar widgets"; o painel padrão
+    continua com o KDE Control Station. O original só tem inglês: o Mainuan
+    traduziu os 260 textos para os 33 idiomas dos seus aplicativos
+    (tools/laetum-i18n.sh).
+
+ -- ruscher <rruscher@gmail.com>  Wed, 18 Nov 2026 06:21:47 -0300
+
 mainuan-plasma-themes (2026.11.17.1) resolute; urgency=medium
 
   * Licença: o trabalho original do Mainuan (po/, tools/, documentação e

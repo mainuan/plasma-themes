@@ -40,7 +40,7 @@ por este pacote.
 | Esquemas de cores | 12 Dream nas cores do Mainuan (Marrom, Cinza, Ciano, Lima, Magenta e Violeta, claro e escuro), 2 Blur-Glassy, 2 MacTahoe | Cores e temas > Cores |
 | Decorações Aurorae | `Lavanda-Light` ("Mainuan-Claro"), `Lavanda-Dark` ("Mainuan-Escuro"), `MacTahoe-Light`, `MacTahoe-Dark` | Cores e temas > Decorações de janelas |
 | Cursores | `cyan-cursor`, `brown-cursor`, `lavanda-cursor` (Bibata Modern) | Cores e temas > Cursores |
-| Widgets (`plasmoids`) | Tahoe Launcher, KDE Control Station, Chaac Complete Weather, Deepin Menu Classic, Orbit Menu, Plasma Drawer, Overview, Compact Pager, KDE AI Chat | Adicionar widgets |
+| Widgets (`plasmoids`) | Tahoe Launcher, KDE Control Station, Laetum Control Center, Chaac Complete Weather, Deepin Menu Classic, Orbit Menu, Plasma Drawer, Overview, Compact Pager, KDE AI Chat | Adicionar widgets |
 
 As regras de cor das famílias Dream estão em
 [`docs/DREAM-COLOR-SCHEMES.md`](docs/DREAM-COLOR-SCHEMES.md).
@@ -164,6 +164,7 @@ e envie mudanças por pull request. O CI roda em cada pull request, em
 | Overview | Himprakash Deka, com código do Plasma (Mikel Johnson, Ivan Čukić, Marco Martin, David Edmundson, Gregor Taetzner) | [himdek.com](https://himdek.com/Overview-Widget-for-Plasma/) | GPL-3+ |
 | Deepin Menu Classic, Orbit Menu | zayronxio (Adolfo), com código do Plasma (Eike Hein, Aurélien Gâteau, Ivan Čukić) | [zayronxio/DeepinMenu.Classic](https://github.com/zayronxio/DeepinMenu.Classic), [store.kde.org/p/2228598](https://store.kde.org/p/2228598/) | GPL-2+ |
 | KDE Control Station | Eliver Lara, com código do Plasma (Jan Grulich, Harald Sitter, Daniel Nicoletti, ivan tkachenko, Nate Graham, Sefa Eyeoglu, Marco Martin) | [EliverLara/kde-control-station](https://github.com/EliverLara/kde-control-station) | GPL-3 |
+| Laetum Control Center 0.5.0 | PcmciaKai; traduções em 33 idiomas pelo Mainuan | [PcmciaKai/Laetum-Control-Center](https://github.com/PcmciaKai/Laetum-Control-Center) ([KDE Store](https://store.kde.org/p/2381920)) | GPL-3+ |
 | KDE AI Chat | Rachit Asthana | [racstan/KDE-AI-Chat](https://github.com/racstan/KDE-AI-Chat) | GPL-2+ |
 | Plasma Drawer | Connor Popp, com código do Plasma (Eike Hein, Aurélien Gâteau, Weng Xuetian) | [p-connor/plasma-drawer](https://github.com/p-connor/plasma-drawer) | GPL-2+ |
 | Tahoe Launcher | Eliver Lara, Friedrich Schriewer, Prateek SU, com código do Plasma (Eike Hein, Aurélien Gâteau, Ivan Čukić, Weng Xuetian) | [EliverLara/TahoeLauncher](https://github.com/EliverLara/TahoeLauncher) | GPL-2+ |

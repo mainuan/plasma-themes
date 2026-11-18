@@ -16,7 +16,8 @@ Package: mainuan-plasma-themes
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Recommends: plasma-workspace
+Recommends: mainuan-plasma-splash,
+            plasma-workspace
 Description: temas, esquemas de cores, cursores e widgets do Plasma no Mainuan
  Componentes visuais do KDE Plasma 6 usados pelo Mainuan Linux:
   - temas globais (Dream, Blur-Glassy e MacTahoe, claro e escuro);

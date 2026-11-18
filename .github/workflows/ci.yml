@@ -25,6 +25,7 @@ jobs:
       test-command: |
         po/i18n.sh check-pot
         po/i18n.sh validate
+        sh tools/laetum-i18n.sh check
         python3 tools/validate-color-schemes.py
         # The translated color scheme names written into the .colors files
         # must match po/.
@@ -101,7 +102,14 @@ jobs:
             assert os.path.isfile(d + "decoration.svg"), d
         PY
         cat kpackages.txt
-        test "$(wc -l < kpackages.txt)" -eq 20
+        test "$(wc -l < kpackages.txt)" -eq 21
+        # Every splash named by a global theme is shipped by the theme itself or
+        # is the Mainuan splash (mainuan-plasma-splash).
+        for d in /usr/share/plasma/look-and-feel/*/contents/defaults; do
+          t="$(sed -n '/^\[KSplash\]/,/^\[/s/^Theme=//p' "$d")"
+          [ -z "$t" ] || [ "$t" = org.mainuan.desktop ] || test -s "/usr/share/plasma/look-and-feel/$t/contents/splash/Splash.qml" \
+            || { echo "::error::$d: splash $t does not exist"; exit 1; }
+        done
         for type in Plasma/Applet Plasma/LookAndFeel Plasma/Theme; do
           kpackagetool6 --global --type "$type" --list > listed.txt
           awk -v t="$type" '$1 == t { print $2 }' kpackages.txt | while read -r id; do

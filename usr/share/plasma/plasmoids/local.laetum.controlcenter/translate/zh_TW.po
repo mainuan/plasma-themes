@@ -1,0 +1,1187 @@
+# Chinese (Traditional) translation of Laetum Control Center (local.laetum.controlcenter).
+# Copyright (C) 2026 PcmciaKai and the Mainuan translators
+# This file is distributed under the same license as the widget (GPL-3.0-or-later).
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
+"issues\n"
+"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"PO-Revision-Date: 2026-11-18 06:30-0300\n"
+"Last-Translator: Mainuan translators\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/config/config.qml:6
+msgid "General"
+msgstr "一般"
+
+#: contents/config/config.qml:11
+msgid "Custom Tiles"
+msgstr "自訂圖塊"
+
+#: contents/ui/BatteryBadge.qml:17
+msgid "Plugged in, charging"
+msgstr "已接上電源，充電中"
+
+#: contents/ui/BatteryBadge.qml:19
+msgid "Plugged in, fully charged"
+msgstr "已接上電源，已充飽"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "Plugged in, not charging"
+msgstr "已接上電源，未充電"
+
+#: contents/ui/BatteryBadge.qml:21
+msgid "On battery"
+msgstr "使用電池"
+
+#: contents/ui/BatteryBadge.qml:31
+msgctxt "Time until the battery is full"
+msgid "%1 until full"
+msgstr "%1 後充飽"
+
+#: contents/ui/BatteryBadge.qml:33
+msgctxt "Battery time left"
+msgid "%1 remaining"
+msgstr "剩餘 %1"
+
+#: contents/ui/ConfigCustom.qml:103
+msgid "Choose an icon"
+msgstr "選擇圖示"
+
+#: contents/ui/ConfigCustom.qml:122
+msgid ""
+"Each custom tile runs your own commands. Give it an ON and an OFF command to "
+"make it a toggle, or only an ON command to make it a button. Add the tiles "
+"to the popup on the General page."
+msgstr ""
+"每個自訂圖塊都會執行您自己的指令。同時提供「開啟」與「關閉」指令即成為切換開"
+"關；只提供「開啟」指令則成為按鈕。請在「一般」頁面將圖塊加入彈出視窗。"
+
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+msgid "Custom tile 1"
+msgstr "自訂圖塊 1"
+
+#: contents/ui/ConfigCustom.qml:132 contents/ui/ConfigCustom.qml:166
+msgid "Name and icon:"
+msgstr "名稱與圖示："
+
+#: contents/ui/ConfigCustom.qml:140
+msgid "Custom 1"
+msgstr "自訂 1"
+
+#: contents/ui/ConfigCustom.qml:146 contents/ui/ConfigCustom.qml:180
+msgid "ON command:"
+msgstr "開啟指令："
+
+#: contents/ui/ConfigCustom.qml:147
+msgctxt "Example command"
+msgid "e.g. systemctl --user start syncthing"
+msgstr "例如 systemctl --user start syncthing"
+
+#: contents/ui/ConfigCustom.qml:151 contents/ui/ConfigCustom.qml:184
+msgid "OFF command:"
+msgstr "關閉指令："
+
+#: contents/ui/ConfigCustom.qml:152
+msgctxt "Example command"
+msgid "e.g. systemctl --user stop syncthing"
+msgstr "例如 systemctl --user stop syncthing"
+
+#: contents/ui/ConfigCustom.qml:156 contents/ui/ConfigCustom.qml:188
+msgid "Status command:"
+msgstr "狀態指令："
+
+#: contents/ui/ConfigCustom.qml:157
+msgctxt "Example command"
+msgid "Optional, e.g. systemctl --user is-active syncthing"
+msgstr "選用，例如 systemctl --user is-active syncthing"
+
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+msgid "Custom tile 2"
+msgstr "自訂圖塊 2"
+
+#: contents/ui/ConfigCustom.qml:174
+msgid "Custom 2"
+msgstr "自訂 2"
+
+#: contents/ui/ConfigCustom.qml:189
+msgid "Optional"
+msgstr "選用"
+
+#: contents/ui/ConfigCustom.qml:198
+msgid ""
+"Commands run with sh, so pipes and && work. A status command tells the tile "
+"whether it is on: exit code 0 means on. Without one, the tile remembers the "
+"state you last set. Commands that keep running (a server, a program) should "
+"be started with something that returns, like systemctl --user start or "
+"setsid -f."
+msgstr ""
+"指令以 sh 執行，因此可使用管線與 &&。狀態指令用來告訴圖塊目前是否開啟：exit "
+"code 0 表示開啟。若未設定，圖塊會記住您上次設定的狀態。會持續執行的指令（如伺"
+"服器或程式）應透過會立即返回的方式啟動，例如 systemctl --user start 或 "
+"setsid -f。"
+
+#: contents/ui/ConfigCustom.qml:209
+msgid ""
+"The commands run as you, with your permissions. Only use commands you "
+"understand and trust."
+msgstr "指令會以您的身分及權限執行。請只使用您了解且信任的指令。"
+
+#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/tiles/WifiTile.qml:14
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/tiles/BluetoothTile.qml:13
+msgid "Bluetooth"
+msgstr "藍牙"
+
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/tiles/NightLightTile.qml:12
+msgid "Night Light"
+msgstr "夜光模式"
+
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/tiles/DndTile.qml:15
+msgid "Do Not Disturb"
+msgstr "勿擾模式"
+
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+msgid "Airplane Mode"
+msgstr "飛航模式"
+
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+msgid "Power Mode"
+msgstr "電源模式"
+
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+msgid "Microphone"
+msgstr "麥克風"
+
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/tiles/KdeConnectTile.qml:14
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+msgid "Keep awake"
+msgstr "保持喚醒"
+
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+msgid "Dark Mode"
+msgstr "深色模式"
+
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/tiles/ClipboardTile.qml:13
+msgid "Clipboard"
+msgstr "剪貼簿"
+
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/tiles/ColorPickerTile.qml:12
+msgid "Color Picker"
+msgstr "取色器"
+
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+msgid "Screenshot"
+msgstr "螢幕截圖"
+
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/tiles/HotspotTile.qml:13
+msgid "Hotspot"
+msgstr "熱點"
+
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/tiles/VpnTile.qml:13
+msgid "VPN"
+msgstr "VPN"
+
+#: contents/ui/ConfigGeneral.qml:139
+msgid "Panel icon:"
+msgstr "面板圖示："
+
+#: contents/ui/ConfigGeneral.qml:145
+msgid "Shown when all panel indicators are hidden or unavailable"
+msgstr "當所有面板指示器都隱藏或無法使用時顯示"
+
+#: contents/ui/ConfigGeneral.qml:157
+msgid "Panel indicators:"
+msgstr "面板指示器："
+
+#: contents/ui/ConfigGeneral.qml:158
+msgid "Network"
+msgstr "網路"
+
+#: contents/ui/ConfigGeneral.qml:162
+msgid "Volume (scroll to change it)"
+msgstr "音量（捲動滑鼠即可調整）"
+
+#: contents/ui/ConfigGeneral.qml:166
+msgid "Battery"
+msgstr "電池"
+
+#: contents/ui/ConfigGeneral.qml:170
+msgid "Notifications, while unread or Do Not Disturb is on"
+msgstr "通知（有未讀通知或開啟勿擾模式時）"
+
+#: contents/ui/ConfigGeneral.qml:178
+msgid "Tiles:"
+msgstr "圖塊："
+
+#: contents/ui/ConfigGeneral.qml:215
+msgid "Move up"
+msgstr "上移"
+
+#: contents/ui/ConfigGeneral.qml:225
+msgid "Move down"
+msgstr "下移"
+
+#: contents/ui/ConfigGeneral.qml:238
+msgid ""
+"Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
+"desktop) hide themselves. The custom tiles' commands are set on the Custom "
+"Tiles page."
+msgstr ""
+"電腦沒有的硬體所對應的圖塊（例如桌上型電腦的 Wi-Fi）會自動隱藏。自訂圖塊的指"
+"令請在「自訂圖塊」頁面設定。"
+
+#: contents/ui/ConfigGeneral.qml:251
+msgid "Show:"
+msgstr "顯示："
+
+#: contents/ui/ConfigGeneral.qml:252
+msgid "Volume and brightness sliders"
+msgstr "音量與亮度滑桿"
+
+#: contents/ui/ConfigGeneral.qml:256
+msgid "Media player"
+msgstr "媒體播放器"
+
+#: contents/ui/ConfigGeneral.qml:260
+msgid "Removable devices, while plugged in"
+msgstr "卸除式裝置（接上時）"
+
+#: contents/ui/ConfigGeneral.qml:264
+msgid "Print queue, while printing"
+msgstr "列印佇列（列印時）"
+
+#: contents/ui/ConfigGeneral.qml:269
+msgid "Tabs:"
+msgstr "分頁："
+
+#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:31
+msgid "Notifications"
+msgstr "通知"
+
+#: contents/ui/ConfigGeneral.qml:275
+msgid "Header shows:"
+msgstr "標頭顯示："
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Battery (on laptops)"
+msgstr "電池（筆記型電腦）"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "CPU and RAM usage"
+msgstr "CPU 與 RAM 使用率"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "GPU and VRAM usage"
+msgstr "GPU 與 VRAM 使用率"
+
+#: contents/ui/ConfigGeneral.qml:276
+msgid "Nothing"
+msgstr "無"
+
+#: contents/ui/ConfigGeneral.qml:280
+msgid "Header height:"
+msgstr "標頭高度："
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Default"
+msgstr "預設"
+
+#: contents/ui/ConfigGeneral.qml:281
+msgctxt "Header height"
+msgid "Thin"
+msgstr "細"
+
+#: contents/ui/ConfigGeneral.qml:285
+msgid "Header buttons:"
+msgstr "標頭按鈕："
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Default"
+msgstr "預設"
+
+#: contents/ui/ConfigGeneral.qml:286
+msgctxt "Header button size"
+msgid "Large"
+msgstr "大"
+
+#: contents/ui/ConfigGeneral.qml:293
+msgid "Animations:"
+msgstr "動畫："
+
+#: contents/ui/ConfigGeneral.qml:294
+msgid "Squeeze tiles when clicked"
+msgstr "點擊時縮放圖塊"
+
+#: contents/ui/HeaderBadge.qml:70
+#, javascript-format
+msgctxt "A percentage, in the header's ring"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/main.qml:17
+msgid "Quick settings, volume, brightness and media"
+msgstr "快速設定、音量、亮度與媒體"
+
+#: contents/ui/pages/AudioPage.qml:15
+msgid "Sound"
+msgstr "聲音"
+
+#: contents/ui/pages/AudioPage.qml:16
+msgid "No output device"
+msgstr "沒有輸出裝置"
+
+#: contents/ui/pages/AudioPage.qml:25
+msgid "Unknown device"
+msgstr "未知裝置"
+
+#: contents/ui/pages/AudioPage.qml:67
+msgid "Output"
+msgstr "輸出"
+
+#: contents/ui/pages/AudioPage.qml:99
+msgid "Apps"
+msgstr "應用程式"
+
+#: contents/ui/pages/AudioPage.qml:111
+msgid ""
+"No apps are playing sound. Apps appear here with their own volume while they "
+"play."
+msgstr ""
+"目前沒有應用程式在播放聲音。應用程式播放時會在此顯示，並可個別調整音量。"
+
+#: contents/ui/pages/AudioPage.qml:133
+msgid "Input"
+msgstr "輸入"
+
+#: contents/ui/pages/AudioPage.qml:148 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "Muted"
+msgstr "已靜音"
+
+#: contents/ui/pages/AudioPage.qml:162
+msgid "Sound settings"
+msgstr "聲音設定"
+
+#: contents/ui/pages/BluetoothPage.qml:20 contents/ui/pages/HotspotPage.qml:16
+#: contents/ui/pages/NightLightPage.qml:18 contents/ui/pages/WifiPage.qml:21
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:16
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/HotspotTile.qml:14
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+#: contents/ui/tiles/NightLightTile.qml:15 contents/ui/tiles/VpnTile.qml:24
+#: contents/ui/tiles/WifiTile.qml:23
+msgid "Off"
+msgstr "關閉"
+
+#: contents/ui/pages/BluetoothPage.qml:23
+msgid "No devices connected"
+msgstr "沒有已連線的裝置"
+
+#: contents/ui/pages/BluetoothPage.qml:26 contents/ui/pages/VpnPage.qml:17
+#: contents/ui/pages/WifiPage.qml:23
+msgid "Connected to %1"
+msgstr "已連線到 %1"
+
+#: contents/ui/pages/BluetoothPage.qml:28
+#: contents/ui/pages/KdeConnectPage.qml:18
+msgctxt "Number of connected devices"
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "%1 個裝置已連線"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+#: contents/ui/tiles/KdeConnectTile.qml:17
+msgid "No paired devices"
+msgstr "沒有已配對的裝置"
+
+#: contents/ui/pages/BluetoothPage.qml:76
+msgid "Bluetooth is off"
+msgstr "藍牙已關閉"
+
+#: contents/ui/pages/BluetoothPage.qml:89 contents/ui/pages/VpnPage.qml:114
+#: contents/ui/tiles/VpnTile.qml:22
+msgid "Connecting…"
+msgstr "正在連線…"
+
+#: contents/ui/pages/BluetoothPage.qml:92 contents/ui/pages/VpnPage.qml:117
+msgid "Disconnecting…"
+msgstr "正在中斷連線…"
+
+#: contents/ui/pages/BluetoothPage.qml:95
+#, javascript-format
+msgid "Connected · %1% battery"
+msgstr "已連線 · 電量 %1%"
+
+#: contents/ui/pages/BluetoothPage.qml:95 contents/ui/pages/VpnPage.qml:120
+#: contents/ui/tiles/KdeConnectTile.qml:25
+msgid "Connected"
+msgstr "已連線"
+
+#: contents/ui/pages/BluetoothPage.qml:97 contents/ui/pages/VpnPage.qml:25
+#: contents/ui/pages/WifiPage.qml:23 contents/ui/tiles/KdeConnectTile.qml:20
+#: contents/ui/tiles/WifiTile.qml:25
+msgid "Not connected"
+msgstr "未連線"
+
+#: contents/ui/pages/BluetoothPage.qml:117 contents/ui/pages/VpnPage.qml:128
+#: contents/ui/pages/WifiPage.qml:186
+msgid "Disconnect"
+msgstr "中斷連線"
+
+#: contents/ui/pages/BluetoothPage.qml:130
+msgid "Pair device…"
+msgstr "配對裝置…"
+
+#: contents/ui/pages/BluetoothPage.qml:143
+msgid "Bluetooth settings"
+msgstr "藍牙設定"
+
+#: contents/ui/pages/ClipboardPage.qml:19
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgctxt "Number of clipboard history entries"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 個項目"
+
+#: contents/ui/pages/ClipboardPage.qml:20
+#: contents/ui/tiles/ClipboardTile.qml:14
+msgid "Empty"
+msgstr "空的"
+
+#: contents/ui/pages/ClipboardPage.qml:69
+msgid "Image, %1 × %2"
+msgstr "圖片，%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:113
+msgctxt "Image dimensions"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: contents/ui/pages/ClipboardPage.qml:132
+msgid "Remove from history"
+msgstr "從歷史記錄中移除"
+
+#: contents/ui/pages/ClipboardPage.qml:149
+msgid "Nothing copied yet"
+msgstr "尚未複製任何內容"
+
+#: contents/ui/pages/ClipboardPage.qml:161
+msgid "Clear history"
+msgstr "清除歷史記錄"
+
+#: contents/ui/pages/ColorsPage.qml:18
+msgid "Copied %1"
+msgstr "已複製 %1"
+
+#: contents/ui/pages/ColorsPage.qml:19
+msgid "Click a color to copy it"
+msgstr "點擊顏色即可複製"
+
+#: contents/ui/pages/ColorsPage.qml:56
+msgid "Copy %1"
+msgstr "複製 %1"
+
+#: contents/ui/pages/ColorsPage.qml:94
+msgid "No colors picked yet"
+msgstr "尚未擷取任何顏色"
+
+#: contents/ui/pages/ColorsPage.qml:108
+#: contents/ui/tiles/ColorPickerTile.qml:13
+msgid "Pick a color"
+msgstr "擷取顏色"
+
+#: contents/ui/pages/ColorsPage.qml:116
+msgid "Clear"
+msgstr "清除"
+
+#: contents/ui/pages/HotspotPage.qml:15
+msgid "On · %1"
+msgstr "開啟 · %1"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/pages/VpnPage.qml:23
+#: contents/ui/pages/WifiPage.qml:18
+msgid "Airplane mode is on"
+msgstr "飛航模式已開啟"
+
+#: contents/ui/pages/HotspotPage.qml:16 contents/ui/tiles/HotspotTile.qml:14
+msgid "Starting…"
+msgstr "正在啟動…"
+
+#: contents/ui/pages/HotspotPage.qml:53
+msgid "Network name"
+msgstr "網路名稱"
+
+#: contents/ui/pages/HotspotPage.qml:68 contents/ui/pages/WifiPage.qml:203
+msgid "Password"
+msgstr "密碼"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Hide password"
+msgstr "隱藏密碼"
+
+#: contents/ui/pages/HotspotPage.qml:93
+msgid "Show password"
+msgstr "顯示密碼"
+
+#: contents/ui/pages/HotspotPage.qml:101
+msgid "Copy password"
+msgstr "複製密碼"
+
+#: contents/ui/pages/HotspotPage.qml:116
+msgid "Turn the hotspot off to change the name or password."
+msgstr "請先關閉熱點，才能變更名稱或密碼。"
+
+#: contents/ui/pages/HotspotPage.qml:118
+msgid ""
+"Most Wi-Fi cards can't be connected to a network and be a hotspot at the "
+"same time, so starting it may disconnect this computer from Wi-Fi."
+msgstr ""
+"大多數 Wi-Fi 網卡無法同時連線到網路並作為熱點，因此啟動熱點可能會中斷這部電腦"
+"的 Wi-Fi 連線。"
+
+#: contents/ui/pages/HotspotPage.qml:119
+msgid "The password needs at least 8 characters."
+msgstr "密碼至少需要 8 個字元。"
+
+#: contents/ui/pages/KdeConnectPage.qml:17
+msgid "No connected devices"
+msgstr "沒有已連線的裝置"
+
+#: contents/ui/pages/KdeConnectPage.qml:55
+msgid "Open KDE Connect on your phone, on the same network as this computer"
+msgstr "請在手機上開啟 KDE Connect，並連上與這部電腦相同的網路"
+
+#: contents/ui/pages/KdeConnectPage.qml:67
+msgid "Open KDE Connect"
+msgstr "開啟 KDE Connect"
+
+#: contents/ui/pages/KdeConnectPage.qml:159
+msgid "Send Files to %1"
+msgstr "傳送檔案到 %1"
+
+#: contents/ui/pages/KdeConnectPage.qml:200
+#, javascript-format
+msgid "%1% charging"
+msgstr "%1% 充電中"
+
+#: contents/ui/pages/KdeConnectPage.qml:201
+#, javascript-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/pages/KdeConnectPage.qml:212
+msgid "Ring my phone"
+msgstr "讓我的手機響鈴"
+
+#: contents/ui/pages/KdeConnectPage.qml:222
+msgid "Browse this device"
+msgstr "瀏覽此裝置"
+
+#: contents/ui/pages/KdeConnectPage.qml:235
+msgid "Send files (or drop them here)"
+msgstr "傳送檔案（或拖放到此處）"
+
+#: contents/ui/pages/KdeConnectPage.qml:249
+msgid "Send Clipboard"
+msgstr "傳送剪貼簿"
+
+#: contents/ui/pages/KdeConnectPage.qml:266
+msgid "Remote keyboard"
+msgstr "遠端鍵盤"
+
+#: contents/ui/pages/KdeConnectPage.qml:274
+msgid "Type here to type on %1"
+msgstr "在此輸入即可在 %1 上打字"
+
+#: contents/ui/pages/KdeConnectPage.qml:296
+msgid "Dismiss all"
+msgstr "全部忽略"
+
+#: contents/ui/pages/KdeConnectPage.qml:353
+msgid "Reply"
+msgstr "回覆"
+
+#: contents/ui/pages/KdeConnectPage.qml:368
+msgid "Dismiss"
+msgstr "忽略"
+
+#: contents/ui/pages/KdeConnectPage.qml:405
+msgctxt "@info:placeholder"
+msgid "Reply to %1…"
+msgstr "回覆 %1…"
+
+#: contents/ui/pages/KdeConnectPage.qml:418
+msgid "Send"
+msgstr "傳送"
+
+#: contents/ui/pages/NightLightPage.qml:22
+#: contents/ui/tiles/NightLightTile.qml:19
+msgid "Paused by an app"
+msgstr "被應用程式暫停"
+
+#: contents/ui/pages/NightLightPage.qml:24
+msgid "Paused until %1"
+msgstr "暫停至 %1"
+
+#: contents/ui/pages/NightLightPage.qml:24
+#: contents/ui/tiles/NightLightTile.qml:23
+msgid "Paused"
+msgstr "已暫停"
+
+#: contents/ui/pages/NightLightPage.qml:27
+msgid "Starts at %1"
+msgstr "於 %1 開始"
+
+#: contents/ui/pages/NightLightPage.qml:29
+#: contents/ui/tiles/NightLightTile.qml:29
+msgctxt "Colour temperature"
+msgid "On · %1 K"
+msgstr "開啟 · %1 K"
+
+#: contents/ui/pages/NightLightPage.qml:43
+msgctxt "A time tomorrow"
+msgid "%1 tomorrow"
+msgstr "明天 %1"
+
+#: contents/ui/pages/NightLightPage.qml:66 contents/ui/rows/MediaCard.qml:123
+msgid "Pause"
+msgstr "暫停"
+
+#: contents/ui/pages/NightLightPage.qml:75
+msgid "Resume now"
+msgstr "立即繼續"
+
+#: contents/ui/pages/NightLightPage.qml:77
+msgid "Otherwise it resumes at %1"
+msgstr "否則將於 %1 繼續"
+
+#: contents/ui/pages/NightLightPage.qml:86
+msgid "Pause for an hour"
+msgstr "暫停一小時"
+
+#: contents/ui/pages/NightLightPage.qml:87
+#: contents/ui/pages/NightLightPage.qml:98
+msgid "Until %1"
+msgstr "直到 %1"
+
+#: contents/ui/pages/NightLightPage.qml:95
+msgid "Pause until tomorrow morning"
+msgstr "暫停至明天早上"
+
+#: contents/ui/pages/NightLightPage.qml:117
+#: contents/ui/pages/NightLightPage.qml:149
+msgid "Night colour temperature"
+msgstr "夜間色溫"
+
+#: contents/ui/pages/NightLightPage.qml:122
+msgctxt "Colour temperature in kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: contents/ui/pages/NightLightPage.qml:136
+msgctxt "Night Light colour temperature, the warm end"
+msgid "Warmer"
+msgstr "較暖"
+
+#: contents/ui/pages/NightLightPage.qml:173
+msgctxt "Night Light colour temperature, the cool end"
+msgid "Cooler"
+msgstr "較冷"
+
+#: contents/ui/pages/NightLightPage.qml:190
+msgid "Night Light settings"
+msgstr "夜光模式設定"
+
+#: contents/ui/pages/VpnPage.qml:20 contents/ui/tiles/VpnTile.qml:19
+msgctxt "Number of connected VPNs"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 個已連線"
+
+#: contents/ui/pages/VpnPage.qml:25 contents/ui/pages/VpnPage.qml:144
+msgid "No VPN set up"
+msgstr "尚未設定 VPN"
+
+#: contents/ui/pages/VpnPage.qml:70
+msgid "IPv6 isn't going through the VPN"
+msgstr "IPv6 流量未經過 VPN"
+
+#: contents/ui/pages/VpnPage.qml:77
+msgid ""
+"This VPN only carries IPv4, so websites that use IPv6 can still see your "
+"real address (through %1). Turn off IPv6 for your normal connection in the "
+"network settings, or use a VPN configuration that includes IPv6, such as "
+"WireGuard."
+msgstr ""
+"此 VPN 僅傳輸 IPv4，因此使用 IPv6 的網站仍可看到您的真實位址（透過 %1）。請在"
+"網路設定中為一般連線關閉 IPv6，或使用包含 IPv6 的 VPN 設定，例如 WireGuard。"
+
+#: contents/ui/pages/VpnPage.qml:128 contents/ui/pages/WifiPage.qml:211
+msgid "Connect"
+msgstr "連線"
+
+#: contents/ui/pages/VpnPage.qml:145
+msgid ""
+"VPN connections are added in the network settings, for example by importing "
+"a configuration file from your VPN provider."
+msgstr "VPN 連線需在網路設定中新增，例如匯入 VPN 供應商提供的設定檔。"
+
+#: contents/ui/pages/VpnPage.qml:154
+msgid "Add a VPN…"
+msgstr "新增 VPN…"
+
+#: contents/ui/pages/WifiPage.qml:97
+msgid "Looking for networks…"
+msgstr "正在搜尋網路…"
+
+#: contents/ui/pages/WifiPage.qml:162
+msgid "Open"
+msgstr "開放"
+
+#: contents/ui/pages/WifiPage.qml:164
+msgid "Connected · %1"
+msgstr "已連線 · %1"
+
+#: contents/ui/pages/WifiPage.qml:166
+msgid "Saved · %1"
+msgstr "已儲存 · %1"
+
+#: contents/ui/pages/WifiPage.qml:186 contents/ui/pages/WifiPage.qml:218
+msgid "Cancel"
+msgstr "取消"
+
+#: contents/ui/pages/WifiPage.qml:231
+msgid "Network settings"
+msgstr "網路設定"
+
+#: contents/ui/Panel.qml:29
+msgid "Controls"
+msgstr "控制項"
+
+#: contents/ui/Panel.qml:242
+msgid "System Settings"
+msgstr "系統設定"
+
+#: contents/ui/Panel.qml:253
+msgid "Power"
+msgstr "電源"
+
+#: contents/ui/Panel.qml:272
+msgid "Back"
+msgstr "返回"
+
+#: contents/ui/Panel.qml:469
+msgid "Lock"
+msgstr "鎖定"
+
+#: contents/ui/Panel.qml:470
+msgid "Sleep"
+msgstr "睡眠"
+
+#: contents/ui/Panel.qml:471
+msgid "Hibernate"
+msgstr "休眠"
+
+#: contents/ui/Panel.qml:472
+msgid "Restart"
+msgstr "重新啟動"
+
+#: contents/ui/Panel.qml:473
+msgid "Shut Down"
+msgstr "關機"
+
+#: contents/ui/Panel.qml:475
+msgid "Switch User"
+msgstr "切換使用者"
+
+#: contents/ui/Panel.qml:476
+msgid "Log Out"
+msgstr "登出"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Unmute %1"
+msgstr "取消靜音 %1"
+
+#: contents/ui/rows/AppVolumeRow.qml:40
+msgid "Mute %1"
+msgstr "將 %1 靜音"
+
+#: contents/ui/rows/AppVolumeRow.qml:80
+msgctxt "App name: what it plays"
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: contents/ui/rows/AppVolumeRow.qml:100
+msgid "Volume of %1"
+msgstr "%1 的音量"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "%1: display settings"
+msgstr "%1：顯示設定"
+
+#: contents/ui/rows/BrightnessRows.qml:42
+msgid "Display settings"
+msgstr "顯示設定"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Brightness of %1"
+msgstr "%1 的亮度"
+
+#: contents/ui/rows/BrightnessRows.qml:57
+msgid "Screen brightness"
+msgstr "螢幕亮度"
+
+#: contents/ui/rows/DevicesCard.qml:51
+msgid "Still in use, close any open files first"
+msgstr "仍在使用中，請先關閉所有開啟的檔案"
+
+#: contents/ui/rows/DevicesCard.qml:102
+msgid "Removable devices"
+msgstr "卸除式裝置"
+
+#: contents/ui/rows/DevicesCard.qml:121
+msgid "Removable device"
+msgstr "卸除式裝置"
+
+#: contents/ui/rows/DevicesCard.qml:124
+msgid "Removing…"
+msgstr "正在移除…"
+
+#: contents/ui/rows/DevicesCard.qml:130
+msgid "Not mounted"
+msgstr "未掛載"
+
+#: contents/ui/rows/DevicesCard.qml:133
+msgctxt "Free space on a drive, e.g. 12 GiB free of 32 GiB"
+msgid "%1 free of %2"
+msgstr "可用 %1，共 %2"
+
+#: contents/ui/rows/DevicesCard.qml:145
+msgid "Safely remove"
+msgstr "安全地移除"
+
+#: contents/ui/rows/MediaCard.qml:116
+msgid "Previous track"
+msgstr "上一首"
+
+#: contents/ui/rows/MediaCard.qml:123
+msgid "Play"
+msgstr "播放"
+
+#: contents/ui/rows/MediaCard.qml:130
+msgid "Next track"
+msgstr "下一首"
+
+#: contents/ui/rows/PrintQueueCard.qml:55
+msgid "Printing"
+msgstr "列印中"
+
+#: contents/ui/rows/PrintQueueCard.qml:76
+msgid "Untitled document"
+msgstr "未命名文件"
+
+#: contents/ui/rows/PrintQueueCard.qml:77
+msgctxt "Print job state on printer"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: contents/ui/rows/PrintQueueCard.qml:85
+msgid "Cancel print job"
+msgstr "取消列印工作"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Unmute"
+msgstr "取消靜音"
+
+#: contents/ui/rows/VolumeRow.qml:21
+msgid "Mute"
+msgstr "靜音"
+
+#: contents/ui/rows/VolumeRow.qml:35
+msgid "Volume"
+msgstr "音量"
+
+#: contents/ui/rows/VolumeRow.qml:63
+msgid "Sound devices and apps"
+msgstr "聲音裝置與應用程式"
+
+#: contents/ui/tabs/NotificationCard.qml:67
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "剛剛"
+
+#: contents/ui/tabs/NotificationCard.qml:70
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 分鐘前"
+
+#: contents/ui/tabs/NotificationCard.qml:95
+#, javascript-format
+msgctxt "Job is paused"
+msgid "Paused · %1%"
+msgstr "已暫停 · %1%"
+
+#: contents/ui/tabs/NotificationCard.qml:97
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: contents/ui/tabs/NotificationCard.qml:98
+#, javascript-format
+msgctxt "Job progress"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/tabs/NotificationCard.qml:170 contents/ui/tiles/DndTile.qml:18
+msgid "Notification settings"
+msgstr "通知設定"
+
+#: contents/ui/tabs/NotificationCard.qml:184
+msgid "Close"
+msgstr "關閉"
+
+#: contents/ui/tabs/NotificationCard.qml:306
+msgid "Open %1"
+msgstr "開啟 %1"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Resume a paused job"
+msgid "Resume"
+msgstr "繼續"
+
+#: contents/ui/tabs/NotificationCard.qml:381
+msgctxt "Pause a running job"
+msgid "Pause"
+msgstr "暫停"
+
+#: contents/ui/tabs/NotificationCard.qml:387
+msgctxt "Cancel a running job"
+msgid "Cancel"
+msgstr "取消"
+
+#: contents/ui/tabs/NotificationCard.qml:393
+msgctxt "Open where a finished job put its files"
+msgid "Open"
+msgstr "開啟"
+
+#: contents/ui/tabs/NotificationsTab.qml:136
+msgid "Clear all"
+msgstr "全部清除"
+
+#: contents/ui/tabs/NotificationsTab.qml:166
+msgid "No notifications"
+msgstr "沒有通知"
+
+#: contents/ui/tabs/NotificationsTab.qml:232
+msgctxt "App name and how many notifications it has"
+msgid "%2 · %1 notification"
+msgid_plural "%2 · %1 notifications"
+msgstr[0] "%2 · %1 則通知"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show fewer"
+msgstr "顯示較少"
+
+#: contents/ui/tabs/NotificationsTab.qml:240
+msgid "Show %1 more"
+msgid_plural "Show %1 more"
+msgstr[0] "再顯示 %1 則"
+
+#: contents/ui/tabs/NotificationsTab.qml:248
+msgid "Close all from %1"
+msgstr "關閉所有來自 %1 的通知"
+
+#: contents/ui/Tile.qml:23
+msgid "More options"
+msgstr "更多選項"
+
+#: contents/ui/tiles/AirplaneTile.qml:12 contents/ui/tiles/BluetoothTile.qml:19
+#: contents/ui/tiles/CustomTile.qml:47 contents/ui/tiles/DarkModeTile.qml:32
+#: contents/ui/tiles/DndTile.qml:16 contents/ui/tiles/MicrophoneTile.qml:14
+msgid "On"
+msgstr "開啟"
+
+#: contents/ui/tiles/BluetoothTile.qml:24
+#: contents/ui/tiles/KdeConnectTile.qml:32
+msgctxt "Number of connected devices"
+msgid "%1 connected"
+msgid_plural "%1 connected"
+msgstr[0] "%1 個已連線"
+
+#: contents/ui/tiles/BluetoothTile.qml:27
+msgid "Bluetooth devices"
+msgstr "藍牙裝置"
+
+#: contents/ui/tiles/ColorPickerTile.qml:15
+msgid "Picked colors"
+msgstr "已擷取的顏色"
+
+#: contents/ui/tiles/CustomTile.qml:36
+msgid "Custom %1"
+msgstr "自訂 %1"
+
+#: contents/ui/tiles/CustomTile.qml:39 contents/ui/tiles/VpnTile.qml:24
+msgid "Not set up"
+msgstr "未設定"
+
+#: contents/ui/tiles/CustomTile.qml:42
+msgid "Running…"
+msgstr "正在執行…"
+
+#: contents/ui/tiles/CustomTile.qml:45
+msgctxt "A custom tile that runs a command when clicked"
+msgid "Run"
+msgstr "執行"
+
+#: contents/ui/tiles/CustomTile.qml:50
+msgid "Edit this tile"
+msgstr "編輯此圖塊"
+
+#: contents/ui/tiles/DndTile.qml:14
+msgctxt "Short for Do Not Disturb"
+msgid "DND"
+msgstr "勿擾"
+
+#: contents/ui/tiles/HotspotTile.qml:16
+msgid "Network name and password"
+msgstr "網路名稱與密碼"
+
+#: contents/ui/tiles/KdeConnectTile.qml:29
+msgctxt "Device name · battery percentage"
+msgid "%1 · %2%"
+msgstr "%1 · %2%"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:11
+msgid "Sleep blocked"
+msgstr "已阻止睡眠"
+
+#: contents/ui/tiles/KeepAwakeTile.qml:18
+msgid "Laetum Control Center is keeping the computer awake"
+msgstr "Laetum Control Center 正在讓電腦保持喚醒"
+
+#: contents/ui/tiles/MicrophoneTile.qml:16
+msgid "Audio devices"
+msgstr "音訊裝置"
+
+#: contents/ui/tiles/NightLightTile.qml:22
+msgctxt "Night Light is paused until a time"
+msgid "Paused until %1"
+msgstr "暫停至 %1"
+
+#: contents/ui/tiles/NightLightTile.qml:26
+msgctxt "Night Light starts at a time"
+msgid "From %1"
+msgstr "從 %1 起"
+
+#: contents/ui/tiles/NightLightTile.qml:32
+msgid "Pause, temperature and more"
+msgstr "暫停、色溫與更多"
+
+#: contents/ui/tiles/PowerProfileTile.qml:11
+msgid "Power Save"
+msgstr "省電"
+
+#: contents/ui/tiles/PowerProfileTile.qml:12
+msgid "Balanced"
+msgstr "平衡"
+
+#: contents/ui/tiles/PowerProfileTile.qml:13
+msgid "Performance"
+msgstr "效能"
+
+#: contents/ui/tiles/PowerProfileTile.qml:28
+msgid "Power management settings"
+msgstr "電源管理設定"
+
+#: contents/ui/tiles/ScreenshotTile.qml:15
+msgid "Select a region"
+msgstr "選取區域"
+
+#: contents/ui/tiles/ScreenshotTile.qml:17
+msgid "More capture modes"
+msgstr "更多擷取模式"
+
+#: contents/ui/tiles/ScreenshotTile.qml:47
+msgid "Region"
+msgstr "區域"
+
+#: contents/ui/tiles/ScreenshotTile.qml:52
+msgid "Full screen"
+msgstr "全螢幕"
+
+#: contents/ui/tiles/ScreenshotTile.qml:57
+msgid "Active window"
+msgstr "作用中視窗"
+
+#: contents/ui/tiles/ScreenshotTile.qml:65
+msgid "Record a region"
+msgstr "錄製區域"
+
+#: contents/ui/tiles/ScreenshotTile.qml:70
+msgid "Record the screen"
+msgstr "錄製螢幕"
+
+#: contents/ui/tiles/ScreenshotTile.qml:78
+msgid "Open Spectacle"
+msgstr "開啟 Spectacle"
+
+#: contents/ui/tiles/VpnTile.qml:27
+msgid "VPN connections"
+msgstr "VPN 連線"
+
+#: contents/ui/tiles/WifiTile.qml:17
+msgid "Airplane mode"
+msgstr "飛航模式"
+
+#: contents/ui/tiles/WifiTile.qml:20
+msgid "Hardware switch off"
+msgstr "硬體開關已關閉"
+
+#: contents/ui/tiles/WifiTile.qml:28
+msgid "Wi-Fi networks"
+msgstr "Wi-Fi 網路"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "GPU usage"
+msgstr "GPU 使用率"
+
+#: contents/ui/UsageBadge.qml:17
+msgid "CPU usage"
+msgstr "CPU 使用率"
+
+#: contents/ui/UsageBadge.qml:27
+msgctxt "Video memory in use, e.g. 4.1 GiB of 16.0 GiB"
+msgid "VRAM %1 of %2"
+msgstr "VRAM %1 / %2"
+
+#: contents/ui/UsageBadge.qml:28
+msgctxt "Memory in use, e.g. 9.3 GiB of 31.2 GiB"
+msgid "RAM %1 of %2"
+msgstr "RAM %1 / %2"

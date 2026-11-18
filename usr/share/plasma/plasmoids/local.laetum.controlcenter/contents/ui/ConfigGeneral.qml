@@ -1,0 +1,297 @@
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
+import org.kde.kcmutils as KCM
+import org.kde.iconthemes as KIconThemes
+
+KCM.SimpleKCM {
+    id: page
+
+    // Injected by Plasma 6.7 into every applet config page
+    property bool cfg_expanding
+    property int cfg_length
+    property string cfg_icon
+    property alias cfg_showNetworkIndicator: networkCheck.checked
+    property alias cfg_showVolumeIndicator: volumeCheck.checked
+    property alias cfg_showBatteryIndicator: batteryCheck.checked
+    property alias cfg_showNotificationIndicator: notificationCheck.checked
+    property var cfg_tiles: []
+    property alias cfg_showSliders: slidersCheck.checked
+    property alias cfg_showMedia: mediaCheck.checked
+    property alias cfg_showDevices: devicesCheck.checked
+    property alias cfg_showPrintQueue: printQueueCheck.checked
+    // Kept by the popup, not edited here
+    property var cfg_colorHistory
+    property string cfg_lightColorScheme
+    property string cfg_darkColorScheme
+    property string cfg_lightPlasmaStyle
+    property string cfg_darkPlasmaStyle
+    property string cfg_lightIconTheme
+    property string cfg_darkIconTheme
+    property alias cfg_showNotificationsTab: notificationsTabCheck.checked
+    // 1 = Default, 2 = Large; 0 was Small and now counts as Default
+    property int cfg_headerIconSize
+    property alias cfg_headerHeight: headerHeightCombo.currentIndex
+    property alias cfg_headerBadge: headerBadgeCombo.currentIndex
+    property alias cfg_animateClick: clickCheck.checked
+
+    // Defaults Plasma passes in alongside the values
+    property string cfg_iconDefault
+    property bool cfg_showNetworkIndicatorDefault
+    property bool cfg_showVolumeIndicatorDefault
+    property bool cfg_showBatteryIndicatorDefault
+    property bool cfg_showNotificationIndicatorDefault
+    property var cfg_tilesDefault
+    property bool cfg_showSlidersDefault
+    property bool cfg_showMediaDefault
+    property bool cfg_showDevicesDefault
+    property bool cfg_showPrintQueueDefault
+    property var cfg_colorHistoryDefault
+    property string cfg_lightColorSchemeDefault
+    property string cfg_darkColorSchemeDefault
+    property string cfg_lightPlasmaStyleDefault
+    property string cfg_darkPlasmaStyleDefault
+    property string cfg_lightIconThemeDefault
+    property string cfg_darkIconThemeDefault
+    property bool cfg_showNotificationsTabDefault
+    property int cfg_headerIconSizeDefault
+    property int cfg_headerHeightDefault
+    property int cfg_headerBadgeDefault
+    property bool cfg_animateClickDefault
+
+    // Custom tiles: edited on the Custom Tiles page (only the page on screen is saved)
+    property var cfg_custom1Name
+    property var cfg_custom1NameDefault
+    property var cfg_custom1Icon
+    property var cfg_custom1IconDefault
+    property var cfg_custom1OnCommand
+    property var cfg_custom1OnCommandDefault
+    property var cfg_custom1OffCommand
+    property var cfg_custom1OffCommandDefault
+    property var cfg_custom1StatusCommand
+    property var cfg_custom1StatusCommandDefault
+    property var cfg_custom1On
+    property var cfg_custom1OnDefault
+    property var cfg_custom2Name
+    property var cfg_custom2NameDefault
+    property var cfg_custom2Icon
+    property var cfg_custom2IconDefault
+    property var cfg_custom2OnCommand
+    property var cfg_custom2OnCommandDefault
+    property var cfg_custom2OffCommand
+    property var cfg_custom2OffCommandDefault
+    property var cfg_custom2StatusCommand
+    property var cfg_custom2StatusCommandDefault
+    property var cfg_custom2On
+    property var cfg_custom2OnDefault
+
+    readonly property var allTiles: [
+        { id: "wifi", name: i18n("Wi-Fi"), icon: "network-wireless-symbolic" },
+        { id: "bluetooth", name: i18n("Bluetooth"), icon: "network-bluetooth" },
+        { id: "nightlight", name: i18n("Night Light"), icon: "redshift-status-on" },
+        { id: "dnd", name: i18n("Do Not Disturb"), icon: "notifications-disabled-symbolic" },
+        { id: "airplane", name: i18n("Airplane Mode"), icon: "network-flightmode-on" },
+        { id: "powerprofile", name: i18n("Power Mode"), icon: "speedometer" },
+        { id: "microphone", name: i18n("Microphone"), icon: "microphone-sensitivity-high" },
+        { id: "kdeconnect", name: i18n("KDE Connect"), icon: "kdeconnect-tray-symbolic" },
+        { id: "keepawake", name: i18n("Keep awake"), icon: "system-suspend-inhibited" },
+        { id: "darkmode", name: i18n("Dark Mode"), icon: "weather-clear-night-symbolic" },
+        { id: "clipboard", name: i18n("Clipboard"), icon: "klipper-symbolic" },
+        { id: "colorpicker", name: i18n("Color Picker"), icon: "color-picker-symbolic" },
+        { id: "screenshot", name: i18n("Screenshot"), icon: "camera-photo-symbolic" },
+        { id: "hotspot", name: i18n("Hotspot"), icon: "network-wireless-hotspot-symbolic" },
+        { id: "vpn", name: i18n("VPN"), icon: "network-vpn-symbolic" },
+        // Named and set up on the Custom Tiles page
+        { id: "custom1", name: page.cfg_custom1Name || i18n("Custom tile 1"), icon: page.cfg_custom1Icon || "system-run-symbolic" },
+        { id: "custom2", name: page.cfg_custom2Name || i18n("Custom tile 2"), icon: page.cfg_custom2Icon || "system-run-symbolic" }
+    ]
+    readonly property var enabledTiles: Array.from(cfg_tiles).filter(id => allTiles.some(t => t.id === id))
+    // Shown tiles first, in their order, then the hidden ones
+    readonly property var order: enabledTiles.concat(allTiles.map(t => t.id).filter(id => !enabledTiles.includes(id)))
+
+    function tileInfo(id) {
+        return allTiles.find(t => t.id === id);
+    }
+
+    function setShown(id, shown) {
+        const set = enabledTiles.filter(x => x !== id);
+        if (shown) {
+            set.push(id);
+        }
+        cfg_tiles = set;
+    }
+
+    function move(id, delta) {
+        const list = enabledTiles.slice();
+        const i = list.indexOf(id);
+        const j = i + delta;
+        if (i < 0 || j < 0 || j >= list.length) {
+            return;
+        }
+        list[i] = list[j];
+        list[j] = id;
+        cfg_tiles = list;
+    }
+
+    Kirigami.FormLayout {
+        QQC2.Button {
+            Kirigami.FormData.label: i18n("Panel icon:")
+            icon.name: cfg_icon
+            icon.width: Kirigami.Units.iconSizes.large
+            icon.height: Kirigami.Units.iconSizes.large
+            onClicked: iconDialog.open()
+
+            QQC2.ToolTip.text: i18n("Shown when all panel indicators are hidden or unavailable")
+            QQC2.ToolTip.visible: hovered
+            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+
+            KIconThemes.IconDialog {
+                id: iconDialog
+                onIconNameChanged: cfg_icon = iconName || "preferences-system-symbolic"
+            }
+        }
+
+        QQC2.CheckBox {
+            id: networkCheck
+            Kirigami.FormData.label: i18n("Panel indicators:")
+            text: i18n("Network")
+        }
+        QQC2.CheckBox {
+            id: volumeCheck
+            text: i18n("Volume (scroll to change it)")
+        }
+        QQC2.CheckBox {
+            id: batteryCheck
+            text: i18n("Battery")
+        }
+        QQC2.CheckBox {
+            id: notificationCheck
+            text: i18n("Notifications, while unread or Do Not Disturb is on")
+        }
+
+        Item {
+            Kirigami.FormData.isSection: true
+        }
+
+        ColumnLayout {
+            Kirigami.FormData.label: i18n("Tiles:")
+            Kirigami.FormData.labelAlignment: Qt.AlignTop
+            spacing: 0
+
+            Repeater {
+                model: page.order
+
+                delegate: RowLayout {
+                    id: tileRow
+
+                    required property string modelData
+                    required property int index
+                    readonly property var info: page.tileInfo(modelData)
+                    readonly property bool shown: page.enabledTiles.includes(modelData)
+                    readonly property int position: page.enabledTiles.indexOf(modelData)
+
+                    spacing: Kirigami.Units.smallSpacing
+
+                    QQC2.CheckBox {
+                        checked: tileRow.shown
+                        onToggled: page.setShown(tileRow.modelData, checked)
+                        Accessible.name: tileRow.info.name
+                    }
+                    Kirigami.Icon {
+                        Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                        Layout.preferredHeight: Kirigami.Units.iconSizes.small
+                        source: tileRow.info.icon
+                        opacity: tileRow.shown ? 1 : 0.5
+                    }
+                    QQC2.Label {
+                        Layout.minimumWidth: Kirigami.Units.gridUnit * 8
+                        text: tileRow.info.name
+                        opacity: tileRow.shown ? 1 : 0.6
+                    }
+                    QQC2.ToolButton {
+                        icon.name: "arrow-up"
+                        display: QQC2.AbstractButton.IconOnly
+                        text: i18n("Move up")
+                        enabled: tileRow.shown && tileRow.position > 0
+                        onClicked: page.move(tileRow.modelData, -1)
+                        QQC2.ToolTip.text: text
+                        QQC2.ToolTip.visible: hovered
+                        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    }
+                    QQC2.ToolButton {
+                        icon.name: "arrow-down"
+                        display: QQC2.AbstractButton.IconOnly
+                        text: i18n("Move down")
+                        enabled: tileRow.shown && tileRow.position < page.enabledTiles.length - 1
+                        onClicked: page.move(tileRow.modelData, 1)
+                        QQC2.ToolTip.text: text
+                        QQC2.ToolTip.visible: hovered
+                        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    }
+                }
+            }
+
+            QQC2.Label {
+                Layout.topMargin: Kirigami.Units.smallSpacing
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 18
+                text: i18n("Tiles for hardware this computer doesn't have (for example Wi-Fi on a desktop) hide themselves. The custom tiles' commands are set on the Custom Tiles page.")
+                font: Kirigami.Theme.smallFont
+                opacity: 0.7
+                wrapMode: Text.WordWrap
+            }
+        }
+
+        Item {
+            Kirigami.FormData.isSection: true
+        }
+
+        QQC2.CheckBox {
+            id: slidersCheck
+            Kirigami.FormData.label: i18n("Show:")
+            text: i18n("Volume and brightness sliders")
+        }
+        QQC2.CheckBox {
+            id: mediaCheck
+            text: i18n("Media player")
+        }
+        QQC2.CheckBox {
+            id: devicesCheck
+            text: i18n("Removable devices, while plugged in")
+        }
+        QQC2.CheckBox {
+            id: printQueueCheck
+            text: i18n("Print queue, while printing")
+        }
+
+        QQC2.CheckBox {
+            id: notificationsTabCheck
+            Kirigami.FormData.label: i18n("Tabs:")
+            text: i18n("Notifications")
+        }
+
+        QQC2.ComboBox {
+            id: headerBadgeCombo
+            Kirigami.FormData.label: i18n("Header shows:")
+            model: [i18n("Battery (on laptops)"), i18n("CPU and RAM usage"), i18n("GPU and VRAM usage"), i18n("Nothing")]
+        }
+        QQC2.ComboBox {
+            id: headerHeightCombo
+            Kirigami.FormData.label: i18n("Header height:")
+            model: [i18nc("Header height", "Default"), i18nc("Header height", "Thin")]
+        }
+        QQC2.ComboBox {
+            id: iconSizeCombo
+            Kirigami.FormData.label: i18n("Header buttons:")
+            model: [i18nc("Header button size", "Default"), i18nc("Header button size", "Large")]
+            currentIndex: page.cfg_headerIconSize >= 2 ? 1 : 0
+            onActivated: index => page.cfg_headerIconSize = index + 1
+        }
+
+        QQC2.CheckBox {
+            id: clickCheck
+            Kirigami.FormData.label: i18n("Animations:")
+            text: i18n("Squeeze tiles when clicked")
+        }
+    }
+}
