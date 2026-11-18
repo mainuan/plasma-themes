@@ -179,7 +179,7 @@ msgstr "KDE Connect"
 
 #: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
 msgid "Keep awake"
-msgstr "Impedir suspensão"
+msgstr "Manter ativo"
 
 #: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
 msgid "Dark Mode"
