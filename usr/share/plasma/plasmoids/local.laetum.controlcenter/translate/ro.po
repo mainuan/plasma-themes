@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
 "issues\n"
-"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"POT-Creation-Date: 2026-11-19 01:25-0300\n"
 "PO-Revision-Date: 2026-11-18 06:36-0300\n"
 "Last-Translator: Mainuan translators\n"
 "Language-Team: Romanian\n"
@@ -68,7 +68,7 @@ msgstr ""
 "comandă de pornire pentru a o face buton. Adăugați dalele în fereastra "
 "widgetului din pagina Generale."
 
-#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:108
 msgid "Custom tile 1"
 msgstr "Dală personalizată 1"
 
@@ -107,7 +107,7 @@ msgctxt "Example command"
 msgid "Optional, e.g. systemctl --user is-active syncthing"
 msgstr "Opțional, ex. systemctl --user is-active syncthing"
 
-#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:109
 msgid "Custom tile 2"
 msgstr "Dală personalizată 2"
 
@@ -141,116 +141,116 @@ msgstr ""
 "Comenzile rulează în numele dumneavoastră, cu permisiunile dumneavoastră. "
 "Folosiți numai comenzi pe care le înțelegeți și în care aveți încredere."
 
-#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/WifiPage.qml:15
 #: contents/ui/tiles/WifiTile.qml:14
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/pages/BluetoothPage.qml:17
 #: contents/ui/tiles/BluetoothTile.qml:13
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/pages/NightLightPage.qml:15
 #: contents/ui/tiles/NightLightTile.qml:12
 msgid "Night Light"
 msgstr "Lumină nocturnă"
 
-#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tabs/NotificationsTab.qml:114
 #: contents/ui/tiles/DndTile.qml:15
 msgid "Do Not Disturb"
 msgstr "Nu deranjați"
 
-#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/AirplaneTile.qml:11
 msgid "Airplane Mode"
 msgstr "Regim avion"
 
-#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/tiles/PowerProfileTile.qml:25
 msgid "Power Mode"
 msgstr "Regim de alimentare"
 
-#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/MicrophoneTile.qml:13
 msgid "Microphone"
 msgstr "Microfon"
 
-#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/pages/KdeConnectPage.qml:16
 #: contents/ui/tiles/KdeConnectTile.qml:14
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/tiles/KeepAwakeTile.qml:10
 msgid "Keep awake"
 msgstr "Fără adormire"
 
-#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/tiles/DarkModeTile.qml:31
 msgid "Dark Mode"
 msgstr "Regim întunecat"
 
-#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/pages/ClipboardPage.qml:17
 #: contents/ui/tiles/ClipboardTile.qml:13
 msgid "Clipboard"
 msgstr "Clipboard"
 
-#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/ColorsPage.qml:17
 #: contents/ui/tiles/ColorPickerTile.qml:12
 msgid "Color Picker"
 msgstr "Selector de culori"
 
-#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/tiles/ScreenshotTile.qml:14
 msgid "Screenshot"
 msgstr "Captură de ecran"
 
-#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/ConfigGeneral.qml:105 contents/ui/pages/HotspotPage.qml:14
 #: contents/ui/tiles/HotspotTile.qml:13
 msgid "Hotspot"
 msgstr "Hotspot"
 
-#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/ConfigGeneral.qml:106 contents/ui/pages/VpnPage.qml:14
 #: contents/ui/tiles/VpnTile.qml:13
 msgid "VPN"
 msgstr "VPN"
 
-#: contents/ui/ConfigGeneral.qml:139
+#: contents/ui/ConfigGeneral.qml:141
 msgid "Panel icon:"
 msgstr "Pictogramă în panou:"
 
-#: contents/ui/ConfigGeneral.qml:145
+#: contents/ui/ConfigGeneral.qml:147
 msgid "Shown when all panel indicators are hidden or unavailable"
 msgstr "Afișată când toți indicatorii din panou sunt ascunși sau indisponibili"
 
-#: contents/ui/ConfigGeneral.qml:157
+#: contents/ui/ConfigGeneral.qml:159
 msgid "Panel indicators:"
 msgstr "Indicatori în panou:"
 
-#: contents/ui/ConfigGeneral.qml:158
+#: contents/ui/ConfigGeneral.qml:160
 msgid "Network"
 msgstr "Rețea"
 
-#: contents/ui/ConfigGeneral.qml:162
+#: contents/ui/ConfigGeneral.qml:164
 msgid "Volume (scroll to change it)"
 msgstr "Volum (derulați pentru a-l modifica)"
 
-#: contents/ui/ConfigGeneral.qml:166
+#: contents/ui/ConfigGeneral.qml:168
 msgid "Battery"
 msgstr "Acumulator"
 
-#: contents/ui/ConfigGeneral.qml:170
+#: contents/ui/ConfigGeneral.qml:172
 msgid "Notifications, while unread or Do Not Disturb is on"
 msgstr "Notificări, când există necitite sau „Nu deranjați” e activ"
 
-#: contents/ui/ConfigGeneral.qml:178
+#: contents/ui/ConfigGeneral.qml:180
 msgid "Tiles:"
 msgstr "Dale:"
 
-#: contents/ui/ConfigGeneral.qml:215
+#: contents/ui/ConfigGeneral.qml:217
 msgid "Move up"
 msgstr "Mută în sus"
 
-#: contents/ui/ConfigGeneral.qml:225
+#: contents/ui/ConfigGeneral.qml:227
 msgid "Move down"
 msgstr "Mută în jos"
 
-#: contents/ui/ConfigGeneral.qml:238
+#: contents/ui/ConfigGeneral.qml:240
 msgid ""
 "Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
 "desktop) hide themselves. The custom tiles' commands are set on the Custom "
@@ -260,88 +260,96 @@ msgstr ""
 "Fi pe un desktop) se ascund singure. Comenzile dalelor personalizate se "
 "stabilesc în pagina Dale personalizate."
 
-#: contents/ui/ConfigGeneral.qml:251
+#: contents/ui/ConfigGeneral.qml:253
 msgid "Show:"
 msgstr "Arată:"
 
-#: contents/ui/ConfigGeneral.qml:252
+#: contents/ui/ConfigGeneral.qml:254
 msgid "Volume and brightness sliders"
 msgstr "Glisoare pentru volum și luminozitate"
 
-#: contents/ui/ConfigGeneral.qml:256
+#: contents/ui/ConfigGeneral.qml:258
 msgid "Media player"
 msgstr "Player multimedia"
 
-#: contents/ui/ConfigGeneral.qml:260
+#: contents/ui/ConfigGeneral.qml:262
 msgid "Removable devices, while plugged in"
 msgstr "Dispozitive amovibile, cât timp sunt conectate"
 
-#: contents/ui/ConfigGeneral.qml:264
+#: contents/ui/ConfigGeneral.qml:266
 msgid "Print queue, while printing"
 msgstr "Coadă de tipărire, în timpul tipăririi"
 
-#: contents/ui/ConfigGeneral.qml:269
+#: contents/ui/ConfigGeneral.qml:271
 msgid "Tabs:"
 msgstr "File:"
 
-#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
-#: contents/ui/Panel.qml:31
+#: contents/ui/ConfigGeneral.qml:272 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:37
 msgid "Notifications"
 msgstr "Notificări"
 
-#: contents/ui/ConfigGeneral.qml:275
+#: contents/ui/ConfigGeneral.qml:277
+msgid "Header:"
+msgstr "Antet:"
+
+#: contents/ui/ConfigGeneral.qml:278
+msgid "Show the header with System Settings and Power"
+msgstr "Arată antetul cu Configurări de sistem și Alimentare"
+
+#: contents/ui/ConfigGeneral.qml:283
 msgid "Header shows:"
 msgstr "Antetul arată:"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Battery (on laptops)"
 msgstr "Acumulator (pe laptopuri)"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "CPU and RAM usage"
 msgstr "Utilizare CPU și RAM"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "GPU and VRAM usage"
 msgstr "Utilizare GPU și VRAM"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Nothing"
 msgstr "Nimic"
 
-#: contents/ui/ConfigGeneral.qml:280
+#: contents/ui/ConfigGeneral.qml:289
 msgid "Header height:"
 msgstr "Înălțimea antetului:"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Default"
 msgstr "Implicită"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Thin"
 msgstr "Subțire"
 
-#: contents/ui/ConfigGeneral.qml:285
+#: contents/ui/ConfigGeneral.qml:295
 msgid "Header buttons:"
 msgstr "Butoanele antetului:"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Default"
 msgstr "Implicite"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Large"
 msgstr "Mari"
 
-#: contents/ui/ConfigGeneral.qml:293
+#: contents/ui/ConfigGeneral.qml:303
 msgid "Animations:"
 msgstr "Animații:"
 
-#: contents/ui/ConfigGeneral.qml:294
+#: contents/ui/ConfigGeneral.qml:304
 msgid "Squeeze tiles when clicked"
 msgstr "Comprimă dalele la clic"
 
@@ -800,47 +808,47 @@ msgstr "Anulează"
 msgid "Network settings"
 msgstr "Configurări de rețea"
 
-#: contents/ui/Panel.qml:29
+#: contents/ui/Panel.qml:35
 msgid "Controls"
 msgstr "Controale"
 
-#: contents/ui/Panel.qml:242
+#: contents/ui/Panel.qml:256
 msgid "System Settings"
 msgstr "Configurări de sistem"
 
-#: contents/ui/Panel.qml:253
+#: contents/ui/Panel.qml:267
 msgid "Power"
 msgstr "Alimentare"
 
-#: contents/ui/Panel.qml:272
+#: contents/ui/Panel.qml:288
 msgid "Back"
 msgstr "Înapoi"
 
-#: contents/ui/Panel.qml:469
+#: contents/ui/Panel.qml:498
 msgid "Lock"
 msgstr "Blochează"
 
-#: contents/ui/Panel.qml:470
+#: contents/ui/Panel.qml:499
 msgid "Sleep"
 msgstr "Adormire"
 
-#: contents/ui/Panel.qml:471
+#: contents/ui/Panel.qml:500
 msgid "Hibernate"
 msgstr "Hibernare"
 
-#: contents/ui/Panel.qml:472
+#: contents/ui/Panel.qml:501
 msgid "Restart"
 msgstr "Repornește"
 
-#: contents/ui/Panel.qml:473
+#: contents/ui/Panel.qml:502
 msgid "Shut Down"
 msgstr "Oprește"
 
-#: contents/ui/Panel.qml:475
+#: contents/ui/Panel.qml:504
 msgid "Switch User"
 msgstr "Schimbă utilizatorul"
 
-#: contents/ui/Panel.qml:476
+#: contents/ui/Panel.qml:505
 msgid "Log Out"
 msgstr "Ieșire din sesiune"
 

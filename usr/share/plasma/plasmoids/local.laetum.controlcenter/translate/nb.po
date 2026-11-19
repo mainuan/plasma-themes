@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
 "issues\n"
-"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"POT-Creation-Date: 2026-11-19 01:25-0300\n"
 "PO-Revision-Date: 2026-11-18 06:34-0300\n"
 "Last-Translator: Mainuan translators\n"
 "Language-Team: Norwegian Bokmål\n"
@@ -66,7 +66,7 @@ msgstr ""
 "for å gjøre den til en bryter, eller bare en PÅ-kommando for å gjøre den til "
 "en knapp. Legg flisene til i sprettoppvinduet på siden Generelt."
 
-#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:108
 msgid "Custom tile 1"
 msgstr "Egen flis 1"
 
@@ -105,7 +105,7 @@ msgctxt "Example command"
 msgid "Optional, e.g. systemctl --user is-active syncthing"
 msgstr "Valgfritt, f.eks. systemctl --user is-active syncthing"
 
-#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:109
 msgid "Custom tile 2"
 msgstr "Egen flis 2"
 
@@ -139,116 +139,116 @@ msgstr ""
 "Kommandoene kjøres som deg, med dine tillatelser. Bruk bare kommandoer du "
 "forstår og stoler på."
 
-#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/WifiPage.qml:15
 #: contents/ui/tiles/WifiTile.qml:14
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/pages/BluetoothPage.qml:17
 #: contents/ui/tiles/BluetoothTile.qml:13
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/pages/NightLightPage.qml:15
 #: contents/ui/tiles/NightLightTile.qml:12
 msgid "Night Light"
 msgstr "Kveldsfarger"
 
-#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tabs/NotificationsTab.qml:114
 #: contents/ui/tiles/DndTile.qml:15
 msgid "Do Not Disturb"
 msgstr "Ikke forstyrr"
 
-#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/AirplaneTile.qml:11
 msgid "Airplane Mode"
 msgstr "Flymodus"
 
-#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/tiles/PowerProfileTile.qml:25
 msgid "Power Mode"
 msgstr "Strømprofil"
 
-#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/MicrophoneTile.qml:13
 msgid "Microphone"
 msgstr "Mikrofon"
 
-#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/pages/KdeConnectPage.qml:16
 #: contents/ui/tiles/KdeConnectTile.qml:14
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/tiles/KeepAwakeTile.qml:10
 msgid "Keep awake"
 msgstr "Hold våken"
 
-#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/tiles/DarkModeTile.qml:31
 msgid "Dark Mode"
 msgstr "Mørk modus"
 
-#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/pages/ClipboardPage.qml:17
 #: contents/ui/tiles/ClipboardTile.qml:13
 msgid "Clipboard"
 msgstr "Utklippstavle"
 
-#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/ColorsPage.qml:17
 #: contents/ui/tiles/ColorPickerTile.qml:12
 msgid "Color Picker"
 msgstr "Fargevelger"
 
-#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/tiles/ScreenshotTile.qml:14
 msgid "Screenshot"
 msgstr "Skjermbilde"
 
-#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/ConfigGeneral.qml:105 contents/ui/pages/HotspotPage.qml:14
 #: contents/ui/tiles/HotspotTile.qml:13
 msgid "Hotspot"
 msgstr "Trådløssone"
 
-#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/ConfigGeneral.qml:106 contents/ui/pages/VpnPage.qml:14
 #: contents/ui/tiles/VpnTile.qml:13
 msgid "VPN"
 msgstr "VPN"
 
-#: contents/ui/ConfigGeneral.qml:139
+#: contents/ui/ConfigGeneral.qml:141
 msgid "Panel icon:"
 msgstr "Panelikon:"
 
-#: contents/ui/ConfigGeneral.qml:145
+#: contents/ui/ConfigGeneral.qml:147
 msgid "Shown when all panel indicators are hidden or unavailable"
 msgstr "Vises når alle panelindikatorene er skjult eller utilgjengelige"
 
-#: contents/ui/ConfigGeneral.qml:157
+#: contents/ui/ConfigGeneral.qml:159
 msgid "Panel indicators:"
 msgstr "Panelindikatorer:"
 
-#: contents/ui/ConfigGeneral.qml:158
+#: contents/ui/ConfigGeneral.qml:160
 msgid "Network"
 msgstr "Nettverk"
 
-#: contents/ui/ConfigGeneral.qml:162
+#: contents/ui/ConfigGeneral.qml:164
 msgid "Volume (scroll to change it)"
 msgstr "Lydstyrke (rull for å endre)"
 
-#: contents/ui/ConfigGeneral.qml:166
+#: contents/ui/ConfigGeneral.qml:168
 msgid "Battery"
 msgstr "Batteri"
 
-#: contents/ui/ConfigGeneral.qml:170
+#: contents/ui/ConfigGeneral.qml:172
 msgid "Notifications, while unread or Do Not Disturb is on"
 msgstr "Varslinger, mens de er uleste eller «Ikke forstyrr» er på"
 
-#: contents/ui/ConfigGeneral.qml:178
+#: contents/ui/ConfigGeneral.qml:180
 msgid "Tiles:"
 msgstr "Fliser:"
 
-#: contents/ui/ConfigGeneral.qml:215
+#: contents/ui/ConfigGeneral.qml:217
 msgid "Move up"
 msgstr "Flytt opp"
 
-#: contents/ui/ConfigGeneral.qml:225
+#: contents/ui/ConfigGeneral.qml:227
 msgid "Move down"
 msgstr "Flytt ned"
 
-#: contents/ui/ConfigGeneral.qml:238
+#: contents/ui/ConfigGeneral.qml:240
 msgid ""
 "Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
 "desktop) hide themselves. The custom tiles' commands are set on the Custom "
@@ -258,88 +258,96 @@ msgstr ""
 "stasjonær maskin), skjuler seg selv. Kommandoene for de egne flisene angis "
 "på siden Egne fliser."
 
-#: contents/ui/ConfigGeneral.qml:251
+#: contents/ui/ConfigGeneral.qml:253
 msgid "Show:"
 msgstr "Vis:"
 
-#: contents/ui/ConfigGeneral.qml:252
+#: contents/ui/ConfigGeneral.qml:254
 msgid "Volume and brightness sliders"
 msgstr "Glidebrytere for lydstyrke og lysstyrke"
 
-#: contents/ui/ConfigGeneral.qml:256
+#: contents/ui/ConfigGeneral.qml:258
 msgid "Media player"
 msgstr "Mediespiller"
 
-#: contents/ui/ConfigGeneral.qml:260
+#: contents/ui/ConfigGeneral.qml:262
 msgid "Removable devices, while plugged in"
 msgstr "Flyttbare enheter, mens de er tilkoblet"
 
-#: contents/ui/ConfigGeneral.qml:264
+#: contents/ui/ConfigGeneral.qml:266
 msgid "Print queue, while printing"
 msgstr "Utskriftskø, under utskrift"
 
-#: contents/ui/ConfigGeneral.qml:269
+#: contents/ui/ConfigGeneral.qml:271
 msgid "Tabs:"
 msgstr "Faner:"
 
-#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
-#: contents/ui/Panel.qml:31
+#: contents/ui/ConfigGeneral.qml:272 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:37
 msgid "Notifications"
 msgstr "Varslinger"
 
-#: contents/ui/ConfigGeneral.qml:275
+#: contents/ui/ConfigGeneral.qml:277
+msgid "Header:"
+msgstr "Toppfelt:"
+
+#: contents/ui/ConfigGeneral.qml:278
+msgid "Show the header with System Settings and Power"
+msgstr "Vis toppfeltet med Systeminnstillinger og Strøm"
+
+#: contents/ui/ConfigGeneral.qml:283
 msgid "Header shows:"
 msgstr "Toppfeltet viser:"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Battery (on laptops)"
 msgstr "Batteri (på bærbare)"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "CPU and RAM usage"
 msgstr "CPU- og RAM-bruk"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "GPU and VRAM usage"
 msgstr "GPU- og VRAM-bruk"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Nothing"
 msgstr "Ingenting"
 
-#: contents/ui/ConfigGeneral.qml:280
+#: contents/ui/ConfigGeneral.qml:289
 msgid "Header height:"
 msgstr "Høyde på toppfeltet:"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Default"
 msgstr "Standard"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Thin"
 msgstr "Smal"
 
-#: contents/ui/ConfigGeneral.qml:285
+#: contents/ui/ConfigGeneral.qml:295
 msgid "Header buttons:"
 msgstr "Knapper i toppfeltet:"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Default"
 msgstr "Standard"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Large"
 msgstr "Store"
 
-#: contents/ui/ConfigGeneral.qml:293
+#: contents/ui/ConfigGeneral.qml:303
 msgid "Animations:"
 msgstr "Animasjoner:"
 
-#: contents/ui/ConfigGeneral.qml:294
+#: contents/ui/ConfigGeneral.qml:304
 msgid "Squeeze tiles when clicked"
 msgstr "Klem sammen fliser ved klikk"
 
@@ -795,47 +803,47 @@ msgstr "Avbryt"
 msgid "Network settings"
 msgstr "Nettverksinnstillinger"
 
-#: contents/ui/Panel.qml:29
+#: contents/ui/Panel.qml:35
 msgid "Controls"
 msgstr "Kontroller"
 
-#: contents/ui/Panel.qml:242
+#: contents/ui/Panel.qml:256
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: contents/ui/Panel.qml:253
+#: contents/ui/Panel.qml:267
 msgid "Power"
 msgstr "Strøm"
 
-#: contents/ui/Panel.qml:272
+#: contents/ui/Panel.qml:288
 msgid "Back"
 msgstr "Tilbake"
 
-#: contents/ui/Panel.qml:469
+#: contents/ui/Panel.qml:498
 msgid "Lock"
 msgstr "Lås"
 
-#: contents/ui/Panel.qml:470
+#: contents/ui/Panel.qml:499
 msgid "Sleep"
 msgstr "Hvilemodus"
 
-#: contents/ui/Panel.qml:471
+#: contents/ui/Panel.qml:500
 msgid "Hibernate"
 msgstr "Dvalemodus"
 
-#: contents/ui/Panel.qml:472
+#: contents/ui/Panel.qml:501
 msgid "Restart"
 msgstr "Start på nytt"
 
-#: contents/ui/Panel.qml:473
+#: contents/ui/Panel.qml:502
 msgid "Shut Down"
 msgstr "Slå av"
 
-#: contents/ui/Panel.qml:475
+#: contents/ui/Panel.qml:504
 msgid "Switch User"
 msgstr "Bytt bruker"
 
-#: contents/ui/Panel.qml:476
+#: contents/ui/Panel.qml:505
 msgid "Log Out"
 msgstr "Logg ut"
 

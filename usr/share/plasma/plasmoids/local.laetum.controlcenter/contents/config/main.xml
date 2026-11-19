@@ -40,6 +40,12 @@
     <entry name="showNotificationsTab" type="Bool">
       <default>true</default>
     </entry>
+    <!-- Mainuan: the popup opens straight on the tabs. The opaque band with the ring,
+         System Settings and Power only appears when this is on; both stay reachable
+         from the application menu. A drill-in page always gets its Back row. -->
+    <entry name="showHeader" type="Bool">
+      <default>false</default>
+    </entry>
     <!-- 1 = Default, 2 = Large (0, the old Small, now shows as Default) -->
     <entry name="headerIconSize" type="Int">
       <default>1</default>

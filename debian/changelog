@@ -1,3 +1,16 @@
+mainuan-plasma-themes (2026.11.19) resolute; urgency=medium
+
+  * Laetum Control Center: o popup abre direto nas abas Controles e
+    Notificações, sem a faixa cinza com os botões de Configurações do
+    sistema e de Energia (ambos continuam no menu de aplicativos). Nova
+    opção "Mostrar o cabeçalho com Configurações do sistema e Energia",
+    desligada por padrão, traduzida nos 33 idiomas. As páginas internas
+    (Wi-Fi, Bluetooth, Áudio…) mantêm a linha Voltar, agora sem a faixa e
+    com a mesma altura da linha de abas, para o popup não mudar de tamanho.
+  * CI: verificação de regressão do cabeçalho (tools/check-laetum-header.py).
+
+ -- ruscher <rruscher@gmail.com>  Thu, 19 Nov 2026 10:30:00 -0300
+
 mainuan-plasma-themes (2026.11.18) resolute; urgency=medium
 
   * Dream (claro e escuro): a tela de apresentação do tema global apontava
