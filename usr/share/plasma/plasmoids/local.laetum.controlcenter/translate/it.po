@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: local.laetum.controlcenter 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/PcmciaKai/Laetum-Control-Center/"
 "issues\n"
-"POT-Creation-Date: 2026-11-18 06:25-0300\n"
+"POT-Creation-Date: 2026-11-19 01:25-0300\n"
 "PO-Revision-Date: 2026-11-18 06:36-0300\n"
 "Last-Translator: Mainuan translators\n"
 "Language-Team: Italian\n"
@@ -67,7 +67,7 @@ msgstr ""
 "un comando di attivazione per farne un pulsante. Aggiungi i riquadri al "
 "pannello a comparsa nella pagina Generale."
 
-#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:106
+#: contents/ui/ConfigCustom.qml:129 contents/ui/ConfigGeneral.qml:108
 msgid "Custom tile 1"
 msgstr "Riquadro personalizzato 1"
 
@@ -106,7 +106,7 @@ msgctxt "Example command"
 msgid "Optional, e.g. systemctl --user is-active syncthing"
 msgstr "Facoltativo, es. systemctl --user is-active syncthing"
 
-#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:107
+#: contents/ui/ConfigCustom.qml:163 contents/ui/ConfigGeneral.qml:109
 msgid "Custom tile 2"
 msgstr "Riquadro personalizzato 2"
 
@@ -140,118 +140,118 @@ msgstr ""
 "I comandi vengono eseguiti come il tuo utente, con i tuoi permessi. Usa solo "
 "comandi che comprendi e di cui ti fidi."
 
-#: contents/ui/ConfigGeneral.qml:90 contents/ui/pages/WifiPage.qml:15
+#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/WifiPage.qml:15
 #: contents/ui/tiles/WifiTile.qml:14
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: contents/ui/ConfigGeneral.qml:91 contents/ui/pages/BluetoothPage.qml:17
+#: contents/ui/ConfigGeneral.qml:93 contents/ui/pages/BluetoothPage.qml:17
 #: contents/ui/tiles/BluetoothTile.qml:13
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: contents/ui/ConfigGeneral.qml:92 contents/ui/pages/NightLightPage.qml:15
+#: contents/ui/ConfigGeneral.qml:94 contents/ui/pages/NightLightPage.qml:15
 #: contents/ui/tiles/NightLightTile.qml:12
 msgid "Night Light"
 msgstr "Luce notturna"
 
-#: contents/ui/ConfigGeneral.qml:93 contents/ui/tabs/NotificationsTab.qml:114
+#: contents/ui/ConfigGeneral.qml:95 contents/ui/tabs/NotificationsTab.qml:114
 #: contents/ui/tiles/DndTile.qml:15
 msgid "Do Not Disturb"
 msgstr "Non disturbare"
 
-#: contents/ui/ConfigGeneral.qml:94 contents/ui/tiles/AirplaneTile.qml:11
+#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/AirplaneTile.qml:11
 msgid "Airplane Mode"
 msgstr "Modalità aereo"
 
-#: contents/ui/ConfigGeneral.qml:95 contents/ui/tiles/PowerProfileTile.qml:25
+#: contents/ui/ConfigGeneral.qml:97 contents/ui/tiles/PowerProfileTile.qml:25
 msgid "Power Mode"
 msgstr "Modalità energetica"
 
-#: contents/ui/ConfigGeneral.qml:96 contents/ui/tiles/MicrophoneTile.qml:13
+#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/MicrophoneTile.qml:13
 msgid "Microphone"
 msgstr "Microfono"
 
-#: contents/ui/ConfigGeneral.qml:97 contents/ui/pages/KdeConnectPage.qml:16
+#: contents/ui/ConfigGeneral.qml:99 contents/ui/pages/KdeConnectPage.qml:16
 #: contents/ui/tiles/KdeConnectTile.qml:14
 msgid "KDE Connect"
 msgstr "KDE Connect"
 
-#: contents/ui/ConfigGeneral.qml:98 contents/ui/tiles/KeepAwakeTile.qml:10
+#: contents/ui/ConfigGeneral.qml:100 contents/ui/tiles/KeepAwakeTile.qml:10
 msgid "Keep awake"
 msgstr "Impedisci sospensione"
 
-#: contents/ui/ConfigGeneral.qml:99 contents/ui/tiles/DarkModeTile.qml:31
+#: contents/ui/ConfigGeneral.qml:101 contents/ui/tiles/DarkModeTile.qml:31
 msgid "Dark Mode"
 msgstr "Modalità scura"
 
-#: contents/ui/ConfigGeneral.qml:100 contents/ui/pages/ClipboardPage.qml:17
+#: contents/ui/ConfigGeneral.qml:102 contents/ui/pages/ClipboardPage.qml:17
 #: contents/ui/tiles/ClipboardTile.qml:13
 msgid "Clipboard"
 msgstr "Appunti"
 
-#: contents/ui/ConfigGeneral.qml:101 contents/ui/pages/ColorsPage.qml:17
+#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/ColorsPage.qml:17
 #: contents/ui/tiles/ColorPickerTile.qml:12
 msgid "Color Picker"
 msgstr "Selettore di colore"
 
-#: contents/ui/ConfigGeneral.qml:102 contents/ui/tiles/ScreenshotTile.qml:14
+#: contents/ui/ConfigGeneral.qml:104 contents/ui/tiles/ScreenshotTile.qml:14
 msgid "Screenshot"
 msgstr "Schermata"
 
-#: contents/ui/ConfigGeneral.qml:103 contents/ui/pages/HotspotPage.qml:14
+#: contents/ui/ConfigGeneral.qml:105 contents/ui/pages/HotspotPage.qml:14
 #: contents/ui/tiles/HotspotTile.qml:13
 msgid "Hotspot"
 msgstr "Hotspot"
 
-#: contents/ui/ConfigGeneral.qml:104 contents/ui/pages/VpnPage.qml:14
+#: contents/ui/ConfigGeneral.qml:106 contents/ui/pages/VpnPage.qml:14
 #: contents/ui/tiles/VpnTile.qml:13
 msgid "VPN"
 msgstr "VPN"
 
-#: contents/ui/ConfigGeneral.qml:139
+#: contents/ui/ConfigGeneral.qml:141
 msgid "Panel icon:"
 msgstr "Icona del pannello:"
 
-#: contents/ui/ConfigGeneral.qml:145
+#: contents/ui/ConfigGeneral.qml:147
 msgid "Shown when all panel indicators are hidden or unavailable"
 msgstr ""
 "Mostrata quando tutti gli indicatori del pannello sono nascosti o non "
 "disponibili"
 
-#: contents/ui/ConfigGeneral.qml:157
+#: contents/ui/ConfigGeneral.qml:159
 msgid "Panel indicators:"
 msgstr "Indicatori del pannello:"
 
-#: contents/ui/ConfigGeneral.qml:158
+#: contents/ui/ConfigGeneral.qml:160
 msgid "Network"
 msgstr "Rete"
 
-#: contents/ui/ConfigGeneral.qml:162
+#: contents/ui/ConfigGeneral.qml:164
 msgid "Volume (scroll to change it)"
 msgstr "Volume (scorri per modificarlo)"
 
-#: contents/ui/ConfigGeneral.qml:166
+#: contents/ui/ConfigGeneral.qml:168
 msgid "Battery"
 msgstr "Batteria"
 
-#: contents/ui/ConfigGeneral.qml:170
+#: contents/ui/ConfigGeneral.qml:172
 msgid "Notifications, while unread or Do Not Disturb is on"
 msgstr "Notifiche, se ce ne sono di non lette o se Non disturbare è attivo"
 
-#: contents/ui/ConfigGeneral.qml:178
+#: contents/ui/ConfigGeneral.qml:180
 msgid "Tiles:"
 msgstr "Riquadri:"
 
-#: contents/ui/ConfigGeneral.qml:215
+#: contents/ui/ConfigGeneral.qml:217
 msgid "Move up"
 msgstr "Sposta su"
 
-#: contents/ui/ConfigGeneral.qml:225
+#: contents/ui/ConfigGeneral.qml:227
 msgid "Move down"
 msgstr "Sposta giù"
 
-#: contents/ui/ConfigGeneral.qml:238
+#: contents/ui/ConfigGeneral.qml:240
 msgid ""
 "Tiles for hardware this computer doesn't have (for example Wi-Fi on a "
 "desktop) hide themselves. The custom tiles' commands are set on the Custom "
@@ -261,88 +261,96 @@ msgstr ""
 "un desktop) si nascondono da soli. I comandi dei riquadri personalizzati si "
 "impostano nella pagina Riquadri personalizzati."
 
-#: contents/ui/ConfigGeneral.qml:251
+#: contents/ui/ConfigGeneral.qml:253
 msgid "Show:"
 msgstr "Mostra:"
 
-#: contents/ui/ConfigGeneral.qml:252
+#: contents/ui/ConfigGeneral.qml:254
 msgid "Volume and brightness sliders"
 msgstr "Cursori di volume e luminosità"
 
-#: contents/ui/ConfigGeneral.qml:256
+#: contents/ui/ConfigGeneral.qml:258
 msgid "Media player"
 msgstr "Lettore multimediale"
 
-#: contents/ui/ConfigGeneral.qml:260
+#: contents/ui/ConfigGeneral.qml:262
 msgid "Removable devices, while plugged in"
 msgstr "Dispositivi rimovibili, quando collegati"
 
-#: contents/ui/ConfigGeneral.qml:264
+#: contents/ui/ConfigGeneral.qml:266
 msgid "Print queue, while printing"
 msgstr "Coda di stampa, durante la stampa"
 
-#: contents/ui/ConfigGeneral.qml:269
+#: contents/ui/ConfigGeneral.qml:271
 msgid "Tabs:"
 msgstr "Schede:"
 
-#: contents/ui/ConfigGeneral.qml:270 contents/ui/pages/KdeConnectPage.qml:288
-#: contents/ui/Panel.qml:31
+#: contents/ui/ConfigGeneral.qml:272 contents/ui/pages/KdeConnectPage.qml:288
+#: contents/ui/Panel.qml:37
 msgid "Notifications"
 msgstr "Notifiche"
 
-#: contents/ui/ConfigGeneral.qml:275
+#: contents/ui/ConfigGeneral.qml:277
+msgid "Header:"
+msgstr "Intestazione:"
+
+#: contents/ui/ConfigGeneral.qml:278
+msgid "Show the header with System Settings and Power"
+msgstr "Mostra l'intestazione con Impostazioni di sistema e Alimentazione"
+
+#: contents/ui/ConfigGeneral.qml:283
 msgid "Header shows:"
 msgstr "L'intestazione mostra:"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Battery (on laptops)"
 msgstr "Batteria (sui portatili)"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "CPU and RAM usage"
 msgstr "Uso di CPU e RAM"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "GPU and VRAM usage"
 msgstr "Uso di GPU e VRAM"
 
-#: contents/ui/ConfigGeneral.qml:276
+#: contents/ui/ConfigGeneral.qml:284
 msgid "Nothing"
 msgstr "Niente"
 
-#: contents/ui/ConfigGeneral.qml:280
+#: contents/ui/ConfigGeneral.qml:289
 msgid "Header height:"
 msgstr "Altezza dell'intestazione:"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Default"
 msgstr "Predefinita"
 
-#: contents/ui/ConfigGeneral.qml:281
+#: contents/ui/ConfigGeneral.qml:290
 msgctxt "Header height"
 msgid "Thin"
 msgstr "Sottile"
 
-#: contents/ui/ConfigGeneral.qml:285
+#: contents/ui/ConfigGeneral.qml:295
 msgid "Header buttons:"
 msgstr "Pulsanti dell'intestazione:"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Default"
 msgstr "Predefiniti"
 
-#: contents/ui/ConfigGeneral.qml:286
+#: contents/ui/ConfigGeneral.qml:296
 msgctxt "Header button size"
 msgid "Large"
 msgstr "Grandi"
 
-#: contents/ui/ConfigGeneral.qml:293
+#: contents/ui/ConfigGeneral.qml:303
 msgid "Animations:"
 msgstr "Animazioni:"
 
-#: contents/ui/ConfigGeneral.qml:294
+#: contents/ui/ConfigGeneral.qml:304
 msgid "Squeeze tiles when clicked"
 msgstr "Comprimi i riquadri al clic"
 
@@ -797,47 +805,47 @@ msgstr "Annulla"
 msgid "Network settings"
 msgstr "Impostazioni di rete"
 
-#: contents/ui/Panel.qml:29
+#: contents/ui/Panel.qml:35
 msgid "Controls"
 msgstr "Controlli"
 
-#: contents/ui/Panel.qml:242
+#: contents/ui/Panel.qml:256
 msgid "System Settings"
 msgstr "Impostazioni di sistema"
 
-#: contents/ui/Panel.qml:253
+#: contents/ui/Panel.qml:267
 msgid "Power"
 msgstr "Alimentazione"
 
-#: contents/ui/Panel.qml:272
+#: contents/ui/Panel.qml:288
 msgid "Back"
 msgstr "Indietro"
 
-#: contents/ui/Panel.qml:469
+#: contents/ui/Panel.qml:498
 msgid "Lock"
 msgstr "Blocca"
 
-#: contents/ui/Panel.qml:470
+#: contents/ui/Panel.qml:499
 msgid "Sleep"
 msgstr "Sospendi"
 
-#: contents/ui/Panel.qml:471
+#: contents/ui/Panel.qml:500
 msgid "Hibernate"
 msgstr "Iberna"
 
-#: contents/ui/Panel.qml:472
+#: contents/ui/Panel.qml:501
 msgid "Restart"
 msgstr "Riavvia"
 
-#: contents/ui/Panel.qml:473
+#: contents/ui/Panel.qml:502
 msgid "Shut Down"
 msgstr "Spegni"
 
-#: contents/ui/Panel.qml:475
+#: contents/ui/Panel.qml:504
 msgid "Switch User"
 msgstr "Cambia utente"
 
-#: contents/ui/Panel.qml:476
+#: contents/ui/Panel.qml:505
 msgid "Log Out"
 msgstr "Esci"
 

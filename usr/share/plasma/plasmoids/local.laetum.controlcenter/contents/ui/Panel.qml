@@ -9,7 +9,9 @@ import org.kde.kirigami as Kirigami
 import org.kde.kcmutils as KCMUtils
 
 // The popup, in Laetum Launcher's design language:
-//   opaque header band (battery + buttons, or Back + page title on a drill-in page)
+//   opaque header band (battery + buttons, or Back + page title on a drill-in page);
+//   off by default in Mainuan (showHeader), where the popup opens on the tabs
+//   and a drill-in page gets only its Back row
 //   hairline with the sliding accent tab indicator: Controls · Notifications
 //   body: the current tab or a drill-in page
 // Tabs and pages are each loaded on their own, so a broken or missing Plasma component
@@ -23,6 +25,10 @@ FocusScope {
     // Header buttons: Default or Large (the old Small, 0, shows as Default)
     readonly property int headerIconSize: Math.round(Kirigami.Units.iconSizes.smallMedium * (Plasmoid.configuration.headerIconSize >= 2 ? 1.6 : 1.3))
     readonly property bool thinHeader: Plasmoid.configuration.headerHeight === 1
+    // Mainuan: without the header the popup starts on the tabs; a page still gets its
+    // Back row, drawn on the popup's own background and as tall as the tab row
+    readonly property bool showHeader: Plasmoid.configuration.showHeader
+    readonly property real tabBarHeight: Kirigami.Units.gridUnit * 2.6
 
     // ---- Tabs ----
     readonly property var tabs: {
@@ -188,14 +194,20 @@ FocusScope {
         Item {
             id: header
             Layout.fillWidth: true
+            // Without the header, only a drill-in page shows this row (Back + title)
+            visible: panel.showHeader || panel.pageOpen
             // The same height on the home and page headers, so opening a page doesn't move things
             readonly property real contentHeight: panel.pageOpen ? pageHeader.implicitHeight : homeHeader.implicitHeight
-            // Thin: about half the default, with just enough room around the buttons
-            implicitHeight: panel.thinHeader
+            // Thin: about half the default, with just enough room around the buttons.
+            // Headerless: the tab row's height plus its top gap, so the popup keeps its size.
+            implicitHeight: !panel.showHeader
+                ? Math.max(panel.tabBarHeight, contentHeight) + Kirigami.Units.smallSpacing
+                : panel.thinHeader
                 ? Math.max(Kirigami.Units.gridUnit * 1.5, contentHeight) + Kirigami.Units.smallSpacing * 2
                 : Math.max(Kirigami.Units.gridUnit * 2.5, contentHeight) + Math.round(panel.pad * 1.5)
 
             Kirigami.ShadowedRectangle {
+                visible: panel.showHeader
                 readonly property real cornerRadius: Plasmoid.location === PlasmaCore.Types.TopEdge ? 0 : Kirigami.Units.cornerRadius
                 x: -panel.Kirigami.ScenePosition.x
                 y: -panel.Kirigami.ScenePosition.y
@@ -215,13 +227,15 @@ FocusScope {
                 anchors.leftMargin: panel.pad
                 anchors.rightMargin: panel.pad
                 spacing: Kirigami.Units.largeSpacing
-                visible: !panel.pageOpen
+                visible: panel.showHeader && !panel.pageOpen
 
                 Loader {
                     id: headerBadge
                     readonly property bool shown: status === Loader.Ready && item.available
                     Layout.fillWidth: true
                     visible: shown
+                    // Nothing to poll (battery, CPU, GPU) while the header is off
+                    active: panel.showHeader
                     source: ["BatteryBadge.qml", "CpuBadge.qml", "GpuBadge.qml", ""][Math.max(0, Math.min(3, Plasmoid.configuration.headerBadge))]
                     onLoaded: item.thin = Qt.binding(() => panel.thinHeader)
                 }
@@ -260,6 +274,8 @@ FocusScope {
             RowLayout {
                 id: pageHeader
                 anchors.fill: parent
+                // Headerless: sits in the same place as the tab row it replaces
+                anchors.topMargin: panel.showHeader ? 0 : Kirigami.Units.smallSpacing
                 anchors.leftMargin: panel.pad - Kirigami.Units.smallSpacing
                 anchors.rightMargin: panel.pad
                 spacing: Kirigami.Units.largeSpacing
@@ -313,15 +329,18 @@ FocusScope {
         Rectangle {
             Layout.fillWidth: true
             Layout.preferredHeight: 1
+            visible: header.visible
             color: panel.hairline
         }
 
         // ---- Tabs with a sliding accent indicator sitting on the hairline ----
+        // With the header: the hairline is above the tabs. Without it: below them.
         ListView {
             id: tabList
             Layout.alignment: Qt.AlignHCenter
+            Layout.topMargin: panel.showHeader ? 0 : Kirigami.Units.smallSpacing
             Layout.preferredWidth: Math.min(panel.width - panel.pad * 2, contentWidth)
-            Layout.preferredHeight: Kirigami.Units.gridUnit * 2.6
+            Layout.preferredHeight: panel.tabBarHeight
             visible: !panel.pageOpen && panel.tabs.length > 1
             orientation: ListView.Horizontal
             spacing: Kirigami.Units.smallSpacing
@@ -340,8 +359,8 @@ FocusScope {
                     anchors.left: parent.left
                     anchors.right: parent.right
                     anchors.margins: Kirigami.Units.largeSpacing
-                    // Centred on the 1px hairline directly above the tab row
-                    y: -2
+                    // Centred on the 1px hairline directly above (or, headerless, below) the tab row
+                    y: panel.showHeader ? -2 : parent.height - 2
                     height: 3
                     radius: 1.5
                     color: root.accentColor
@@ -404,6 +423,13 @@ FocusScope {
             }
         }
 
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 1
+            visible: !panel.showHeader && tabList.visible
+            color: panel.hairline
+        }
+
         // ---- Body ----
         // The tabs slide a little to the left and fade as a page slides in from the right
         Item {
@@ -412,7 +438,10 @@ FocusScope {
             Layout.preferredHeight: panel.bodyHeight
             Layout.leftMargin: panel.pad
             Layout.rightMargin: panel.pad
-            Layout.topMargin: tabList.visible ? Kirigami.Units.smallSpacing : panel.pad
+            // Headerless: the same gap under the tab row and under a page's Back row
+            Layout.topMargin: !panel.showHeader
+                ? (header.visible || tabList.visible ? Kirigami.Units.smallSpacing * 2 : panel.pad)
+                : tabList.visible ? Kirigami.Units.smallSpacing : panel.pad
             clip: panel.slide > 0 && panel.slide < 1
 
             readonly property real travel: width * 0.3

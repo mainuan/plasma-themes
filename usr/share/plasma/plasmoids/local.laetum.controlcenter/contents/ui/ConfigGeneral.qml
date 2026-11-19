@@ -32,6 +32,7 @@ KCM.SimpleKCM {
     property alias cfg_showNotificationsTab: notificationsTabCheck.checked
     // 1 = Default, 2 = Large; 0 was Small and now counts as Default
     property int cfg_headerIconSize
+    property alias cfg_showHeader: showHeaderCheck.checked
     property alias cfg_headerHeight: headerHeightCombo.currentIndex
     property alias cfg_headerBadge: headerBadgeCombo.currentIndex
     property alias cfg_animateClick: clickCheck.checked
@@ -55,6 +56,7 @@ KCM.SimpleKCM {
     property string cfg_lightIconThemeDefault
     property string cfg_darkIconThemeDefault
     property bool cfg_showNotificationsTabDefault
+    property bool cfg_showHeaderDefault
     property int cfg_headerIconSizeDefault
     property int cfg_headerHeightDefault
     property int cfg_headerBadgeDefault
@@ -270,18 +272,26 @@ KCM.SimpleKCM {
             text: i18n("Notifications")
         }
 
+        QQC2.CheckBox {
+            id: showHeaderCheck
+            Kirigami.FormData.label: i18n("Header:")
+            text: i18n("Show the header with System Settings and Power")
+        }
         QQC2.ComboBox {
             id: headerBadgeCombo
+            enabled: showHeaderCheck.checked
             Kirigami.FormData.label: i18n("Header shows:")
             model: [i18n("Battery (on laptops)"), i18n("CPU and RAM usage"), i18n("GPU and VRAM usage"), i18n("Nothing")]
         }
         QQC2.ComboBox {
             id: headerHeightCombo
+            enabled: showHeaderCheck.checked
             Kirigami.FormData.label: i18n("Header height:")
             model: [i18nc("Header height", "Default"), i18nc("Header height", "Thin")]
         }
         QQC2.ComboBox {
             id: iconSizeCombo
+            enabled: showHeaderCheck.checked
             Kirigami.FormData.label: i18n("Header buttons:")
             model: [i18nc("Header button size", "Default"), i18nc("Header button size", "Large")]
             currentIndex: page.cfg_headerIconSize >= 2 ? 1 : 0

@@ -26,6 +26,7 @@ jobs:
         po/i18n.sh check-pot
         po/i18n.sh validate
         sh tools/laetum-i18n.sh check
+        python3 -I tools/check-laetum-header.py
         python3 tools/validate-color-schemes.py
         # The translated color scheme names written into the .colors files
         # must match po/.
